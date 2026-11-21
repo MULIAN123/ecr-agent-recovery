@@ -1,0 +1,9 @@
+{
+  "observed": 252,
+  "flush_latency_us": {
+    "n": 228,
+    "median": 1283.0,
+    "p95": 3192,
+    "max": 19775
+  }
+}

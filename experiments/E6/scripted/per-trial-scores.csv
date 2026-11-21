@@ -1,0 +1,253 @@
+trial_id,arm,tool,kill,effect_before_crash,durable_state_at_kill,dsh_recovery_codes,guard_denials,effects_final,duplicate,completed,missed_completion,flush_latency_us
+dsh-r1-001-D0-fast-obedient-kpre-rep1,D0,fast,pre,False,CALL_NOT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-002-D1-fast-obedient-kpre-rep1,D1,fast,pre,False,CALL_DURABLE_RESULT_NOT_DURABLE,,0,0,False,False,True,[2338]
+dsh-r1-003-D2-fast-obedient-kpre-rep1,D2,fast,pre,False,CALL_DURABLE_RESULT_NOT_DURABLE,,0,0,False,False,True,[951]
+dsh-r1-004-D0-fast-naive-kpre-rep1,D0,fast,pre,False,CALL_NOT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-005-D1-fast-naive-kpre-rep1,D1,fast,pre,False,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,"[2516, 3064]"
+dsh-r1-006-D2-fast-naive-kpre-rep1,D2,fast,pre,False,CALL_DURABLE_RESULT_NOT_DURABLE,,1,0,False,False,True,"[1263, 2695]"
+dsh-r1-007-D0-slow-obedient-kpre-rep1,D0,slow,pre,False,CALL_NOT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-008-D1-slow-obedient-kpre-rep1,D1,slow,pre,False,CALL_DURABLE_RESULT_NOT_DURABLE,,0,0,False,False,True,[851]
+dsh-r1-009-D2-slow-obedient-kpre-rep1,D2,slow,pre,False,CALL_DURABLE_RESULT_NOT_DURABLE,,0,0,False,False,True,[2187]
+dsh-r1-010-D0-slow-naive-kpre-rep1,D0,slow,pre,False,CALL_NOT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-011-D1-slow-naive-kpre-rep1,D1,slow,pre,False,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,"[2226, 1252]"
+dsh-r1-012-D2-slow-naive-kpre-rep1,D2,slow,pre,False,CALL_DURABLE_RESULT_NOT_DURABLE,,1,0,False,False,True,"[15111, 2554]"
+dsh-r1-013-D0-fast-obedient-k0-rep1,D0,fast,0,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-014-D1-fast-obedient-k0-rep1,D1,fast,0,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[2145]
+dsh-r1-015-D2-fast-obedient-k0-rep1,D2,fast,0,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[2285]
+dsh-r1-016-D0-fast-naive-k0-rep1,D0,fast,0,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-017-D1-fast-naive-k0-rep1,D1,fast,0,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,2,True,False,False,"[2625, 3397]"
+dsh-r1-018-D2-fast-naive-k0-rep1,D2,fast,0,True,CALL_DURABLE_RESULT_NOT_DURABLE,,1,1,False,True,False,"[1148, 3431]"
+dsh-r1-019-D0-slow-obedient-k0-rep1,D0,slow,0,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-020-D1-slow-obedient-k0-rep1,D1,slow,0,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[2567]
+dsh-r1-021-D2-slow-obedient-k0-rep1,D2,slow,0,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[966]
+dsh-r1-022-D0-slow-naive-k0-rep1,D0,slow,0,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-023-D1-slow-naive-k0-rep1,D1,slow,0,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,2,True,False,False,"[2698, 2733]"
+dsh-r1-024-D2-slow-naive-k0-rep1,D2,slow,0,True,CALL_DURABLE_RESULT_NOT_DURABLE,,1,1,False,True,False,"[1282, 2944]"
+dsh-r1-025-D0-fast-obedient-k100-rep1,D0,fast,100,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-026-D1-fast-obedient-k100-rep1,D1,fast,100,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[2428]
+dsh-r1-027-D2-fast-obedient-k100-rep1,D2,fast,100,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[2584]
+dsh-r1-028-D0-fast-naive-k100-rep1,D0,fast,100,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-029-D1-fast-naive-k100-rep1,D1,fast,100,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,2,True,False,False,"[2445, 3134]"
+dsh-r1-030-D2-fast-naive-k100-rep1,D2,fast,100,True,CALL_DURABLE_RESULT_NOT_DURABLE,,1,1,False,True,False,"[2332, 1610]"
+dsh-r1-031-D0-slow-obedient-k100-rep1,D0,slow,100,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-032-D1-slow-obedient-k100-rep1,D1,slow,100,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[1114]
+dsh-r1-033-D2-slow-obedient-k100-rep1,D2,slow,100,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[2736]
+dsh-r1-034-D0-slow-naive-k100-rep1,D0,slow,100,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-035-D1-slow-naive-k100-rep1,D1,slow,100,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,2,True,False,False,"[2960, 3192]"
+dsh-r1-036-D2-slow-naive-k100-rep1,D2,slow,100,True,CALL_DURABLE_RESULT_NOT_DURABLE,,1,1,False,True,False,"[1183, 2528]"
+dsh-r1-037-D0-fast-obedient-k150-rep1,D0,fast,150,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-038-D1-fast-obedient-k150-rep1,D1,fast,150,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[2264]
+dsh-r1-039-D2-fast-obedient-k150-rep1,D2,fast,150,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[1593]
+dsh-r1-040-D0-fast-naive-k150-rep1,D0,fast,150,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-041-D1-fast-naive-k150-rep1,D1,fast,150,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,2,True,False,False,"[1154, 1098]"
+dsh-r1-042-D2-fast-naive-k150-rep1,D2,fast,150,True,CALL_DURABLE_RESULT_NOT_DURABLE,,1,1,False,True,False,"[815, 1024]"
+dsh-r1-043-D0-slow-obedient-k150-rep1,D0,slow,150,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-044-D1-slow-obedient-k150-rep1,D1,slow,150,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[5386]
+dsh-r1-045-D2-slow-obedient-k150-rep1,D2,slow,150,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[1005]
+dsh-r1-046-D0-slow-naive-k150-rep1,D0,slow,150,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-047-D1-slow-naive-k150-rep1,D1,slow,150,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,2,True,False,False,"[887, 1121]"
+dsh-r1-048-D2-slow-naive-k150-rep1,D2,slow,150,True,CALL_DURABLE_RESULT_NOT_DURABLE,,1,1,False,True,False,"[867, 1112]"
+dsh-r1-049-D0-fast-obedient-k250-rep1,D0,fast,250,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-050-D1-fast-obedient-k250-rep1,D1,fast,250,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[889]
+dsh-r1-051-D2-fast-obedient-k250-rep1,D2,fast,250,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[2226]
+dsh-r1-052-D0-fast-naive-k250-rep1,D0,fast,250,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-053-D1-fast-naive-k250-rep1,D1,fast,250,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[2233]
+dsh-r1-054-D2-fast-naive-k250-rep1,D2,fast,250,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[1709]
+dsh-r1-055-D0-slow-obedient-k250-rep1,D0,slow,250,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[]
+dsh-r1-056-D1-slow-obedient-k250-rep1,D1,slow,250,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[3205]
+dsh-r1-057-D2-slow-obedient-k250-rep1,D2,slow,250,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[2871]
+dsh-r1-058-D0-slow-naive-k250-rep1,D0,slow,250,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,2,True,False,False,[]
+dsh-r1-059-D1-slow-naive-k250-rep1,D1,slow,250,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,2,True,False,False,"[3274, 1525]"
+dsh-r1-060-D2-slow-naive-k250-rep1,D2,slow,250,True,CALL_DURABLE_RESULT_NOT_DURABLE,,1,1,False,True,False,"[2521, 958]"
+dsh-r1-061-D0-fast-obedient-k400-rep1,D0,fast,400,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-062-D1-fast-obedient-k400-rep1,D1,fast,400,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[1944]
+dsh-r1-063-D2-fast-obedient-k400-rep1,D2,fast,400,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[2334]
+dsh-r1-064-D0-fast-naive-k400-rep1,D0,fast,400,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-065-D1-fast-naive-k400-rep1,D1,fast,400,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[2324]
+dsh-r1-066-D2-fast-naive-k400-rep1,D2,fast,400,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[2280]
+dsh-r1-067-D0-slow-obedient-k400-rep1,D0,slow,400,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[]
+dsh-r1-068-D1-slow-obedient-k400-rep1,D1,slow,400,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[2355]
+dsh-r1-069-D2-slow-obedient-k400-rep1,D2,slow,400,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[2290]
+dsh-r1-070-D0-slow-naive-k400-rep1,D0,slow,400,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,2,True,False,False,[]
+dsh-r1-071-D1-slow-naive-k400-rep1,D1,slow,400,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,2,True,False,False,"[926, 1272]"
+dsh-r1-072-D2-slow-naive-k400-rep1,D2,slow,400,True,CALL_DURABLE_RESULT_NOT_DURABLE,,1,1,False,True,False,"[2440, 1264]"
+dsh-r1-073-D0-fast-obedient-k1500-rep1,D0,fast,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-074-D1-fast-obedient-k1500-rep1,D1,fast,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[2350]
+dsh-r1-075-D2-fast-obedient-k1500-rep1,D2,fast,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[2476]
+dsh-r1-076-D0-fast-naive-k1500-rep1,D0,fast,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-077-D1-fast-naive-k1500-rep1,D1,fast,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[2317]
+dsh-r1-078-D2-fast-naive-k1500-rep1,D2,fast,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[2235]
+dsh-r1-079-D0-slow-obedient-k1500-rep1,D0,slow,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-080-D1-slow-obedient-k1500-rep1,D1,slow,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[2312]
+dsh-r1-081-D2-slow-obedient-k1500-rep1,D2,slow,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[2321]
+dsh-r1-082-D0-slow-naive-k1500-rep1,D0,slow,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-083-D1-slow-naive-k1500-rep1,D1,slow,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[2186]
+dsh-r1-084-D2-slow-naive-k1500-rep1,D2,slow,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[2355]
+dsh-r1-085-D0-fast-obedient-kpre-rep2,D0,fast,pre,False,CALL_NOT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-086-D1-fast-obedient-kpre-rep2,D1,fast,pre,False,CALL_DURABLE_RESULT_NOT_DURABLE,,0,0,False,False,True,[2364]
+dsh-r1-087-D2-fast-obedient-kpre-rep2,D2,fast,pre,False,CALL_DURABLE_RESULT_NOT_DURABLE,,0,0,False,False,True,[2181]
+dsh-r1-088-D0-fast-naive-kpre-rep2,D0,fast,pre,False,CALL_NOT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-089-D1-fast-naive-kpre-rep2,D1,fast,pre,False,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,"[2622, 2578]"
+dsh-r1-090-D2-fast-naive-kpre-rep2,D2,fast,pre,False,CALL_DURABLE_RESULT_NOT_DURABLE,,1,0,False,False,True,"[2841, 3402]"
+dsh-r1-091-D0-slow-obedient-kpre-rep2,D0,slow,pre,False,CALL_NOT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-092-D1-slow-obedient-kpre-rep2,D1,slow,pre,False,CALL_DURABLE_RESULT_NOT_DURABLE,,0,0,False,False,True,[2129]
+dsh-r1-093-D2-slow-obedient-kpre-rep2,D2,slow,pre,False,CALL_DURABLE_RESULT_NOT_DURABLE,,0,0,False,False,True,[2427]
+dsh-r1-094-D0-slow-naive-kpre-rep2,D0,slow,pre,False,CALL_NOT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-095-D1-slow-naive-kpre-rep2,D1,slow,pre,False,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,"[2442, 2538]"
+dsh-r1-096-D2-slow-naive-kpre-rep2,D2,slow,pre,False,CALL_DURABLE_RESULT_NOT_DURABLE,,1,0,False,False,True,"[2255, 2345]"
+dsh-r1-097-D0-fast-obedient-k0-rep2,D0,fast,0,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-098-D1-fast-obedient-k0-rep2,D1,fast,0,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[2135]
+dsh-r1-099-D2-fast-obedient-k0-rep2,D2,fast,0,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[2541]
+dsh-r1-100-D0-fast-naive-k0-rep2,D0,fast,0,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-101-D1-fast-naive-k0-rep2,D1,fast,0,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,2,True,False,False,"[2630, 3169]"
+dsh-r1-102-D2-fast-naive-k0-rep2,D2,fast,0,True,CALL_DURABLE_RESULT_NOT_DURABLE,,1,1,False,True,False,"[2144, 2306]"
+dsh-r1-103-D0-slow-obedient-k0-rep2,D0,slow,0,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-104-D1-slow-obedient-k0-rep2,D1,slow,0,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[934]
+dsh-r1-105-D2-slow-obedient-k0-rep2,D2,slow,0,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[1078]
+dsh-r1-106-D0-slow-naive-k0-rep2,D0,slow,0,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-107-D1-slow-naive-k0-rep2,D1,slow,0,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,2,True,False,False,"[846, 949]"
+dsh-r1-108-D2-slow-naive-k0-rep2,D2,slow,0,True,CALL_DURABLE_RESULT_NOT_DURABLE,,1,1,False,True,False,"[902, 1108]"
+dsh-r1-109-D0-fast-obedient-k100-rep2,D0,fast,100,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-110-D1-fast-obedient-k100-rep2,D1,fast,100,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[3557]
+dsh-r1-111-D2-fast-obedient-k100-rep2,D2,fast,100,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[979]
+dsh-r1-112-D0-fast-naive-k100-rep2,D0,fast,100,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-113-D1-fast-naive-k100-rep2,D1,fast,100,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,2,True,False,False,"[841, 1006]"
+dsh-r1-114-D2-fast-naive-k100-rep2,D2,fast,100,True,CALL_DURABLE_RESULT_NOT_DURABLE,,1,1,False,True,False,"[1313, 1702]"
+dsh-r1-115-D0-slow-obedient-k100-rep2,D0,slow,100,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-116-D1-slow-obedient-k100-rep2,D1,slow,100,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[1757]
+dsh-r1-117-D2-slow-obedient-k100-rep2,D2,slow,100,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[1380]
+dsh-r1-118-D0-slow-naive-k100-rep2,D0,slow,100,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-119-D1-slow-naive-k100-rep2,D1,slow,100,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,2,True,False,False,"[929, 1006]"
+dsh-r1-120-D2-slow-naive-k100-rep2,D2,slow,100,True,CALL_DURABLE_RESULT_NOT_DURABLE,,1,1,False,True,False,"[789, 910]"
+dsh-r1-121-D0-fast-obedient-k150-rep2,D0,fast,150,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-122-D1-fast-obedient-k150-rep2,D1,fast,150,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[864]
+dsh-r1-123-D2-fast-obedient-k150-rep2,D2,fast,150,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[936]
+dsh-r1-124-D0-fast-naive-k150-rep2,D0,fast,150,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-125-D1-fast-naive-k150-rep2,D1,fast,150,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,2,True,False,False,"[820, 1183]"
+dsh-r1-126-D2-fast-naive-k150-rep2,D2,fast,150,True,CALL_DURABLE_RESULT_NOT_DURABLE,,1,1,False,True,False,"[1092, 1020]"
+dsh-r1-127-D0-slow-obedient-k150-rep2,D0,slow,150,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-128-D1-slow-obedient-k150-rep2,D1,slow,150,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[940]
+dsh-r1-129-D2-slow-obedient-k150-rep2,D2,slow,150,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[1107]
+dsh-r1-130-D0-slow-naive-k150-rep2,D0,slow,150,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-131-D1-slow-naive-k150-rep2,D1,slow,150,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,2,True,False,False,"[2262, 2472]"
+dsh-r1-132-D2-slow-naive-k150-rep2,D2,slow,150,True,CALL_DURABLE_RESULT_NOT_DURABLE,,1,1,False,True,False,"[2205, 2526]"
+dsh-r1-133-D0-fast-obedient-k250-rep2,D0,fast,250,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-134-D1-fast-obedient-k250-rep2,D1,fast,250,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[1205]
+dsh-r1-135-D2-fast-obedient-k250-rep2,D2,fast,250,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[2672]
+dsh-r1-136-D0-fast-naive-k250-rep2,D0,fast,250,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-137-D1-fast-naive-k250-rep2,D1,fast,250,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[2613]
+dsh-r1-138-D2-fast-naive-k250-rep2,D2,fast,250,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[838]
+dsh-r1-139-D0-slow-obedient-k250-rep2,D0,slow,250,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[]
+dsh-r1-140-D1-slow-obedient-k250-rep2,D1,slow,250,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[1355]
+dsh-r1-141-D2-slow-obedient-k250-rep2,D2,slow,250,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[2717]
+dsh-r1-142-D0-slow-naive-k250-rep2,D0,slow,250,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,2,True,False,False,[]
+dsh-r1-143-D1-slow-naive-k250-rep2,D1,slow,250,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,2,True,False,False,"[918, 2614]"
+dsh-r1-144-D2-slow-naive-k250-rep2,D2,slow,250,True,CALL_DURABLE_RESULT_NOT_DURABLE,,1,1,False,True,False,"[2389, 1223]"
+dsh-r1-145-D0-fast-obedient-k400-rep2,D0,fast,400,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-146-D1-fast-obedient-k400-rep2,D1,fast,400,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[1084]
+dsh-r1-147-D2-fast-obedient-k400-rep2,D2,fast,400,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[765]
+dsh-r1-148-D0-fast-naive-k400-rep2,D0,fast,400,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-149-D1-fast-naive-k400-rep2,D1,fast,400,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[1397]
+dsh-r1-150-D2-fast-naive-k400-rep2,D2,fast,400,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[1054]
+dsh-r1-151-D0-slow-obedient-k400-rep2,D0,slow,400,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[]
+dsh-r1-152-D1-slow-obedient-k400-rep2,D1,slow,400,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[1029]
+dsh-r1-153-D2-slow-obedient-k400-rep2,D2,slow,400,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[1209]
+dsh-r1-154-D0-slow-naive-k400-rep2,D0,slow,400,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,2,True,False,False,[]
+dsh-r1-155-D1-slow-naive-k400-rep2,D1,slow,400,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,2,True,False,False,"[1240, 992]"
+dsh-r1-156-D2-slow-naive-k400-rep2,D2,slow,400,True,CALL_DURABLE_RESULT_NOT_DURABLE,,1,1,False,True,False,"[1670, 1647]"
+dsh-r1-157-D0-fast-obedient-k1500-rep2,D0,fast,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-158-D1-fast-obedient-k1500-rep2,D1,fast,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[1470]
+dsh-r1-159-D2-fast-obedient-k1500-rep2,D2,fast,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[962]
+dsh-r1-160-D0-fast-naive-k1500-rep2,D0,fast,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-161-D1-fast-naive-k1500-rep2,D1,fast,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[930]
+dsh-r1-162-D2-fast-naive-k1500-rep2,D2,fast,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[904]
+dsh-r1-163-D0-slow-obedient-k1500-rep2,D0,slow,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-164-D1-slow-obedient-k1500-rep2,D1,slow,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[1356]
+dsh-r1-165-D2-slow-obedient-k1500-rep2,D2,slow,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[2467]
+dsh-r1-166-D0-slow-naive-k1500-rep2,D0,slow,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-167-D1-slow-naive-k1500-rep2,D1,slow,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[840]
+dsh-r1-168-D2-slow-naive-k1500-rep2,D2,slow,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[958]
+dsh-r1-169-D0-fast-obedient-kpre-rep3,D0,fast,pre,False,CALL_NOT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-170-D1-fast-obedient-kpre-rep3,D1,fast,pre,False,CALL_DURABLE_RESULT_NOT_DURABLE,,0,0,False,False,True,[2266]
+dsh-r1-171-D2-fast-obedient-kpre-rep3,D2,fast,pre,False,CALL_DURABLE_RESULT_NOT_DURABLE,,0,0,False,False,True,[2794]
+dsh-r1-172-D0-fast-naive-kpre-rep3,D0,fast,pre,False,CALL_NOT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-173-D1-fast-naive-kpre-rep3,D1,fast,pre,False,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,"[932, 2425]"
+dsh-r1-174-D2-fast-naive-kpre-rep3,D2,fast,pre,False,CALL_DURABLE_RESULT_NOT_DURABLE,,1,0,False,False,True,"[928, 2269]"
+dsh-r1-175-D0-slow-obedient-kpre-rep3,D0,slow,pre,False,CALL_NOT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-176-D1-slow-obedient-kpre-rep3,D1,slow,pre,False,CALL_DURABLE_RESULT_NOT_DURABLE,,0,0,False,False,True,[2610]
+dsh-r1-177-D2-slow-obedient-kpre-rep3,D2,slow,pre,False,CALL_DURABLE_RESULT_NOT_DURABLE,,0,0,False,False,True,[2063]
+dsh-r1-178-D0-slow-naive-kpre-rep3,D0,slow,pre,False,CALL_NOT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-179-D1-slow-naive-kpre-rep3,D1,slow,pre,False,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,"[852, 2248]"
+dsh-r1-180-D2-slow-naive-kpre-rep3,D2,slow,pre,False,CALL_DURABLE_RESULT_NOT_DURABLE,,1,0,False,False,True,"[956, 934]"
+dsh-r1-181-D0-fast-obedient-k0-rep3,D0,fast,0,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-182-D1-fast-obedient-k0-rep3,D1,fast,0,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[1068]
+dsh-r1-183-D2-fast-obedient-k0-rep3,D2,fast,0,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[889]
+dsh-r1-184-D0-fast-naive-k0-rep3,D0,fast,0,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-185-D1-fast-naive-k0-rep3,D1,fast,0,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,2,True,False,False,"[2415, 1147]"
+dsh-r1-186-D2-fast-naive-k0-rep3,D2,fast,0,True,CALL_DURABLE_RESULT_NOT_DURABLE,,1,1,False,True,False,"[1235, 1090]"
+dsh-r1-187-D0-slow-obedient-k0-rep3,D0,slow,0,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-188-D1-slow-obedient-k0-rep3,D1,slow,0,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[913]
+dsh-r1-189-D2-slow-obedient-k0-rep3,D2,slow,0,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[1005]
+dsh-r1-190-D0-slow-naive-k0-rep3,D0,slow,0,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-191-D1-slow-naive-k0-rep3,D1,slow,0,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,2,True,False,False,"[959, 2398]"
+dsh-r1-192-D2-slow-naive-k0-rep3,D2,slow,0,True,CALL_DURABLE_RESULT_NOT_DURABLE,,1,1,False,True,False,"[1235, 2684]"
+dsh-r1-193-D0-fast-obedient-k100-rep3,D0,fast,100,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-194-D1-fast-obedient-k100-rep3,D1,fast,100,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[801]
+dsh-r1-195-D2-fast-obedient-k100-rep3,D2,fast,100,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[816]
+dsh-r1-196-D0-fast-naive-k100-rep3,D0,fast,100,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-197-D1-fast-naive-k100-rep3,D1,fast,100,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,2,True,False,False,"[784, 938]"
+dsh-r1-198-D2-fast-naive-k100-rep3,D2,fast,100,True,CALL_DURABLE_RESULT_NOT_DURABLE,,1,1,False,True,False,"[861, 1073]"
+dsh-r1-199-D0-slow-obedient-k100-rep3,D0,slow,100,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-200-D1-slow-obedient-k100-rep3,D1,slow,100,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[1495]
+dsh-r1-201-D2-slow-obedient-k100-rep3,D2,slow,100,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[892]
+dsh-r1-202-D0-slow-naive-k100-rep3,D0,slow,100,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-203-D1-slow-naive-k100-rep3,D1,slow,100,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,2,True,False,False,"[19775, 1058]"
+dsh-r1-204-D2-slow-naive-k100-rep3,D2,slow,100,True,CALL_DURABLE_RESULT_NOT_DURABLE,,1,1,False,True,False,"[1605, 4012]"
+dsh-r1-205-D0-fast-obedient-k150-rep3,D0,fast,150,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-206-D1-fast-obedient-k150-rep3,D1,fast,150,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[836]
+dsh-r1-207-D2-fast-obedient-k150-rep3,D2,fast,150,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[1210]
+dsh-r1-208-D0-fast-naive-k150-rep3,D0,fast,150,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-209-D1-fast-naive-k150-rep3,D1,fast,150,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,2,True,False,False,"[1292, 1284]"
+dsh-r1-210-D2-fast-naive-k150-rep3,D2,fast,150,True,CALL_DURABLE_RESULT_NOT_DURABLE,,1,1,False,True,False,"[1261, 2399]"
+dsh-r1-211-D0-slow-obedient-k150-rep3,D0,slow,150,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-212-D1-slow-obedient-k150-rep3,D1,slow,150,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[1165]
+dsh-r1-213-D2-slow-obedient-k150-rep3,D2,slow,150,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[1023]
+dsh-r1-214-D0-slow-naive-k150-rep3,D0,slow,150,True,CALL_NOT_DURABLE,[],0,2,True,False,False,[]
+dsh-r1-215-D1-slow-naive-k150-rep3,D1,slow,150,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,2,True,False,False,"[904, 3089]"
+dsh-r1-216-D2-slow-naive-k150-rep3,D2,slow,150,True,CALL_DURABLE_RESULT_NOT_DURABLE,,1,1,False,True,False,"[833, 2897]"
+dsh-r1-217-D0-fast-obedient-k250-rep3,D0,fast,250,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-218-D1-fast-obedient-k250-rep3,D1,fast,250,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[973]
+dsh-r1-219-D2-fast-obedient-k250-rep3,D2,fast,250,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[920]
+dsh-r1-220-D0-fast-naive-k250-rep3,D0,fast,250,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-221-D1-fast-naive-k250-rep3,D1,fast,250,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[906]
+dsh-r1-222-D2-fast-naive-k250-rep3,D2,fast,250,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[1258]
+dsh-r1-223-D0-slow-obedient-k250-rep3,D0,slow,250,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[]
+dsh-r1-224-D1-slow-obedient-k250-rep3,D1,slow,250,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[1103]
+dsh-r1-225-D2-slow-obedient-k250-rep3,D2,slow,250,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[896]
+dsh-r1-226-D0-slow-naive-k250-rep3,D0,slow,250,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,2,True,False,False,[]
+dsh-r1-227-D1-slow-naive-k250-rep3,D1,slow,250,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,2,True,False,False,"[771, 964]"
+dsh-r1-228-D2-slow-naive-k250-rep3,D2,slow,250,True,CALL_DURABLE_RESULT_NOT_DURABLE,,1,1,False,True,False,"[1027, 1126]"
+dsh-r1-229-D0-fast-obedient-k400-rep3,D0,fast,400,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-230-D1-fast-obedient-k400-rep3,D1,fast,400,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[756]
+dsh-r1-231-D2-fast-obedient-k400-rep3,D2,fast,400,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[894]
+dsh-r1-232-D0-fast-naive-k400-rep3,D0,fast,400,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-233-D1-fast-naive-k400-rep3,D1,fast,400,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[1090]
+dsh-r1-234-D2-fast-naive-k400-rep3,D2,fast,400,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[873]
+dsh-r1-235-D0-slow-obedient-k400-rep3,D0,slow,400,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[]
+dsh-r1-236-D1-slow-obedient-k400-rep3,D1,slow,400,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[968]
+dsh-r1-237-D2-slow-obedient-k400-rep3,D2,slow,400,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,1,False,True,False,[1208]
+dsh-r1-238-D0-slow-naive-k400-rep3,D0,slow,400,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,2,True,False,False,[]
+dsh-r1-239-D1-slow-naive-k400-rep3,D1,slow,400,True,CALL_DURABLE_RESULT_NOT_DURABLE,,0,2,True,False,False,"[1052, 1100]"
+dsh-r1-240-D2-slow-naive-k400-rep3,D2,slow,400,True,CALL_DURABLE_RESULT_NOT_DURABLE,,1,1,False,True,False,"[972, 1122]"
+dsh-r1-241-D0-fast-obedient-k1500-rep3,D0,fast,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-242-D1-fast-obedient-k1500-rep3,D1,fast,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[925]
+dsh-r1-243-D2-fast-obedient-k1500-rep3,D2,fast,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[989]
+dsh-r1-244-D0-fast-naive-k1500-rep3,D0,fast,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-245-D1-fast-naive-k1500-rep3,D1,fast,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[15033]
+dsh-r1-246-D2-fast-naive-k1500-rep3,D2,fast,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[2291]
+dsh-r1-247-D0-slow-obedient-k1500-rep3,D0,slow,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-248-D1-slow-obedient-k1500-rep3,D1,slow,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[3422]
+dsh-r1-249-D2-slow-obedient-k1500-rep3,D2,slow,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[1030]
+dsh-r1-250-D0-slow-naive-k1500-rep3,D0,slow,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[]
+dsh-r1-251-D1-slow-naive-k1500-rep3,D1,slow,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[993]
+dsh-r1-252-D2-slow-naive-k1500-rep3,D2,slow,1500,True,CALL_AND_RESULT_DURABLE,[],0,1,False,True,False,[1109]

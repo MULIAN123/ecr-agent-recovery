@@ -1,0 +1,10 @@
+{
+  "status": "FROZEN",
+  "created_utc": "2026-11-13T13:33:44.677578+00:00",
+  "approval": "User confirmed amendment and VM normal shutdown/restart",
+  "amendment_sha256": "de229c72738abf2dcad369366c996f4e7e95fa7e741a9f5ce3aaf65f40231e67",
+  "candidate_manifest_sha256": "a15ddb581586a7850580413e2fa955b2cfd16df6d7ef3cdc2cffede0572257ba",
+  "source_bl3_freeze_record_sha256": "f8dc6eec1e5e0f95d1a03656987bc7e8c5fc73e0fafe084d74c120cd1ec85d16",
+  "qualification": "NOT_EXECUTED",
+  "formal_run": "NOT_EXECUTED"
+}

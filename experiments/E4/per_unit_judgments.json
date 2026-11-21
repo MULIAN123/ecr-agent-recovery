@@ -1,0 +1,3176 @@
+{
+ "summary": {
+  "units": 40,
+  "final_state": {
+   "VALID_COMPLETED": 40
+  },
+  "A_execution": {
+   "VALID": 40
+  },
+  "B_S1": {
+   "SATISFIED": 40
+  },
+  "B_S2": {
+   "SATISFIED": 40
+  },
+  "B_S3": {
+   "SATISFIED": 40
+  },
+  "B_S4": {
+   "SATISFIED": 40
+  },
+  "C_recovery": {
+   "COMPLETED": 29,
+   "NOT_COMPLETED": 9,
+   "NO_OPPORTUNITY": 2
+  },
+  "abnormal_exit_units": [
+   "AC:TRUNCATE_CONSUMED:R2B:P1"
+  ],
+  "evidence_incomplete_units": [],
+  "prediction_L_mismatch": [],
+  "prediction_safety_mismatch": [],
+  "unexempted_scorer_faults": {},
+  "infra_events": {}
+ },
+ "rows": [
+  {
+   "index": 1,
+   "unit_id": "AC:F1:R2B:P0",
+   "attempt_id": "AC:F1:R2B:P0#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "before_grant"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": 0
+   },
+   "prediction": {
+    "L": "COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": true,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": true
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 1,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "NEW (first execution; not a held-out test)"
+  },
+  {
+   "index": 2,
+   "unit_id": "AC:F1:R2B:P1",
+   "attempt_id": "AC:F1:R2B:P1#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "before_grant"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": 0
+   },
+   "prediction": {
+    "L": "COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": true,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": true
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 1,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "NEW (first execution; not a held-out test)"
+  },
+  {
+   "index": 3,
+   "unit_id": "AC:F1:R2B:P2",
+   "attempt_id": "AC:F1:R2B:P2#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "before_grant"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": 0
+   },
+   "prediction": {
+    "L": "COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": true,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": true
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 1,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "NEW (first execution; not a held-out test)"
+  },
+  {
+   "index": 4,
+   "unit_id": "AC:F2:R2B:P0",
+   "attempt_id": "AC:F2:R2B:P0#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "after_grant"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": 0
+   },
+   "prediction": {
+    "L": "COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": true,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": true
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 1,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "SEEN: phase-2 dev crash group (os._exit(137) hook, unfrozen)"
+  },
+  {
+   "index": 5,
+   "unit_id": "AC:F2:R2B:P1",
+   "attempt_id": "AC:F2:R2B:P1#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "after_grant"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": 0
+   },
+   "prediction": {
+    "L": "COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": true,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": true
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 1,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "SEEN: phase-2 dev crash group (os._exit(137) hook, unfrozen)"
+  },
+  {
+   "index": 6,
+   "unit_id": "AC:F2:R2B:P2",
+   "attempt_id": "AC:F2:R2B:P2#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "after_grant"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": 0
+   },
+   "prediction": {
+    "L": "COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": true,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": true
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 1,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "SEEN: phase-2 dev crash group (os._exit(137) hook, unfrozen)"
+  },
+  {
+   "index": 7,
+   "unit_id": "AC:F3:R2B:P0",
+   "attempt_id": "AC:F3:R2B:P0#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "after_consumed"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "NOT_COMPLETED",
+   "opportunity": "YES",
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": 0
+   },
+   "prediction": {
+    "L": "NOT_COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": {
+    "conditions": {
+     "C1_code_identity_authority_sha256": "59b14143c9ded508771637c2063f7298ceaa807f4ad5f9bff1c37738c6bf4248",
+     "C2_A3": "ASSUMED (not checkable in a cell)",
+     "failed": []
+    },
+    "opportunity": "YES"
+   },
+   "primary": {
+    "faults": [],
+    "final_state": "delivery_unknown",
+    "effect_count": 0,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": false,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "delivery_unknown",
+    "effect_count": 0,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": false
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 1,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "SEEN: phase-2 dev crash group (os._exit(137) hook, unfrozen)"
+  },
+  {
+   "index": 8,
+   "unit_id": "AC:F3:R2B:P1",
+   "attempt_id": "AC:F3:R2B:P1#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "after_consumed"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "NOT_COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": 0
+   },
+   "prediction": {
+    "L": "NOT_COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "review",
+    "effect_count": 0,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": false,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "review",
+    "effect_count": 0,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": false
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 2,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "SEEN: phase-2 dev crash group (os._exit(137) hook, unfrozen)"
+  },
+  {
+   "index": 9,
+   "unit_id": "AC:F3:R2B:P2",
+   "attempt_id": "AC:F3:R2B:P2#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "after_consumed"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": 0
+   },
+   "prediction": {
+    "L": "COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": true,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": true
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 1,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "SEEN: phase-2 dev crash group (os._exit(137) hook, unfrozen)"
+  },
+  {
+   "index": 10,
+   "unit_id": "AC:F4:R2B:P0",
+   "attempt_id": "AC:F4:R2B:P0#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "after_dbc"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "NO_OPPORTUNITY",
+   "opportunity": false,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": 0
+   },
+   "prediction": {
+    "L": "NO_OPPORTUNITY",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "delivery_unknown",
+    "effect_count": 0,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": false,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "delivery_unknown",
+    "effect_count": 0,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": false
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 1,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "SEEN: phase-2 dev crash group (os._exit(137) hook, unfrozen)"
+  },
+  {
+   "index": 11,
+   "unit_id": "AC:F4:R2B:P1",
+   "attempt_id": "AC:F4:R2B:P1#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "after_dbc"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": 0
+   },
+   "prediction": {
+    "L": "COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": true,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": true
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 2,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "SEEN: phase-2 dev crash group (os._exit(137) hook, unfrozen)"
+  },
+  {
+   "index": 12,
+   "unit_id": "AC:F4:R2B:P2",
+   "attempt_id": "AC:F4:R2B:P2#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "after_dbc"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": 0
+   },
+   "prediction": {
+    "L": "COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": true,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": true
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 1,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "SEEN: phase-2 dev crash group (os._exit(137) hook, unfrozen)"
+  },
+  {
+   "index": 13,
+   "unit_id": "AC:F2:R2A:P1",
+   "attempt_id": "AC:F2:R2A:P1#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "after_grant"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": 0
+   },
+   "prediction": {
+    "L": "COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": true,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": true
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 1,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "SEEN: phase-2 dev crash group (os._exit(137) hook, unfrozen)"
+  },
+  {
+   "index": 14,
+   "unit_id": "AC:F3:R2A:P1",
+   "attempt_id": "AC:F3:R2A:P1#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "after_consumed"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "NOT_COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": 0
+   },
+   "prediction": {
+    "L": "NOT_COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "review",
+    "effect_count": 0,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": false,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "review",
+    "effect_count": 0,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": false
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 2,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "SEEN: phase-2 dev crash group (os._exit(137) hook, unfrozen)"
+  },
+  {
+   "index": 15,
+   "unit_id": "AC:F4:R2A:P1",
+   "attempt_id": "AC:F4:R2A:P1#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "after_dbc"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": 0
+   },
+   "prediction": {
+    "L": "COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": true,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": true
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 2,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "SEEN: phase-2 dev crash group (os._exit(137) hook, unfrozen)"
+  },
+  {
+   "index": 16,
+   "unit_id": "AC:R1:R2B:P1",
+   "attempt_id": "AC:R1:R2B:P1#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "B2",
+    "after_fence_post"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": -9,
+    "agent-recover-2": 0
+   },
+   "prediction": {
+    "L": "COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": true,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [
+     "FENCE_RECORD_MISMATCH"
+    ],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": true
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [
+    "FENCE_RECORD_MISMATCH"
+   ],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 3,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "NEW (first execution; not a held-out test)"
+  },
+  {
+   "index": 17,
+   "unit_id": "AC:R2:R2B:P1",
+   "attempt_id": "AC:R2:R2B:P1#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "B2",
+    "after_fence_record"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": -9,
+    "agent-recover-2": 0
+   },
+   "prediction": {
+    "L": "COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": true,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [
+     "FENCE_RECORD_MISMATCH"
+    ],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": true
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [
+    "FENCE_RECORD_MISMATCH"
+   ],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 3,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "NEW (first execution; not a held-out test)"
+  },
+  {
+   "index": 18,
+   "unit_id": "AC:R3:R2B:P1",
+   "attempt_id": "AC:R3:R2B:P1#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "B2",
+    "after_grant"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": -9,
+    "agent-recover-2": 0
+   },
+   "prediction": {
+    "L": "COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": true,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": true
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 4,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "SEEN: phase-2 dev crash group (os._exit(137) hook, unfrozen)"
+  },
+  {
+   "index": 19,
+   "unit_id": "AC:R3:R2B:P2",
+   "attempt_id": "AC:R3:R2B:P2#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "B2",
+    "after_grant"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": -9,
+    "agent-recover-2": 0
+   },
+   "prediction": {
+    "L": "COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": true,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": true
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 2,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "SEEN: phase-2 dev crash group (os._exit(137) hook, unfrozen)"
+  },
+  {
+   "index": 20,
+   "unit_id": "AC:R4:R2B:P1",
+   "attempt_id": "AC:R4:R2B:P1#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "B2",
+    "after_consumed"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": -9,
+    "agent-recover-2": 0
+   },
+   "prediction": {
+    "L": "COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": true,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": true
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 4,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "SEEN: phase-2 dev crash group (os._exit(137) hook, unfrozen)"
+  },
+  {
+   "index": 21,
+   "unit_id": "AC:R4:R2B:P2",
+   "attempt_id": "AC:R4:R2B:P2#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "B2",
+    "after_consumed"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": -9,
+    "agent-recover-2": 0
+   },
+   "prediction": {
+    "L": "COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": true,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": true
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 2,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "SEEN: phase-2 dev crash group (os._exit(137) hook, unfrozen)"
+  },
+  {
+   "index": 22,
+   "unit_id": "AC:R5:R2B:P1",
+   "attempt_id": "AC:R5:R2B:P1#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "B2",
+    "after_request"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": -9,
+    "agent-recover-2": 0
+   },
+   "prediction": {
+    "L": "COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": true,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": true
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 4,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "SEEN: phase-2 dev crash group (os._exit(137) hook, unfrozen)"
+  },
+  {
+   "index": 23,
+   "unit_id": "AC:R5:R2B:P2",
+   "attempt_id": "AC:R5:R2B:P2#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "B2",
+    "after_request"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": -9,
+    "agent-recover-2": 0
+   },
+   "prediction": {
+    "L": "COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": true,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": true
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 2,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "SEEN: phase-2 dev crash group (os._exit(137) hook, unfrozen)"
+  },
+  {
+   "index": 24,
+   "unit_id": "AC:R6:R2B:P1",
+   "attempt_id": "AC:R6:R2B:P1#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "B2",
+    "after_response"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": -9,
+    "agent-recover-2": 0
+   },
+   "prediction": {
+    "L": "COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": true,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": true
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 4,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "NEW (first execution; not a held-out test)"
+  },
+  {
+   "index": 25,
+   "unit_id": "AC:R6:R2B:P2",
+   "attempt_id": "AC:R6:R2B:P2#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "B2",
+    "after_response"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": -9,
+    "agent-recover-2": 0
+   },
+   "prediction": {
+    "L": "COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": true,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": true
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 2,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "NEW (first execution; not a held-out test)"
+  },
+  {
+   "index": 26,
+   "unit_id": "AC:R7:R2B:P1",
+   "attempt_id": "AC:R7:R2B:P1#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "B2",
+    "after_result_log"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "NOT_COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": -9,
+    "agent-recover-2": 0
+   },
+   "prediction": {
+    "L": "NOT_COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "delivery_unknown",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": false,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "delivery_unknown",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": false
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 3,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "NEW (first execution; not a held-out test)"
+  },
+  {
+   "index": 27,
+   "unit_id": "AC:R7:R2B:P2",
+   "attempt_id": "AC:R7:R2B:P2#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "B2",
+    "after_result_log"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "NOT_COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": -9,
+    "agent-recover-2": 0
+   },
+   "prediction": {
+    "L": "NOT_COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "delivery_unknown",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": false,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "delivery_unknown",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": false
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 2,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "NEW (first execution; not a held-out test)"
+  },
+  {
+   "index": 28,
+   "unit_id": "AC:R4:R2A:P1",
+   "attempt_id": "AC:R4:R2A:P1#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "B2",
+    "after_consumed"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": -9,
+    "agent-recover-2": 0
+   },
+   "prediction": {
+    "L": "COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": true,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": true
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 4,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "SEEN: phase-2 dev crash group (os._exit(137) hook, unfrozen)"
+  },
+  {
+   "index": 29,
+   "unit_id": "AC:SA:R2B:P1",
+   "attempt_id": "AC:SA:R2B:P1#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "B2",
+    "after_fence_post",
+    "after_fence_post"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": -9,
+    "agent-recover-2": -9,
+    "agent-recover-3": 0
+   },
+   "prediction": {
+    "L": "COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": true,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [
+     "FENCE_RECORD_MISMATCH"
+    ],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": true
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [
+    "FENCE_RECORD_MISMATCH"
+   ],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 4,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "NEW (first execution; not a held-out test)"
+  },
+  {
+   "index": 30,
+   "unit_id": "AC:SB:R2B:P1",
+   "attempt_id": "AC:SB:R2B:P1#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "B2",
+    "after_consumed",
+    "after_request"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": -9,
+    "agent-recover-2": -9,
+    "agent-recover-3": 0
+   },
+   "prediction": {
+    "L": "COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": true,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": true
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 6,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "NEW (first execution; not a held-out test)"
+  },
+  {
+   "index": 31,
+   "unit_id": "AC:SB:R2B:P2",
+   "attempt_id": "AC:SB:R2B:P2#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "B2",
+    "after_consumed",
+    "after_request"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": -9,
+    "agent-recover-2": -9,
+    "agent-recover-3": 0
+   },
+   "prediction": {
+    "L": "COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": true,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": true
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 3,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "NEW (first execution; not a held-out test)"
+  },
+  {
+   "index": 32,
+   "unit_id": "AC:SC:R2B:P2",
+   "attempt_id": "AC:SC:R2B:P2#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "after_consumed",
+    "after_grant"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": -9,
+    "agent-recover-2": 0
+   },
+   "prediction": {
+    "L": "COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": true,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": true
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 2,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "NEW (first execution; not a held-out test)"
+  },
+  {
+   "index": 33,
+   "unit_id": "AC:SD:R2B:P1",
+   "attempt_id": "AC:SD:R2B:P1#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "B2",
+    "after_fence_record",
+    "after_result_log"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "NOT_COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": -9,
+    "agent-recover-2": -9,
+    "agent-recover-3": 0
+   },
+   "prediction": {
+    "L": "NOT_COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "delivery_unknown",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": false,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [
+     "FENCE_RECORD_MISMATCH"
+    ],
+    "final_state": "delivery_unknown",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": false
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [
+    "FENCE_RECORD_MISMATCH"
+   ],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 4,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "NEW (first execution; not a held-out test)"
+  },
+  {
+   "index": 34,
+   "unit_id": "AC:CTRL:R2B:P0",
+   "attempt_id": "AC:CTRL:R2B:P0#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": 0
+   },
+   "prediction": {
+    "L": "COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [
+     "INJECTION_RECEIPT_MISMATCH"
+    ],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": true,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [
+     "INJECTION_RECEIPT_MISMATCH"
+    ],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": true
+   },
+   "primary_faults_recorded_not_gating": [
+    "INJECTION_RECEIPT_MISMATCH"
+   ],
+   "secondary_faults_recorded_not_gating": [
+    "INJECTION_RECEIPT_MISMATCH"
+   ],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 1,
+   "planner_records": "COMPLETE",
+   "layer": "C",
+   "exposure": "NEW (first execution; not a held-out test)"
+  },
+  {
+   "index": 35,
+   "unit_id": "AC:CTRL:R2B:P1",
+   "attempt_id": "AC:CTRL:R2B:P1#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": 0
+   },
+   "prediction": {
+    "L": "COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [
+     "INJECTION_RECEIPT_MISMATCH"
+    ],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": true,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [
+     "INJECTION_RECEIPT_MISMATCH"
+    ],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": true
+   },
+   "primary_faults_recorded_not_gating": [
+    "INJECTION_RECEIPT_MISMATCH"
+   ],
+   "secondary_faults_recorded_not_gating": [
+    "INJECTION_RECEIPT_MISMATCH"
+   ],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 1,
+   "planner_records": "COMPLETE",
+   "layer": "C",
+   "exposure": "NEW (first execution; not a held-out test)"
+  },
+  {
+   "index": 36,
+   "unit_id": "AC:I1:R2B:P1",
+   "attempt_id": "AC:I1:R2B:P1#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "B2"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "NOT_COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": 0
+   },
+   "prediction": {
+    "L": "NOT_COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "review",
+    "effect_count": 0,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": false,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "review",
+    "effect_count": 0,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": false
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 1,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "NEW (first execution; not a held-out test)"
+  },
+  {
+   "index": 37,
+   "unit_id": "AC:I2:R2B:P1",
+   "attempt_id": "AC:I2:R2B:P1#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "B2"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "NO_OPPORTUNITY",
+   "opportunity": false,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": 0
+   },
+   "prediction": {
+    "L": "NO_OPPORTUNITY",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "review",
+    "effect_count": 0,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": false,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "review",
+    "effect_count": 0,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": false
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 1,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "NEW (first execution; not a held-out test)"
+  },
+  {
+   "index": 38,
+   "unit_id": "AC:B1A:R2A:P1",
+   "attempt_id": "AC:B1A:R2A:P1#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "B4"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "NOT_COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": 0
+   },
+   "prediction": {
+    "L": "NOT_COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": "review",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": false,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [],
+    "final_state": "review",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": false
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 1,
+   "planner_records": "COMPLETE",
+   "layer": "M",
+   "exposure": "NEW (first execution; not a held-out test)"
+  },
+  {
+   "index": 39,
+   "unit_id": "AC:TRUNCATE_CONSUMED:R2B:P1",
+   "attempt_id": "AC:TRUNCATE_CONSUMED:R2B:P1#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [
+    "B2"
+   ],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "NOT_COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {
+     "agent-recover-1": 1
+    },
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [
+    {
+     "exit": 1,
+     "label": "agent-recover-1"
+    }
+   ],
+   "recovery_exits": {
+    "agent-recover-1": 1
+   },
+   "prediction": {
+    "L": "NOT_COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [],
+    "final_state": null,
+    "effect_count": null,
+    "duplicate_effect": null,
+    "unauthorized_effect": null,
+    "s4_invalid_sends": null,
+    "true_completion": null,
+    "false_completion": null
+   },
+   "secondary": {
+    "faults": [
+     "MISSING_FINAL_STATE"
+    ],
+    "final_state": null,
+    "effect_count": 0,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": false
+   },
+   "primary_faults_recorded_not_gating": [],
+   "secondary_faults_recorded_not_gating": [
+    "MISSING_FINAL_STATE"
+   ],
+   "scorer_failures_recorded": {
+    "primary": "Scorer process failure primary-scorer_v2 (exit 1): \", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 353, in raw_decode\n    obj, end = self.scan_once(s, idx)\n               ^^^^^^^^^^^^^^^^^^^^^^\njson.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 98 (char 97)\n"
+   },
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 1,
+   "planner_records": "COMPLETE",
+   "layer": "S",
+   "exposure": "NEW (first execution; not a held-out test)"
+  },
+  {
+   "index": 40,
+   "unit_id": "AC:CTRL:R2B:P2",
+   "attempt_id": "AC:CTRL:R2B:P2#a1",
+   "runner_state": "OBSERVED_PENDING_REPLAY",
+   "final_state": "VALID_COMPLETED",
+   "A_execution": "VALID",
+   "A_problems": [],
+   "snapshots_valid": true,
+   "pause_not_reached": [],
+   "kills": [],
+   "B_safety": {
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "C_recovery": "COMPLETED",
+   "opportunity": true,
+   "labels": {
+    "abnormal_exit": {},
+    "evidence_incomplete": []
+   },
+   "abnormal_exits": [],
+   "recovery_exits": {
+    "agent-recover-1": 0
+   },
+   "prediction": {
+    "L": "COMPLETED",
+    "S1": "SATISFIED",
+    "S2": "SATISFIED",
+    "S3": "SATISFIED",
+    "S4": "SATISFIED"
+   },
+   "prediction_comparison": {
+    "L": true,
+    "note": "a matched prediction of a defect is not a pass of the mechanism",
+    "safety": {
+     "S1": true,
+     "S2": true,
+     "S3": true,
+     "S4": true
+    }
+   },
+   "f3p0": null,
+   "primary": {
+    "faults": [
+     "INJECTION_RECEIPT_MISMATCH"
+    ],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "s4_invalid_sends": 0,
+    "true_completion": true,
+    "false_completion": false
+   },
+   "secondary": {
+    "faults": [
+     "INJECTION_RECEIPT_MISMATCH"
+    ],
+    "final_state": "adapter_accepted",
+    "effect_count": 1,
+    "duplicate_effect": false,
+    "unauthorized_effect": false,
+    "true_completion": true
+   },
+   "primary_faults_recorded_not_gating": [
+    "INJECTION_RECEIPT_MISMATCH"
+   ],
+   "secondary_faults_recorded_not_gating": [
+    "INJECTION_RECEIPT_MISMATCH"
+   ],
+   "scorer_failures_recorded": {},
+   "scorer_faults": [],
+   "infra_events": [],
+   "errors": [],
+   "planner_calls": 1,
+   "planner_records": "COMPLETE",
+   "layer": "C",
+   "exposure": "NEW (first execution; not a held-out test)"
+  }
+ ]
+}

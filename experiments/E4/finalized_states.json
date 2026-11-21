@@ -1,0 +1,253 @@
+{
+ "batch": "extracted/ecr-ac1-20261017-r1",
+ "same_report": "extracted/ecr-ac1-20261017-r1/replay-same-runtime-20261017T074132/report.json",
+ "cross_report": "replay_cross_runtime_report.json",
+ "counts": {
+  "VALID_COMPLETED": 40
+ },
+ "attempts": {
+  "AC:B1A:R2A:P1#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:CTRL:R2B:P0#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:CTRL:R2B:P1#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:CTRL:R2B:P2#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:F1:R2B:P0#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:F1:R2B:P1#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:F1:R2B:P2#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:F2:R2A:P1#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:F2:R2B:P0#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:F2:R2B:P1#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:F2:R2B:P2#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:F3:R2A:P1#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:F3:R2B:P0#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:F3:R2B:P1#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:F3:R2B:P2#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:F4:R2A:P1#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:F4:R2B:P0#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:F4:R2B:P1#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:F4:R2B:P2#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:I1:R2B:P1#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:I2:R2B:P1#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:R1:R2B:P1#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:R2:R2B:P1#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:R3:R2B:P1#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:R3:R2B:P2#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:R4:R2A:P1#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:R4:R2B:P1#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:R4:R2B:P2#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:R5:R2B:P1#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:R5:R2B:P2#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:R6:R2B:P1#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:R6:R2B:P2#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:R7:R2B:P1#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:R7:R2B:P2#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:SA:R2B:P1#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:SB:R2B:P1#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:SB:R2B:P2#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:SC:R2B:P2#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:SD:R2B:P1#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "AC:TRUNCATE_CONSUMED:R2B:P1#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  }
+ },
+ "finalized_attempt_states": {
+  "AC:B1A:R2A:P1#a1": "VALID_COMPLETED",
+  "AC:CTRL:R2B:P0#a1": "VALID_COMPLETED",
+  "AC:CTRL:R2B:P1#a1": "VALID_COMPLETED",
+  "AC:CTRL:R2B:P2#a1": "VALID_COMPLETED",
+  "AC:F1:R2B:P0#a1": "VALID_COMPLETED",
+  "AC:F1:R2B:P1#a1": "VALID_COMPLETED",
+  "AC:F1:R2B:P2#a1": "VALID_COMPLETED",
+  "AC:F2:R2A:P1#a1": "VALID_COMPLETED",
+  "AC:F2:R2B:P0#a1": "VALID_COMPLETED",
+  "AC:F2:R2B:P1#a1": "VALID_COMPLETED",
+  "AC:F2:R2B:P2#a1": "VALID_COMPLETED",
+  "AC:F3:R2A:P1#a1": "VALID_COMPLETED",
+  "AC:F3:R2B:P0#a1": "VALID_COMPLETED",
+  "AC:F3:R2B:P1#a1": "VALID_COMPLETED",
+  "AC:F3:R2B:P2#a1": "VALID_COMPLETED",
+  "AC:F4:R2A:P1#a1": "VALID_COMPLETED",
+  "AC:F4:R2B:P0#a1": "VALID_COMPLETED",
+  "AC:F4:R2B:P1#a1": "VALID_COMPLETED",
+  "AC:F4:R2B:P2#a1": "VALID_COMPLETED",
+  "AC:I1:R2B:P1#a1": "VALID_COMPLETED",
+  "AC:I2:R2B:P1#a1": "VALID_COMPLETED",
+  "AC:R1:R2B:P1#a1": "VALID_COMPLETED",
+  "AC:R2:R2B:P1#a1": "VALID_COMPLETED",
+  "AC:R3:R2B:P1#a1": "VALID_COMPLETED",
+  "AC:R3:R2B:P2#a1": "VALID_COMPLETED",
+  "AC:R4:R2A:P1#a1": "VALID_COMPLETED",
+  "AC:R4:R2B:P1#a1": "VALID_COMPLETED",
+  "AC:R4:R2B:P2#a1": "VALID_COMPLETED",
+  "AC:R5:R2B:P1#a1": "VALID_COMPLETED",
+  "AC:R5:R2B:P2#a1": "VALID_COMPLETED",
+  "AC:R6:R2B:P1#a1": "VALID_COMPLETED",
+  "AC:R6:R2B:P2#a1": "VALID_COMPLETED",
+  "AC:R7:R2B:P1#a1": "VALID_COMPLETED",
+  "AC:R7:R2B:P2#a1": "VALID_COMPLETED",
+  "AC:SA:R2B:P1#a1": "VALID_COMPLETED",
+  "AC:SB:R2B:P1#a1": "VALID_COMPLETED",
+  "AC:SB:R2B:P2#a1": "VALID_COMPLETED",
+  "AC:SC:R2B:P2#a1": "VALID_COMPLETED",
+  "AC:SD:R2B:P1#a1": "VALID_COMPLETED",
+  "AC:TRUNCATE_CONSUMED:R2B:P1#a1": "VALID_COMPLETED"
+ },
+ "note": "cross-runtime consistency is not an independent proof of correctness"
+}

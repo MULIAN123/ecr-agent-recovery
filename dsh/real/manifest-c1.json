@@ -1,0 +1,1461 @@
+{
+  "batch_id": "dsh-20261013-r1r-c1",
+  "status": "PINNED_NOT_EXECUTED",
+  "dsh_desktop_version": "0.2.0-rc.2",
+  "dsh_app_asar_sha256": "983ca71114e6dfd353fc79af5a1f9481a250ee64c2a3c757673029b811b23bc2",
+  "dsh_exe_sha256": "df4e91fd91f6f1bee19a1990b0e167bfe06abf8353279d82bbb8e60edb6ba0d3",
+  "model_route": {
+    "provider": "deepseek-account",
+    "model": "deepseek-flash",
+    "reasoningEffort": "high"
+  },
+  "files": {
+    "plugins/driver.mjs": "094ff952e0e14bb4702eb5df526645d8e4a725199901d9219cff13f056f6b8a6",
+    "plugins/durable-dispatch.mjs": "24cf3a6d833af620c9ff026f144e76a902379c7b5dd17eb1f1376ada34f9862f",
+    "plugins/effect-tool.mjs": "6d9b8ee49b68e0d0de463d096d3a3a10ba04740c4e743cc701ae44391144a909",
+    "plugins/evidence-guard.mjs": "7664aef72140c7cf033f16e40d3d13bbd6472745ed671f518d5cc9a2c59dcf82",
+    "profile/cordis.patch.yml": "86318c3ee993727441a25177ad05e5a7f4b8ebb343b99f4ab2df4d1e9e48b310",
+    "profile/package.json": "b8e5989188c0db8c6173b0abb4782fc7d81a71dccef6e4d7d6af67c95cefe1c5",
+    "run_real.py": "0625f2bcb529744004086f5e04a0bdfce0a1bc326a5875d0a43f076cb17b6e00",
+    "score_real.py": "cf66fa8ac042bee31cfe5a1967cfb6844c7c1368787aba1277767e8495e0ccd9"
+  },
+  "trials": [
+    {
+      "trial_id": "dsh-r1r-074-D1-warn-fast-k1500-rep1",
+      "arm": "D1",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "1500",
+      "rep": 1
+    },
+    {
+      "trial_id": "dsh-r1r-075-D2-warn-fast-k1500-rep1",
+      "arm": "D2",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "1500",
+      "rep": 1
+    },
+    {
+      "trial_id": "dsh-r1r-076-D0-warn-slow-k1500-rep1",
+      "arm": "D0",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "1500",
+      "rep": 1
+    },
+    {
+      "trial_id": "dsh-r1r-077-D1-warn-slow-k1500-rep1",
+      "arm": "D1",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "1500",
+      "rep": 1
+    },
+    {
+      "trial_id": "dsh-r1r-078-D2-warn-slow-k1500-rep1",
+      "arm": "D2",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "1500",
+      "rep": 1
+    },
+    {
+      "trial_id": "dsh-r1r-079-D0-plain-fast-k1500-rep1",
+      "arm": "D0",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "1500",
+      "rep": 1
+    },
+    {
+      "trial_id": "dsh-r1r-080-D1-plain-fast-k1500-rep1",
+      "arm": "D1",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "1500",
+      "rep": 1
+    },
+    {
+      "trial_id": "dsh-r1r-081-D2-plain-fast-k1500-rep1",
+      "arm": "D2",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "1500",
+      "rep": 1
+    },
+    {
+      "trial_id": "dsh-r1r-082-D0-plain-slow-k1500-rep1",
+      "arm": "D0",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "1500",
+      "rep": 1
+    },
+    {
+      "trial_id": "dsh-r1r-083-D1-plain-slow-k1500-rep1",
+      "arm": "D1",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "1500",
+      "rep": 1
+    },
+    {
+      "trial_id": "dsh-r1r-084-D2-plain-slow-k1500-rep1",
+      "arm": "D2",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "1500",
+      "rep": 1
+    },
+    {
+      "trial_id": "dsh-r1r-085-D0-warn-fast-kpre-rep2",
+      "arm": "D0",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "pre",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-086-D1-warn-fast-kpre-rep2",
+      "arm": "D1",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "pre",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-087-D2-warn-fast-kpre-rep2",
+      "arm": "D2",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "pre",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-088-D0-warn-slow-kpre-rep2",
+      "arm": "D0",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "pre",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-089-D1-warn-slow-kpre-rep2",
+      "arm": "D1",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "pre",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-090-D2-warn-slow-kpre-rep2",
+      "arm": "D2",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "pre",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-091-D0-plain-fast-kpre-rep2",
+      "arm": "D0",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "pre",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-092-D1-plain-fast-kpre-rep2",
+      "arm": "D1",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "pre",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-093-D2-plain-fast-kpre-rep2",
+      "arm": "D2",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "pre",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-094-D0-plain-slow-kpre-rep2",
+      "arm": "D0",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "pre",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-095-D1-plain-slow-kpre-rep2",
+      "arm": "D1",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "pre",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-096-D2-plain-slow-kpre-rep2",
+      "arm": "D2",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "pre",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-097-D0-warn-fast-k0-rep2",
+      "arm": "D0",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "0",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-098-D1-warn-fast-k0-rep2",
+      "arm": "D1",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "0",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-099-D2-warn-fast-k0-rep2",
+      "arm": "D2",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "0",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-100-D0-warn-slow-k0-rep2",
+      "arm": "D0",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "0",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-101-D1-warn-slow-k0-rep2",
+      "arm": "D1",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "0",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-102-D2-warn-slow-k0-rep2",
+      "arm": "D2",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "0",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-103-D0-plain-fast-k0-rep2",
+      "arm": "D0",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "0",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-104-D1-plain-fast-k0-rep2",
+      "arm": "D1",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "0",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-105-D2-plain-fast-k0-rep2",
+      "arm": "D2",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "0",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-106-D0-plain-slow-k0-rep2",
+      "arm": "D0",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "0",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-107-D1-plain-slow-k0-rep2",
+      "arm": "D1",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "0",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-108-D2-plain-slow-k0-rep2",
+      "arm": "D2",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "0",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-109-D0-warn-fast-k100-rep2",
+      "arm": "D0",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "100",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-110-D1-warn-fast-k100-rep2",
+      "arm": "D1",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "100",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-111-D2-warn-fast-k100-rep2",
+      "arm": "D2",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "100",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-112-D0-warn-slow-k100-rep2",
+      "arm": "D0",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "100",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-113-D1-warn-slow-k100-rep2",
+      "arm": "D1",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "100",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-114-D2-warn-slow-k100-rep2",
+      "arm": "D2",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "100",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-115-D0-plain-fast-k100-rep2",
+      "arm": "D0",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "100",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-116-D1-plain-fast-k100-rep2",
+      "arm": "D1",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "100",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-117-D2-plain-fast-k100-rep2",
+      "arm": "D2",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "100",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-118-D0-plain-slow-k100-rep2",
+      "arm": "D0",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "100",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-119-D1-plain-slow-k100-rep2",
+      "arm": "D1",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "100",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-120-D2-plain-slow-k100-rep2",
+      "arm": "D2",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "100",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-121-D0-warn-fast-k150-rep2",
+      "arm": "D0",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "150",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-122-D1-warn-fast-k150-rep2",
+      "arm": "D1",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "150",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-123-D2-warn-fast-k150-rep2",
+      "arm": "D2",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "150",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-124-D0-warn-slow-k150-rep2",
+      "arm": "D0",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "150",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-125-D1-warn-slow-k150-rep2",
+      "arm": "D1",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "150",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-126-D2-warn-slow-k150-rep2",
+      "arm": "D2",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "150",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-127-D0-plain-fast-k150-rep2",
+      "arm": "D0",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "150",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-128-D1-plain-fast-k150-rep2",
+      "arm": "D1",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "150",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-129-D2-plain-fast-k150-rep2",
+      "arm": "D2",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "150",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-130-D0-plain-slow-k150-rep2",
+      "arm": "D0",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "150",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-131-D1-plain-slow-k150-rep2",
+      "arm": "D1",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "150",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-132-D2-plain-slow-k150-rep2",
+      "arm": "D2",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "150",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-133-D0-warn-fast-k250-rep2",
+      "arm": "D0",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "250",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-134-D1-warn-fast-k250-rep2",
+      "arm": "D1",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "250",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-135-D2-warn-fast-k250-rep2",
+      "arm": "D2",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "250",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-136-D0-warn-slow-k250-rep2",
+      "arm": "D0",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "250",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-137-D1-warn-slow-k250-rep2",
+      "arm": "D1",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "250",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-138-D2-warn-slow-k250-rep2",
+      "arm": "D2",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "250",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-139-D0-plain-fast-k250-rep2",
+      "arm": "D0",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "250",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-140-D1-plain-fast-k250-rep2",
+      "arm": "D1",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "250",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-141-D2-plain-fast-k250-rep2",
+      "arm": "D2",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "250",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-142-D0-plain-slow-k250-rep2",
+      "arm": "D0",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "250",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-143-D1-plain-slow-k250-rep2",
+      "arm": "D1",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "250",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-144-D2-plain-slow-k250-rep2",
+      "arm": "D2",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "250",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-145-D0-warn-fast-k400-rep2",
+      "arm": "D0",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "400",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-146-D1-warn-fast-k400-rep2",
+      "arm": "D1",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "400",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-147-D2-warn-fast-k400-rep2",
+      "arm": "D2",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "400",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-148-D0-warn-slow-k400-rep2",
+      "arm": "D0",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "400",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-149-D1-warn-slow-k400-rep2",
+      "arm": "D1",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "400",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-150-D2-warn-slow-k400-rep2",
+      "arm": "D2",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "400",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-151-D0-plain-fast-k400-rep2",
+      "arm": "D0",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "400",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-152-D1-plain-fast-k400-rep2",
+      "arm": "D1",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "400",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-153-D2-plain-fast-k400-rep2",
+      "arm": "D2",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "400",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-154-D0-plain-slow-k400-rep2",
+      "arm": "D0",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "400",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-155-D1-plain-slow-k400-rep2",
+      "arm": "D1",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "400",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-156-D2-plain-slow-k400-rep2",
+      "arm": "D2",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "400",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-157-D0-warn-fast-k1500-rep2",
+      "arm": "D0",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "1500",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-158-D1-warn-fast-k1500-rep2",
+      "arm": "D1",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "1500",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-159-D2-warn-fast-k1500-rep2",
+      "arm": "D2",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "1500",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-160-D0-warn-slow-k1500-rep2",
+      "arm": "D0",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "1500",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-161-D1-warn-slow-k1500-rep2",
+      "arm": "D1",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "1500",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-162-D2-warn-slow-k1500-rep2",
+      "arm": "D2",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "1500",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-163-D0-plain-fast-k1500-rep2",
+      "arm": "D0",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "1500",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-164-D1-plain-fast-k1500-rep2",
+      "arm": "D1",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "1500",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-165-D2-plain-fast-k1500-rep2",
+      "arm": "D2",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "1500",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-166-D0-plain-slow-k1500-rep2",
+      "arm": "D0",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "1500",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-167-D1-plain-slow-k1500-rep2",
+      "arm": "D1",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "1500",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-168-D2-plain-slow-k1500-rep2",
+      "arm": "D2",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "1500",
+      "rep": 2
+    },
+    {
+      "trial_id": "dsh-r1r-169-D0-warn-fast-kpre-rep3",
+      "arm": "D0",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "pre",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-170-D1-warn-fast-kpre-rep3",
+      "arm": "D1",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "pre",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-171-D2-warn-fast-kpre-rep3",
+      "arm": "D2",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "pre",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-172-D0-warn-slow-kpre-rep3",
+      "arm": "D0",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "pre",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-173-D1-warn-slow-kpre-rep3",
+      "arm": "D1",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "pre",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-174-D2-warn-slow-kpre-rep3",
+      "arm": "D2",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "pre",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-175-D0-plain-fast-kpre-rep3",
+      "arm": "D0",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "pre",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-176-D1-plain-fast-kpre-rep3",
+      "arm": "D1",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "pre",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-177-D2-plain-fast-kpre-rep3",
+      "arm": "D2",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "pre",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-178-D0-plain-slow-kpre-rep3",
+      "arm": "D0",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "pre",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-179-D1-plain-slow-kpre-rep3",
+      "arm": "D1",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "pre",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-180-D2-plain-slow-kpre-rep3",
+      "arm": "D2",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "pre",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-181-D0-warn-fast-k0-rep3",
+      "arm": "D0",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "0",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-182-D1-warn-fast-k0-rep3",
+      "arm": "D1",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "0",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-183-D2-warn-fast-k0-rep3",
+      "arm": "D2",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "0",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-184-D0-warn-slow-k0-rep3",
+      "arm": "D0",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "0",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-185-D1-warn-slow-k0-rep3",
+      "arm": "D1",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "0",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-186-D2-warn-slow-k0-rep3",
+      "arm": "D2",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "0",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-187-D0-plain-fast-k0-rep3",
+      "arm": "D0",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "0",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-188-D1-plain-fast-k0-rep3",
+      "arm": "D1",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "0",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-189-D2-plain-fast-k0-rep3",
+      "arm": "D2",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "0",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-190-D0-plain-slow-k0-rep3",
+      "arm": "D0",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "0",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-191-D1-plain-slow-k0-rep3",
+      "arm": "D1",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "0",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-192-D2-plain-slow-k0-rep3",
+      "arm": "D2",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "0",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-193-D0-warn-fast-k100-rep3",
+      "arm": "D0",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "100",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-194-D1-warn-fast-k100-rep3",
+      "arm": "D1",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "100",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-195-D2-warn-fast-k100-rep3",
+      "arm": "D2",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "100",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-196-D0-warn-slow-k100-rep3",
+      "arm": "D0",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "100",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-197-D1-warn-slow-k100-rep3",
+      "arm": "D1",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "100",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-198-D2-warn-slow-k100-rep3",
+      "arm": "D2",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "100",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-199-D0-plain-fast-k100-rep3",
+      "arm": "D0",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "100",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-200-D1-plain-fast-k100-rep3",
+      "arm": "D1",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "100",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-201-D2-plain-fast-k100-rep3",
+      "arm": "D2",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "100",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-202-D0-plain-slow-k100-rep3",
+      "arm": "D0",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "100",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-203-D1-plain-slow-k100-rep3",
+      "arm": "D1",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "100",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-204-D2-plain-slow-k100-rep3",
+      "arm": "D2",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "100",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-205-D0-warn-fast-k150-rep3",
+      "arm": "D0",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "150",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-206-D1-warn-fast-k150-rep3",
+      "arm": "D1",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "150",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-207-D2-warn-fast-k150-rep3",
+      "arm": "D2",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "150",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-208-D0-warn-slow-k150-rep3",
+      "arm": "D0",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "150",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-209-D1-warn-slow-k150-rep3",
+      "arm": "D1",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "150",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-210-D2-warn-slow-k150-rep3",
+      "arm": "D2",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "150",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-211-D0-plain-fast-k150-rep3",
+      "arm": "D0",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "150",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-212-D1-plain-fast-k150-rep3",
+      "arm": "D1",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "150",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-213-D2-plain-fast-k150-rep3",
+      "arm": "D2",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "150",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-214-D0-plain-slow-k150-rep3",
+      "arm": "D0",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "150",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-215-D1-plain-slow-k150-rep3",
+      "arm": "D1",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "150",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-216-D2-plain-slow-k150-rep3",
+      "arm": "D2",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "150",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-217-D0-warn-fast-k250-rep3",
+      "arm": "D0",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "250",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-218-D1-warn-fast-k250-rep3",
+      "arm": "D1",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "250",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-219-D2-warn-fast-k250-rep3",
+      "arm": "D2",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "250",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-220-D0-warn-slow-k250-rep3",
+      "arm": "D0",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "250",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-221-D1-warn-slow-k250-rep3",
+      "arm": "D1",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "250",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-222-D2-warn-slow-k250-rep3",
+      "arm": "D2",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "250",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-223-D0-plain-fast-k250-rep3",
+      "arm": "D0",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "250",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-224-D1-plain-fast-k250-rep3",
+      "arm": "D1",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "250",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-225-D2-plain-fast-k250-rep3",
+      "arm": "D2",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "250",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-226-D0-plain-slow-k250-rep3",
+      "arm": "D0",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "250",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-227-D1-plain-slow-k250-rep3",
+      "arm": "D1",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "250",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-228-D2-plain-slow-k250-rep3",
+      "arm": "D2",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "250",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-229-D0-warn-fast-k400-rep3",
+      "arm": "D0",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "400",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-230-D1-warn-fast-k400-rep3",
+      "arm": "D1",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "400",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-231-D2-warn-fast-k400-rep3",
+      "arm": "D2",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "400",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-232-D0-warn-slow-k400-rep3",
+      "arm": "D0",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "400",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-233-D1-warn-slow-k400-rep3",
+      "arm": "D1",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "400",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-234-D2-warn-slow-k400-rep3",
+      "arm": "D2",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "400",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-235-D0-plain-fast-k400-rep3",
+      "arm": "D0",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "400",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-236-D1-plain-fast-k400-rep3",
+      "arm": "D1",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "400",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-237-D2-plain-fast-k400-rep3",
+      "arm": "D2",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "400",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-238-D0-plain-slow-k400-rep3",
+      "arm": "D0",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "400",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-239-D1-plain-slow-k400-rep3",
+      "arm": "D1",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "400",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-240-D2-plain-slow-k400-rep3",
+      "arm": "D2",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "400",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-241-D0-warn-fast-k1500-rep3",
+      "arm": "D0",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "1500",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-242-D1-warn-fast-k1500-rep3",
+      "arm": "D1",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "1500",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-243-D2-warn-fast-k1500-rep3",
+      "arm": "D2",
+      "desc": "warn",
+      "tool": "fast",
+      "kill": "1500",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-244-D0-warn-slow-k1500-rep3",
+      "arm": "D0",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "1500",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-245-D1-warn-slow-k1500-rep3",
+      "arm": "D1",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "1500",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-246-D2-warn-slow-k1500-rep3",
+      "arm": "D2",
+      "desc": "warn",
+      "tool": "slow",
+      "kill": "1500",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-247-D0-plain-fast-k1500-rep3",
+      "arm": "D0",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "1500",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-248-D1-plain-fast-k1500-rep3",
+      "arm": "D1",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "1500",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-249-D2-plain-fast-k1500-rep3",
+      "arm": "D2",
+      "desc": "plain",
+      "tool": "fast",
+      "kill": "1500",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-250-D0-plain-slow-k1500-rep3",
+      "arm": "D0",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "1500",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-251-D1-plain-slow-k1500-rep3",
+      "arm": "D1",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "1500",
+      "rep": 3
+    },
+    {
+      "trial_id": "dsh-r1r-252-D2-plain-slow-k1500-rep3",
+      "arm": "D2",
+      "desc": "plain",
+      "tool": "slow",
+      "kill": "1500",
+      "rep": 3
+    }
+  ],
+  "amendment": {
+    "file": "AMENDMENT-A1.md",
+    "sha256": "9297dedf32a97868ad8c8e62f3e50a2528a317c9f95f935fbb005ae39ac3b353",
+    "continues": "dsh-20261013-r1r"
+  }
+}

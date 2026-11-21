@@ -1,0 +1,47 @@
+{
+  "classifier_sources_from": "core_execution_r2 (hash-verified)",
+  "files": {
+    "README.md": "0031b9cd4185d73fe46ec8b4248f86f433671f62ecfe1a43e4cffcc9e6646cd4",
+    "arms/A_ACCEPTANCE_LEVEL/delivery-reconciliation-execution.ts": "908a26a9f543820c6dbe260b3d6705a27b4f8fce97d231ef79d4c1d918e0069e",
+    "arms/A_ACCEPTANCE_LEVEL/delivery-reconciliation.ts": "1a5fea0c5f297d39c0beb7fc2cff18264ab745080976e16a70b5116de92617c5",
+    "arms/A_OUTCOME_BOUNDARY/delivery-reconciliation-execution.ts": "908a26a9f543820c6dbe260b3d6705a27b4f8fce97d231ef79d4c1d918e0069e",
+    "arms/A_OUTCOME_BOUNDARY/delivery-reconciliation.ts": "2fdb39221de881d60dd976a29846649733ab444acec53158e4609c9f38cf4618",
+    "arms/A_UNKNOWN_PRESERVATION/delivery-reconciliation-execution.ts": "908a26a9f543820c6dbe260b3d6705a27b4f8fce97d231ef79d4c1d918e0069e",
+    "arms/A_UNKNOWN_PRESERVATION/delivery-reconciliation.ts": "5bd903bf1c3bf6f84c4c332361925461212005e20e4e28f1d03395fccff02b01",
+    "arms/FULL/delivery-reconciliation-execution.ts": "908a26a9f543820c6dbe260b3d6705a27b4f8fce97d231ef79d4c1d918e0069e",
+    "arms/FULL/delivery-reconciliation.ts": "a293da95bc9847718c8a788e680151ad01079573e31e7359b2578d7a3ff2fa30",
+    "private/cells.json": "b7f66c5523a7251250bbf59b65a9867466c33c0d08f5b05d07210c8f4a292869",
+    "run.py": "28cfbaaeea11bcc36aa6efc3233bec0e2d0aeb69b1f6b02e60e8d4686a89cf6b",
+    "src/agent.py": "e9e24a94fb48c47094c09556e669f3c689245133adbe6c7ed23cfb63a03eab6a",
+    "src/endpoint.py": "d5d3b5e13f3129781cfc875ff1d14ab5f330734f0b3acf0b64850f3653e9794a",
+    "src/plan.mjs": "3cfb9f2a09d996d309aa06588abb916790fa7211dc34b50b01f7c8ea7dc692b8",
+    "src/protocol.py": "ca67293cbbe55f05aeb4f0cf0ab4ca06bf9880be8f9c6369e56fcc55bb559a58",
+    "src/scorer.py": "e4cbb567121112a486730963ddca90479922a33edf386f8cbfd1bcfa6ec341a9"
+  },
+  "formal_cells_planned": 416,
+  "formal_id": "async-sim-20261012-r1",
+  "node_binary_sha256": "7fde7b8afa198da66257f42ee2001d874c7355631e6d1579a5fb5ef1f246df4c",
+  "public_files": [
+    "arms/A_ACCEPTANCE_LEVEL/delivery-reconciliation-execution.ts",
+    "arms/A_ACCEPTANCE_LEVEL/delivery-reconciliation.ts",
+    "arms/A_OUTCOME_BOUNDARY/delivery-reconciliation-execution.ts",
+    "arms/A_OUTCOME_BOUNDARY/delivery-reconciliation.ts",
+    "arms/A_UNKNOWN_PRESERVATION/delivery-reconciliation-execution.ts",
+    "arms/A_UNKNOWN_PRESERVATION/delivery-reconciliation.ts",
+    "arms/FULL/delivery-reconciliation-execution.ts",
+    "arms/FULL/delivery-reconciliation.ts",
+    "src/agent.py",
+    "src/endpoint.py",
+    "src/plan.mjs",
+    "src/protocol.py",
+    "src/scorer.py"
+  ],
+  "qualification_cells_planned": 13,
+  "qualification_id": "async-sim-qual-20261012-r1",
+  "status": "PINNED_NOT_EXECUTED",
+  "study": "ECR_FOLLOWUP_R1 experiment 2",
+  "vm_uuids": [
+    "a15b4d56-f8c6-4048-1b04-8235eb3c75a7",
+    "564d5ba1-c6f8-4840-1b04-8235eb3c75a7"
+  ]
+}

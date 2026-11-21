@@ -1,0 +1,91 @@
+{
+  "assembly_rule": "Copy canonical bytes as delivery-reconciliation.ts to resolve existing planner import; original workspace file remains unchanged",
+  "canonical_sha256": "a293da95bc9847718c8a788e680151ad01079573e31e7359b2578d7a3ff2fa30",
+  "canonical_source": "p0_4b2a_reconciliation_source_canonical.ts",
+  "closure": [
+    {
+      "runtime_use": "separate chain integration stage; core classifier stage does not invoke",
+      "sha256": "908a26a9f543820c6dbe260b3d6705a27b4f8fce97d231ef79d4c1d918e0069e",
+      "source_path": "delivery-reconciliation-execution.ts"
+    },
+    {
+      "runtime_use": "separate chain integration stage; core classifier stage does not invoke",
+      "sha256": "c5db2b39f4d443041d4bfeb7d12a49ae8a610d1ec3e56f3ccea495923a57461a",
+      "source_path": "task-context-semantic-transition.ts"
+    },
+    {
+      "runtime_use": "separate chain integration stage; core classifier stage does not invoke",
+      "sha256": "e69fa9f47931e37b0fe04d6620ba50b92bb57c34a1083a59b6bdbcb26b9737fd",
+      "source_path": "task-context-semantic-commit.ts"
+    }
+  ],
+  "historical_Formal420_source_identity": "UNVERIFIED_NOT_REQUIRED_FOR_NEW_SOURCE_SELECTION",
+  "status": "CORE_INPUTS_FROZEN_RUNTIME_PENDING",
+  "variants": [
+    {
+      "execution": "NOT_EXECUTED",
+      "external_effect_permission": "NO_EXECUTOR_PRESENT",
+      "id": "FULL",
+      "patch_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "scope": "unchanged source",
+      "source_sha256": "a293da95bc9847718c8a788e680151ad01079573e31e7359b2578d7a3ff2fa30"
+    },
+    {
+      "execution": "NOT_EXECUTED",
+      "external_effect_permission": "NO_EXECUTOR_PRESENT",
+      "id": "A_ID_COMPARE",
+      "patch_sha256": "6b092e3350a9c23d39faea67b5c64d445ccbb79ff52c7a46ee7d905beb920c2b",
+      "scope": "non-version classifier identity agreement only; taskStateVersion agreement and downstream planner validation remain",
+      "source_sha256": "6d574500db732dc8943cc6bf4fa554291b53845650f9b913ab221247fb8450e2"
+    },
+    {
+      "execution": "NOT_EXECUTED",
+      "external_effect_permission": "NO_EXECUTOR_PRESENT",
+      "id": "A_VERSION_COMPARE",
+      "patch_sha256": "ff0bef1f6c786ea3709c31a032b51f0bc82772291c4825ef9f951a43aef00e20",
+      "scope": "task-state version disagreement only; other identities and structural version type remain",
+      "source_sha256": "7361477d46f88dba269abc9796116144eabb1e4b17b84069256304d58d0c1592"
+    },
+    {
+      "execution": "NOT_EXECUTED",
+      "external_effect_permission": "NO_EXECUTOR_PRESENT",
+      "id": "A_SEQUENCE",
+      "patch_sha256": "384fcdcd594a35a5354f1bd8f978475fd312fc26517ae7919193116fa28b34a6",
+      "scope": "monotonic journal sequence only; sequence type and event rank remain",
+      "source_sha256": "acf06f223a7fe84dd87e6c82e2e49bc00436907ab7baca78d943bd2115e97994"
+    },
+    {
+      "execution": "NOT_EXECUTED",
+      "external_effect_permission": "NO_EXECUTOR_PRESENT",
+      "id": "A_RANK",
+      "patch_sha256": "07af3a33f8ccf4061a1e22df8b0c18b30b340a891a13d9b48f8fe2993322cb64",
+      "scope": "event rank regression only; duplicate event and journal sequence checks remain",
+      "source_sha256": "b842bbdf7e74457efad34e2daa1465000f091b64aca38cb79a6acab2943a91d9"
+    },
+    {
+      "execution": "NOT_EXECUTED",
+      "external_effect_permission": "NO_EXECUTOR_PRESENT",
+      "id": "A_OUTCOME_BOUNDARY",
+      "patch_sha256": "551a3f587461a41d12f1192a556184c396b9a217ec6cb0ab0656960df69659a8",
+      "scope": "outcome requires dispatch evidence only; other completeness checks remain",
+      "source_sha256": "2fdb39221de881d60dd976a29846649733ab444acec53158e4609c9f38cf4618"
+    },
+    {
+      "execution": "NOT_EXECUTED",
+      "external_effect_permission": "NO_EXECUTOR_PRESENT",
+      "id": "A_UNKNOWN_PRESERVATION",
+      "patch_sha256": "c47571d804566645bd7ca109a3c3139ec24a0aae2c3060824ba321d5215525c5",
+      "scope": "unknown-outcome classification branch only; no resend added",
+      "source_sha256": "5bd903bf1c3bf6f84c4c332361925461212005e20e4e28f1d03395fccff02b01"
+    },
+    {
+      "execution": "NOT_EXECUTED",
+      "external_effect_permission": "NO_EXECUTOR_PRESENT",
+      "id": "A_ACCEPTANCE_LEVEL",
+      "patch_sha256": "7968b74abd1105d28f8206d96e3a5daa9b6a797ef74abf136b529d68355b462c",
+      "scope": "acceptance evidence-level check only; outcome label and dispatch validation remain",
+      "source_sha256": "1a5fea0c5f297d39c0beb7fc2cff18264ab745080976e16a70b5116de92617c5"
+    }
+  ],
+  "review": "Independent static review complete; separate non-version and version predicates; patch byte hashes verified"
+}

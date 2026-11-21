@@ -1,0 +1,46 @@
+{
+ "script": "<WORKSPACE>",
+ "script_sha256": "e6317fb823790af22a2a7c67ce65411a148628e1a1b743b5e164138fab8c84a0",
+ "inputs_sha256": {
+  "outputs\\20261016\\ECR_授权崩溃实验包_ac1\\async_sim_ac1\\private\\cells_ac.json": "2a1b7a9136edaaa19c9ee93c2b5e53f544cb5d4871da6b5037ba1071f11a6b15",
+  "outputs\\20261016\\ECR_授权崩溃实验包_ac1\\FIRST_BATCH_40.md": "13fb18e50004beeb6c5b7cab8054f8dea80b737c2a2d234e48730032fffd7fe3",
+  "outputs\\20261017\\ECR_ac1_AC1_ecr-ac1-20261017-r1\\finalized_states.json": "7a887790c5b30f9cd4f1320c94cb23b1c460cd5a5570ce986fcb8b0660de35c7",
+  "outputs\\20261017\\ECR_ac1_AC1_ecr-ac1-20261017-r1\\replay_cross_runtime_report.json": "abe9668a8399dd056cac7bada45b2222d54f0e2349c7a2d4e54d08550f9169ed",
+  "outputs\\20261017\\ECR_ac1_AC1_ecr-ac1-20261017-r1\\AC1_RUN_REPORT.md": "8ed5a6509cb89cb1c02d17179f4cdc0276e5405df74f0f59be8da5757288b57d",
+  "outputs\\20261017\\ECR_ac1_AC1_ecr-ac1-20261017-r1\\per_unit_judgments.json": "9185f31822ac768614b08cb6a0b6c378d695965cfc58c58a3cb74864b30a02e2",
+  "outputs\\20261017\\ECR_ac1_AC1_ecr-ac1-20261017-r1\\extracted\\ecr-ac1-20261017-r1\\batch-summary.json": "35fe1a68a5d6e3780fc096265acb009dde95dca404697e69a1c70cf0ab4b4f8e",
+  "outputs\\20261017\\ECR_ac1_AC1_ecr-ac1-20261017-r1\\extracted\\ecr-ac1-20261017-r1\\replay-same-runtime-20261017T074132\\report.json": "65b9f21bb15810b2af41e4496aeea6e8159dcf6556d719c8ae8c9929a105bbe7"
+ },
+ "checks": {
+  "cells_sha256": {
+   "ok": true
+  },
+  "first_batch_ids_and_index_equal_FIRST_BATCH_40": {
+   "ok": true
+  },
+  "batch_summary": {
+   "ok": true
+  },
+  "environment_set_and_manifest": {
+   "ok": true
+  },
+  "replay_reports_consistent": {
+   "ok": true
+  },
+  "attempt_index_only_this_batch_first_attempts": {
+   "ok": true
+  },
+  "per_unit_checks": {
+   "ok": true
+  },
+  "execution_order_differs_from_list_numbering_(disclosure)": {
+   "ok": true,
+   "detail": "runner order follows cells_ac.json table order"
+  }
+ },
+ "problems": [],
+ "outputs": {
+  "AC1_RESULTS_TABLES.md": "305462da33093dc13cc74e66fd39ba408fbc6745ab49fddccb2c3da8046e2f26",
+  "ac1_units_all.csv": "8724126702ebb5b099b185b6ad3dde9ccaf5494b767b2553d618339dfcda79d7"
+ }
+}

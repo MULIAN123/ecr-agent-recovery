@@ -1,0 +1,20 @@
+{
+ "status": "FROZEN (Erratum D2-E1) - written after the c2 deployment blocker; no unit of ecr-bl6q-srv-b2 or ecr-bl6x-srv-c2 has run",
+ "utc": "2026-11-14T12:47:21.366017+00:00",
+ "approval": "user in chat 2026-11-14 approved the D2 plan (rerun pass 2 on a new disk); this erratum fixes D2 rule 5 only",
+ "files_sha256": {
+  "protocol/ERRATUM_D2E1_manifest_equivalence.md": "cb26b9c44579d6f5855ae7b881ccea26c370e53da6c7468365747ad261be23fc",
+  "host_tools/check_manifest_equiv_bl6.py": "f495576c12762eae6f33c853d8cc7478afc60a4f5b3e2734cb3347321f475722",
+  "host_tools/gate_gd_bl6_r1.py": "c972b7ee1b2a49f72126177fffb12082e0c0f05488bd203cfec61d65ba1b3948",
+  "prep/make_gate_gd_r1.py": "f89bc2a1116e78df5dea5460b34f88fa9545b8043e729943ab6a6281284e8ca7",
+  "prep/selftest_r3.log": "5b30c63e758ca15e08b4d80eaddd84f9d4c64eb375eb028d8c7a295b64cf9395",
+  "guest_tools/qualification-authorization-c2.TEMPLATE_r3.json": "4db50c336db3b210e043f2f0357ca3d9dde36f26282c0442aed9ad515a9ad063",
+  "README_补丁r3.md": "e8cf2ded171ac7de787090a389fd3d47b05b5d24f57bead6e9bbbc11764ef23e"
+ },
+ "gate_gd_bl6_r0_sha256": "71d241db981141adf270dcd8976a2bd4766449d0152e44ac12bc4bd13819149f",
+ "addendum_D2_freeze_record_sha256": "5857d9e3a263e6c5bcc59f373252512a9314e8a64ce15a0b6f60ba96632d7f31",
+ "manifests": {
+  "run1_b1": "6f27a54edcfd41b487a8b5de79192e0084093f64b9fc5fda6410db0411cb4133",
+  "run2_c2_new_disk": "9d237b1113c735cf976e5fb586af0a231047edbb6fb0b62a037db1fdff27ad2d"
+ }
+}

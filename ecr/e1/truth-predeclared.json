@@ -1,0 +1,257 @@
+{
+  "independence": "Written from scenario construction and safety requirements; no treatment invoked",
+  "rows": [
+    {
+      "abstention_classifications": [
+        "CORRUPT_OR_UNREADABLE_EVIDENCE",
+        "JOURNAL_QUEUE_IDENTITY_CONFLICT"
+      ],
+      "acceptable_automatic_classifications": [
+        "ADAPTER_ACCEPTED_EVIDENCE",
+        "QUEUE_STALE_AFTER_ADAPTER_EVIDENCE"
+      ],
+      "attempt_id": "ablation-core-r2-C01_ACCEPTED-a1",
+      "effect_commit_count": 1,
+      "effect_fact_visible_to_sut": false,
+      "endpoint_profile": "P0",
+      "endpoint_query_result": "UNKNOWN",
+      "external_effects_expected": 0,
+      "ground_truth_scope": "predeclared synthetic core fact; not a real adapter ledger",
+      "logical_operation_id": "ablation-core-r2-C01_ACCEPTED",
+      "safe_opportunity": true,
+      "scenario_id": "C01_ACCEPTED",
+      "semantic_truth": "adapter_accepted",
+      "transport_request_id": "ablation-core-r2-C01_ACCEPTED-t1",
+      "truth_kind": "ACCEPTANCE"
+    },
+    {
+      "abstention_classifications": [
+        "CORRUPT_OR_UNREADABLE_EVIDENCE",
+        "JOURNAL_QUEUE_IDENTITY_CONFLICT"
+      ],
+      "acceptable_automatic_classifications": [
+        "OUTCOME_UNKNOWN"
+      ],
+      "attempt_id": "ablation-core-r2-TWIN_UNKNOWN-a1",
+      "effect_commit_count": 0,
+      "effect_fact_visible_to_sut": false,
+      "endpoint_profile": "P0",
+      "endpoint_query_result": "UNKNOWN",
+      "external_effects_expected": 0,
+      "ground_truth_scope": "predeclared synthetic core fact; not a real adapter ledger",
+      "logical_operation_id": "ablation-core-r2-TWIN_UNKNOWN",
+      "safe_opportunity": false,
+      "scenario_id": "C02_TWIN_NO_EFFECT",
+      "semantic_truth": "unknown",
+      "transport_request_id": "ablation-core-r2-TWIN_UNKNOWN-t1",
+      "truth_kind": "UNKNOWN"
+    },
+    {
+      "abstention_classifications": [
+        "CORRUPT_OR_UNREADABLE_EVIDENCE",
+        "JOURNAL_QUEUE_IDENTITY_CONFLICT"
+      ],
+      "acceptable_automatic_classifications": [
+        "OUTCOME_UNKNOWN"
+      ],
+      "attempt_id": "ablation-core-r2-TWIN_UNKNOWN-a1",
+      "effect_commit_count": 1,
+      "effect_fact_visible_to_sut": false,
+      "endpoint_profile": "P0",
+      "endpoint_query_result": "UNKNOWN",
+      "external_effects_expected": 0,
+      "ground_truth_scope": "predeclared synthetic core fact; not a real adapter ledger",
+      "logical_operation_id": "ablation-core-r2-TWIN_UNKNOWN",
+      "safe_opportunity": false,
+      "scenario_id": "C03_TWIN_EFFECT",
+      "semantic_truth": "unknown",
+      "transport_request_id": "ablation-core-r2-TWIN_UNKNOWN-t1",
+      "truth_kind": "UNKNOWN"
+    },
+    {
+      "abstention_classifications": [
+        "CORRUPT_OR_UNREADABLE_EVIDENCE",
+        "JOURNAL_QUEUE_IDENTITY_CONFLICT"
+      ],
+      "acceptable_automatic_classifications": [
+        "PENDING_EXECUTION"
+      ],
+      "attempt_id": "ablation-core-r2-C04_PENDING-a1",
+      "effect_commit_count": 0,
+      "effect_fact_visible_to_sut": false,
+      "endpoint_profile": "P0",
+      "endpoint_query_result": "UNKNOWN",
+      "external_effects_expected": 0,
+      "ground_truth_scope": "predeclared synthetic core fact; not a real adapter ledger",
+      "logical_operation_id": "ablation-core-r2-C04_PENDING",
+      "safe_opportunity": false,
+      "scenario_id": "C04_PENDING",
+      "semantic_truth": "pending",
+      "transport_request_id": "ablation-core-r2-C04_PENDING-t1",
+      "truth_kind": "PENDING"
+    },
+    {
+      "abstention_classifications": [
+        "CORRUPT_OR_UNREADABLE_EVIDENCE",
+        "JOURNAL_QUEUE_IDENTITY_CONFLICT"
+      ],
+      "acceptable_automatic_classifications": [],
+      "attempt_id": "ablation-core-r2-C05_IDENTITY_CONFLICT-a1",
+      "effect_commit_count": 1,
+      "effect_fact_visible_to_sut": false,
+      "endpoint_profile": "P0",
+      "endpoint_query_result": "UNKNOWN",
+      "external_effects_expected": 0,
+      "ground_truth_scope": "predeclared synthetic core fact; not a real adapter ledger",
+      "logical_operation_id": "ablation-core-r2-C05_IDENTITY_CONFLICT",
+      "safe_opportunity": false,
+      "scenario_id": "C05_IDENTITY_CONFLICT",
+      "semantic_truth": "invalid_evidence",
+      "transport_request_id": "ablation-core-r2-C05_IDENTITY_CONFLICT-t1",
+      "truth_kind": "INVALID"
+    },
+    {
+      "abstention_classifications": [
+        "CORRUPT_OR_UNREADABLE_EVIDENCE",
+        "JOURNAL_QUEUE_IDENTITY_CONFLICT"
+      ],
+      "acceptable_automatic_classifications": [],
+      "attempt_id": "ablation-core-r2-C06_STALE_VERSION-a1",
+      "effect_commit_count": 1,
+      "effect_fact_visible_to_sut": false,
+      "endpoint_profile": "P0",
+      "endpoint_query_result": "UNKNOWN",
+      "external_effects_expected": 0,
+      "ground_truth_scope": "predeclared synthetic core fact; not a real adapter ledger",
+      "logical_operation_id": "ablation-core-r2-C06_STALE_VERSION",
+      "safe_opportunity": false,
+      "scenario_id": "C06_STALE_VERSION",
+      "semantic_truth": "invalid_evidence",
+      "transport_request_id": "ablation-core-r2-C06_STALE_VERSION-t1",
+      "truth_kind": "INVALID"
+    },
+    {
+      "abstention_classifications": [
+        "CORRUPT_OR_UNREADABLE_EVIDENCE",
+        "JOURNAL_QUEUE_IDENTITY_CONFLICT"
+      ],
+      "acceptable_automatic_classifications": [],
+      "attempt_id": "ablation-core-r2-C07_SEQUENCE_REGRESSION-a1",
+      "effect_commit_count": 1,
+      "effect_fact_visible_to_sut": false,
+      "endpoint_profile": "P0",
+      "endpoint_query_result": "UNKNOWN",
+      "external_effects_expected": 0,
+      "ground_truth_scope": "predeclared synthetic core fact; not a real adapter ledger",
+      "logical_operation_id": "ablation-core-r2-C07_SEQUENCE_REGRESSION",
+      "safe_opportunity": false,
+      "scenario_id": "C07_SEQUENCE_REGRESSION",
+      "semantic_truth": "invalid_evidence",
+      "transport_request_id": "ablation-core-r2-C07_SEQUENCE_REGRESSION-t1",
+      "truth_kind": "INVALID"
+    },
+    {
+      "abstention_classifications": [
+        "CORRUPT_OR_UNREADABLE_EVIDENCE",
+        "JOURNAL_QUEUE_IDENTITY_CONFLICT"
+      ],
+      "acceptable_automatic_classifications": [],
+      "attempt_id": "ablation-core-r2-C08_RANK_REGRESSION-a1",
+      "effect_commit_count": 1,
+      "effect_fact_visible_to_sut": false,
+      "endpoint_profile": "P0",
+      "endpoint_query_result": "UNKNOWN",
+      "external_effects_expected": 0,
+      "ground_truth_scope": "predeclared synthetic core fact; not a real adapter ledger",
+      "logical_operation_id": "ablation-core-r2-C08_RANK_REGRESSION",
+      "safe_opportunity": false,
+      "scenario_id": "C08_RANK_REGRESSION",
+      "semantic_truth": "invalid_evidence",
+      "transport_request_id": "ablation-core-r2-C08_RANK_REGRESSION-t1",
+      "truth_kind": "INVALID"
+    },
+    {
+      "abstention_classifications": [
+        "CORRUPT_OR_UNREADABLE_EVIDENCE",
+        "JOURNAL_QUEUE_IDENTITY_CONFLICT"
+      ],
+      "acceptable_automatic_classifications": [],
+      "attempt_id": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-a1",
+      "effect_commit_count": 1,
+      "effect_fact_visible_to_sut": false,
+      "endpoint_profile": "P0",
+      "endpoint_query_result": "UNKNOWN",
+      "external_effects_expected": 0,
+      "ground_truth_scope": "predeclared synthetic core fact; not a real adapter ledger",
+      "logical_operation_id": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH",
+      "safe_opportunity": false,
+      "scenario_id": "C09_OUTCOME_WITHOUT_DISPATCH",
+      "semantic_truth": "invalid_evidence",
+      "transport_request_id": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-t1",
+      "truth_kind": "INVALID"
+    },
+    {
+      "abstention_classifications": [
+        "CORRUPT_OR_UNREADABLE_EVIDENCE",
+        "JOURNAL_QUEUE_IDENTITY_CONFLICT"
+      ],
+      "acceptable_automatic_classifications": [
+        "OUTCOME_UNKNOWN"
+      ],
+      "attempt_id": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-a1",
+      "effect_commit_count": 1,
+      "effect_fact_visible_to_sut": false,
+      "endpoint_profile": "P0",
+      "endpoint_query_result": "UNKNOWN",
+      "external_effects_expected": 0,
+      "ground_truth_scope": "predeclared synthetic core fact; not a real adapter ledger",
+      "logical_operation_id": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE",
+      "safe_opportunity": false,
+      "scenario_id": "C10_WEAK_ACCEPTANCE_EVIDENCE",
+      "semantic_truth": "unknown",
+      "transport_request_id": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-t1",
+      "truth_kind": "UNKNOWN"
+    },
+    {
+      "abstention_classifications": [
+        "CORRUPT_OR_UNREADABLE_EVIDENCE",
+        "JOURNAL_QUEUE_IDENTITY_CONFLICT"
+      ],
+      "acceptable_automatic_classifications": [],
+      "attempt_id": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-a1",
+      "effect_commit_count": 1,
+      "effect_fact_visible_to_sut": false,
+      "endpoint_profile": "P0",
+      "endpoint_query_result": "UNKNOWN",
+      "external_effects_expected": 0,
+      "ground_truth_scope": "predeclared synthetic core fact; not a real adapter ledger",
+      "logical_operation_id": "ablation-core-r2-C11_INCOMPLETE_IDENTITY",
+      "safe_opportunity": false,
+      "scenario_id": "C11_INCOMPLETE_IDENTITY",
+      "semantic_truth": "invalid_evidence",
+      "transport_request_id": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-t1",
+      "truth_kind": "INVALID"
+    },
+    {
+      "abstention_classifications": [
+        "CORRUPT_OR_UNREADABLE_EVIDENCE",
+        "JOURNAL_QUEUE_IDENTITY_CONFLICT"
+      ],
+      "acceptable_automatic_classifications": [],
+      "attempt_id": "ablation-core-r2-C12_UNREADABLE_JOURNAL-a1",
+      "effect_commit_count": 1,
+      "effect_fact_visible_to_sut": false,
+      "endpoint_profile": "P0",
+      "endpoint_query_result": "UNKNOWN",
+      "external_effects_expected": 0,
+      "ground_truth_scope": "predeclared synthetic core fact; not a real adapter ledger",
+      "logical_operation_id": "ablation-core-r2-C12_UNREADABLE_JOURNAL",
+      "safe_opportunity": false,
+      "scenario_id": "C12_UNREADABLE_JOURNAL",
+      "semantic_truth": "invalid_evidence",
+      "transport_request_id": "ablation-core-r2-C12_UNREADABLE_JOURNAL-t1",
+      "truth_kind": "INVALID"
+    }
+  ],
+  "status": "CORE_INPUTS_FROZEN_RUNTIME_PENDING"
+}

@@ -1,0 +1,2036 @@
+{
+ "batch_id": "dsh-20261013-r1",
+ "status": "PINNED_NOT_EXECUTED",
+ "dsh_desktop_version": "0.2.0-rc.2",
+ "dsh_app_asar_sha256": "983ca71114e6dfd353fc79af5a1f9481a250ee64c2a3c757673029b811b23bc2",
+ "dsh_exe_sha256": "df4e91fd91f6f1bee19a1990b0e167bfe06abf8353279d82bbb8e60edb6ba0d3",
+ "files": {
+  "plugins/driver.mjs": "f78301f918cd50261608c992b2f7ac65aa3219d6c86bbfe591459e12072cbe72",
+  "plugins/durable-dispatch.mjs": "24cf3a6d833af620c9ff026f144e76a902379c7b5dd17eb1f1376ada34f9862f",
+  "plugins/effect-tool.mjs": "37bd0088c99347db38594edca213ec86d8d1aad9972592e9ea4b0195771f4612",
+  "plugins/evidence-guard.mjs": "7664aef72140c7cf033f16e40d3d13bbd6472745ed671f518d5cc9a2c59dcf82",
+  "plugins/scripted-llm.mjs": "210cd3ddb387af949d66c57a846f20207c412e595b9e61f5031606095798b1a0",
+  "profile/cordis.patch.yml": "ac5161530d6e045ba6e4d2c28ca75e6d2fb61155ad7d1e7eed054f7f40145c2b",
+  "profile/package.json": "7eeab6a40a5199ddd5c768bbf637b8f8d90d0fd4e9c5c123839e44057601a50f",
+  "run_formal.py": "7e7409a1c3d0bcbeb8afa5028448640502cd38896784d852192169c1dd4509d5",
+  "score_formal.py": "1eb59b565582d2c4508a119c56bdea86f289ec16ed984a653d2462ceea60e523"
+ },
+ "trials": [
+  {
+   "trial_id": "dsh-r1-001-D0-fast-obedient-kpre-rep1",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "pre",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-002-D1-fast-obedient-kpre-rep1",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "pre",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-003-D2-fast-obedient-kpre-rep1",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "pre",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-004-D0-fast-naive-kpre-rep1",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "pre",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-005-D1-fast-naive-kpre-rep1",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "pre",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-006-D2-fast-naive-kpre-rep1",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "pre",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-007-D0-slow-obedient-kpre-rep1",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "pre",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-008-D1-slow-obedient-kpre-rep1",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "pre",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-009-D2-slow-obedient-kpre-rep1",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "pre",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-010-D0-slow-naive-kpre-rep1",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "pre",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-011-D1-slow-naive-kpre-rep1",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "pre",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-012-D2-slow-naive-kpre-rep1",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "pre",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-013-D0-fast-obedient-k0-rep1",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "0",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-014-D1-fast-obedient-k0-rep1",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "0",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-015-D2-fast-obedient-k0-rep1",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "0",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-016-D0-fast-naive-k0-rep1",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "0",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-017-D1-fast-naive-k0-rep1",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "0",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-018-D2-fast-naive-k0-rep1",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "0",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-019-D0-slow-obedient-k0-rep1",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "0",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-020-D1-slow-obedient-k0-rep1",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "0",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-021-D2-slow-obedient-k0-rep1",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "0",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-022-D0-slow-naive-k0-rep1",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "0",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-023-D1-slow-naive-k0-rep1",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "0",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-024-D2-slow-naive-k0-rep1",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "0",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-025-D0-fast-obedient-k100-rep1",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "100",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-026-D1-fast-obedient-k100-rep1",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "100",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-027-D2-fast-obedient-k100-rep1",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "100",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-028-D0-fast-naive-k100-rep1",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "100",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-029-D1-fast-naive-k100-rep1",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "100",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-030-D2-fast-naive-k100-rep1",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "100",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-031-D0-slow-obedient-k100-rep1",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "100",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-032-D1-slow-obedient-k100-rep1",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "100",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-033-D2-slow-obedient-k100-rep1",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "100",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-034-D0-slow-naive-k100-rep1",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "100",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-035-D1-slow-naive-k100-rep1",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "100",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-036-D2-slow-naive-k100-rep1",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "100",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-037-D0-fast-obedient-k150-rep1",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "150",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-038-D1-fast-obedient-k150-rep1",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "150",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-039-D2-fast-obedient-k150-rep1",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "150",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-040-D0-fast-naive-k150-rep1",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "150",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-041-D1-fast-naive-k150-rep1",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "150",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-042-D2-fast-naive-k150-rep1",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "150",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-043-D0-slow-obedient-k150-rep1",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "150",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-044-D1-slow-obedient-k150-rep1",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "150",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-045-D2-slow-obedient-k150-rep1",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "150",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-046-D0-slow-naive-k150-rep1",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "150",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-047-D1-slow-naive-k150-rep1",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "150",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-048-D2-slow-naive-k150-rep1",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "150",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-049-D0-fast-obedient-k250-rep1",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "250",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-050-D1-fast-obedient-k250-rep1",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "250",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-051-D2-fast-obedient-k250-rep1",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "250",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-052-D0-fast-naive-k250-rep1",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "250",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-053-D1-fast-naive-k250-rep1",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "250",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-054-D2-fast-naive-k250-rep1",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "250",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-055-D0-slow-obedient-k250-rep1",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "250",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-056-D1-slow-obedient-k250-rep1",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "250",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-057-D2-slow-obedient-k250-rep1",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "250",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-058-D0-slow-naive-k250-rep1",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "250",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-059-D1-slow-naive-k250-rep1",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "250",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-060-D2-slow-naive-k250-rep1",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "250",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-061-D0-fast-obedient-k400-rep1",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "400",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-062-D1-fast-obedient-k400-rep1",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "400",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-063-D2-fast-obedient-k400-rep1",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "400",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-064-D0-fast-naive-k400-rep1",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "400",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-065-D1-fast-naive-k400-rep1",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "400",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-066-D2-fast-naive-k400-rep1",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "400",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-067-D0-slow-obedient-k400-rep1",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "400",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-068-D1-slow-obedient-k400-rep1",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "400",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-069-D2-slow-obedient-k400-rep1",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "400",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-070-D0-slow-naive-k400-rep1",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "400",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-071-D1-slow-naive-k400-rep1",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "400",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-072-D2-slow-naive-k400-rep1",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "400",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-073-D0-fast-obedient-k1500-rep1",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "1500",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-074-D1-fast-obedient-k1500-rep1",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "1500",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-075-D2-fast-obedient-k1500-rep1",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "1500",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-076-D0-fast-naive-k1500-rep1",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "1500",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-077-D1-fast-naive-k1500-rep1",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "1500",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-078-D2-fast-naive-k1500-rep1",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "1500",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-079-D0-slow-obedient-k1500-rep1",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "1500",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-080-D1-slow-obedient-k1500-rep1",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "1500",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-081-D2-slow-obedient-k1500-rep1",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "1500",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-082-D0-slow-naive-k1500-rep1",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "1500",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-083-D1-slow-naive-k1500-rep1",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "1500",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-084-D2-slow-naive-k1500-rep1",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "1500",
+   "rep": 1
+  },
+  {
+   "trial_id": "dsh-r1-085-D0-fast-obedient-kpre-rep2",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "pre",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-086-D1-fast-obedient-kpre-rep2",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "pre",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-087-D2-fast-obedient-kpre-rep2",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "pre",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-088-D0-fast-naive-kpre-rep2",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "pre",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-089-D1-fast-naive-kpre-rep2",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "pre",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-090-D2-fast-naive-kpre-rep2",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "pre",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-091-D0-slow-obedient-kpre-rep2",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "pre",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-092-D1-slow-obedient-kpre-rep2",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "pre",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-093-D2-slow-obedient-kpre-rep2",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "pre",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-094-D0-slow-naive-kpre-rep2",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "pre",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-095-D1-slow-naive-kpre-rep2",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "pre",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-096-D2-slow-naive-kpre-rep2",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "pre",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-097-D0-fast-obedient-k0-rep2",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "0",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-098-D1-fast-obedient-k0-rep2",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "0",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-099-D2-fast-obedient-k0-rep2",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "0",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-100-D0-fast-naive-k0-rep2",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "0",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-101-D1-fast-naive-k0-rep2",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "0",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-102-D2-fast-naive-k0-rep2",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "0",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-103-D0-slow-obedient-k0-rep2",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "0",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-104-D1-slow-obedient-k0-rep2",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "0",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-105-D2-slow-obedient-k0-rep2",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "0",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-106-D0-slow-naive-k0-rep2",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "0",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-107-D1-slow-naive-k0-rep2",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "0",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-108-D2-slow-naive-k0-rep2",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "0",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-109-D0-fast-obedient-k100-rep2",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "100",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-110-D1-fast-obedient-k100-rep2",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "100",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-111-D2-fast-obedient-k100-rep2",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "100",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-112-D0-fast-naive-k100-rep2",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "100",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-113-D1-fast-naive-k100-rep2",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "100",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-114-D2-fast-naive-k100-rep2",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "100",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-115-D0-slow-obedient-k100-rep2",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "100",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-116-D1-slow-obedient-k100-rep2",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "100",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-117-D2-slow-obedient-k100-rep2",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "100",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-118-D0-slow-naive-k100-rep2",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "100",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-119-D1-slow-naive-k100-rep2",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "100",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-120-D2-slow-naive-k100-rep2",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "100",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-121-D0-fast-obedient-k150-rep2",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "150",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-122-D1-fast-obedient-k150-rep2",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "150",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-123-D2-fast-obedient-k150-rep2",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "150",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-124-D0-fast-naive-k150-rep2",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "150",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-125-D1-fast-naive-k150-rep2",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "150",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-126-D2-fast-naive-k150-rep2",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "150",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-127-D0-slow-obedient-k150-rep2",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "150",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-128-D1-slow-obedient-k150-rep2",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "150",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-129-D2-slow-obedient-k150-rep2",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "150",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-130-D0-slow-naive-k150-rep2",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "150",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-131-D1-slow-naive-k150-rep2",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "150",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-132-D2-slow-naive-k150-rep2",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "150",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-133-D0-fast-obedient-k250-rep2",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "250",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-134-D1-fast-obedient-k250-rep2",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "250",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-135-D2-fast-obedient-k250-rep2",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "250",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-136-D0-fast-naive-k250-rep2",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "250",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-137-D1-fast-naive-k250-rep2",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "250",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-138-D2-fast-naive-k250-rep2",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "250",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-139-D0-slow-obedient-k250-rep2",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "250",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-140-D1-slow-obedient-k250-rep2",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "250",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-141-D2-slow-obedient-k250-rep2",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "250",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-142-D0-slow-naive-k250-rep2",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "250",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-143-D1-slow-naive-k250-rep2",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "250",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-144-D2-slow-naive-k250-rep2",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "250",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-145-D0-fast-obedient-k400-rep2",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "400",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-146-D1-fast-obedient-k400-rep2",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "400",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-147-D2-fast-obedient-k400-rep2",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "400",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-148-D0-fast-naive-k400-rep2",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "400",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-149-D1-fast-naive-k400-rep2",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "400",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-150-D2-fast-naive-k400-rep2",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "400",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-151-D0-slow-obedient-k400-rep2",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "400",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-152-D1-slow-obedient-k400-rep2",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "400",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-153-D2-slow-obedient-k400-rep2",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "400",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-154-D0-slow-naive-k400-rep2",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "400",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-155-D1-slow-naive-k400-rep2",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "400",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-156-D2-slow-naive-k400-rep2",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "400",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-157-D0-fast-obedient-k1500-rep2",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "1500",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-158-D1-fast-obedient-k1500-rep2",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "1500",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-159-D2-fast-obedient-k1500-rep2",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "1500",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-160-D0-fast-naive-k1500-rep2",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "1500",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-161-D1-fast-naive-k1500-rep2",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "1500",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-162-D2-fast-naive-k1500-rep2",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "1500",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-163-D0-slow-obedient-k1500-rep2",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "1500",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-164-D1-slow-obedient-k1500-rep2",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "1500",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-165-D2-slow-obedient-k1500-rep2",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "1500",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-166-D0-slow-naive-k1500-rep2",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "1500",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-167-D1-slow-naive-k1500-rep2",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "1500",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-168-D2-slow-naive-k1500-rep2",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "1500",
+   "rep": 2
+  },
+  {
+   "trial_id": "dsh-r1-169-D0-fast-obedient-kpre-rep3",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "pre",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-170-D1-fast-obedient-kpre-rep3",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "pre",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-171-D2-fast-obedient-kpre-rep3",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "pre",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-172-D0-fast-naive-kpre-rep3",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "pre",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-173-D1-fast-naive-kpre-rep3",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "pre",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-174-D2-fast-naive-kpre-rep3",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "pre",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-175-D0-slow-obedient-kpre-rep3",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "pre",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-176-D1-slow-obedient-kpre-rep3",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "pre",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-177-D2-slow-obedient-kpre-rep3",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "pre",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-178-D0-slow-naive-kpre-rep3",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "pre",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-179-D1-slow-naive-kpre-rep3",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "pre",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-180-D2-slow-naive-kpre-rep3",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "pre",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-181-D0-fast-obedient-k0-rep3",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "0",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-182-D1-fast-obedient-k0-rep3",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "0",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-183-D2-fast-obedient-k0-rep3",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "0",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-184-D0-fast-naive-k0-rep3",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "0",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-185-D1-fast-naive-k0-rep3",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "0",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-186-D2-fast-naive-k0-rep3",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "0",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-187-D0-slow-obedient-k0-rep3",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "0",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-188-D1-slow-obedient-k0-rep3",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "0",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-189-D2-slow-obedient-k0-rep3",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "0",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-190-D0-slow-naive-k0-rep3",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "0",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-191-D1-slow-naive-k0-rep3",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "0",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-192-D2-slow-naive-k0-rep3",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "0",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-193-D0-fast-obedient-k100-rep3",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "100",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-194-D1-fast-obedient-k100-rep3",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "100",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-195-D2-fast-obedient-k100-rep3",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "100",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-196-D0-fast-naive-k100-rep3",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "100",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-197-D1-fast-naive-k100-rep3",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "100",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-198-D2-fast-naive-k100-rep3",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "100",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-199-D0-slow-obedient-k100-rep3",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "100",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-200-D1-slow-obedient-k100-rep3",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "100",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-201-D2-slow-obedient-k100-rep3",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "100",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-202-D0-slow-naive-k100-rep3",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "100",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-203-D1-slow-naive-k100-rep3",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "100",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-204-D2-slow-naive-k100-rep3",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "100",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-205-D0-fast-obedient-k150-rep3",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "150",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-206-D1-fast-obedient-k150-rep3",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "150",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-207-D2-fast-obedient-k150-rep3",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "150",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-208-D0-fast-naive-k150-rep3",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "150",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-209-D1-fast-naive-k150-rep3",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "150",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-210-D2-fast-naive-k150-rep3",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "150",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-211-D0-slow-obedient-k150-rep3",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "150",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-212-D1-slow-obedient-k150-rep3",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "150",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-213-D2-slow-obedient-k150-rep3",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "150",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-214-D0-slow-naive-k150-rep3",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "150",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-215-D1-slow-naive-k150-rep3",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "150",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-216-D2-slow-naive-k150-rep3",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "150",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-217-D0-fast-obedient-k250-rep3",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "250",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-218-D1-fast-obedient-k250-rep3",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "250",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-219-D2-fast-obedient-k250-rep3",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "250",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-220-D0-fast-naive-k250-rep3",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "250",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-221-D1-fast-naive-k250-rep3",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "250",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-222-D2-fast-naive-k250-rep3",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "250",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-223-D0-slow-obedient-k250-rep3",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "250",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-224-D1-slow-obedient-k250-rep3",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "250",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-225-D2-slow-obedient-k250-rep3",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "250",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-226-D0-slow-naive-k250-rep3",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "250",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-227-D1-slow-naive-k250-rep3",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "250",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-228-D2-slow-naive-k250-rep3",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "250",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-229-D0-fast-obedient-k400-rep3",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "400",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-230-D1-fast-obedient-k400-rep3",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "400",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-231-D2-fast-obedient-k400-rep3",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "400",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-232-D0-fast-naive-k400-rep3",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "400",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-233-D1-fast-naive-k400-rep3",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "400",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-234-D2-fast-naive-k400-rep3",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "400",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-235-D0-slow-obedient-k400-rep3",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "400",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-236-D1-slow-obedient-k400-rep3",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "400",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-237-D2-slow-obedient-k400-rep3",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "400",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-238-D0-slow-naive-k400-rep3",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "400",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-239-D1-slow-naive-k400-rep3",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "400",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-240-D2-slow-naive-k400-rep3",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "400",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-241-D0-fast-obedient-k1500-rep3",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "1500",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-242-D1-fast-obedient-k1500-rep3",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "1500",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-243-D2-fast-obedient-k1500-rep3",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "fast",
+   "kill": "1500",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-244-D0-fast-naive-k1500-rep3",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "1500",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-245-D1-fast-naive-k1500-rep3",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "1500",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-246-D2-fast-naive-k1500-rep3",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "fast",
+   "kill": "1500",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-247-D0-slow-obedient-k1500-rep3",
+   "arm": "D0",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "1500",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-248-D1-slow-obedient-k1500-rep3",
+   "arm": "D1",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "1500",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-249-D2-slow-obedient-k1500-rep3",
+   "arm": "D2",
+   "policy": "obedient",
+   "tool": "slow",
+   "kill": "1500",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-250-D0-slow-naive-k1500-rep3",
+   "arm": "D0",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "1500",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-251-D1-slow-naive-k1500-rep3",
+   "arm": "D1",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "1500",
+   "rep": 3
+  },
+  {
+   "trial_id": "dsh-r1-252-D2-slow-naive-k1500-rep3",
+   "arm": "D2",
+   "policy": "naive",
+   "tool": "slow",
+   "kill": "1500",
+   "rep": 3
+  }
+ ]
+}

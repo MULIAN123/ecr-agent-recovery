@@ -1,0 +1,128 @@
+{
+ "status": "FROZEN_CANDIDATE_PENDING_USER_AUTHORIZATION (no CPX or CPQ unit has run)",
+ "computed_utc": "2026-10-21T09:33:10.214564+00:00",
+ "scope": "ECR r9.6 Batch A: CONV+g and CONV+ on frozen EBRQ-v2, 64 scenarios x R2-A/R2-B x 2 arms = 256 new units",
+ "frozen_documents": [
+  {
+   "path": "frozen/ARM_DEFINITIONS_cp1.md",
+   "sha256": "ee7f1d038a25a290ef2edac5752e1fafa3810fbd806385e6948cadc084e2128f"
+  },
+  {
+   "path": "frozen/SCORING_RULES_cp1.md",
+   "sha256": "46fe2792ce603a93a20159dc13c391320be7a7cef5ab724ac6b77840009a72e0"
+  },
+  {
+   "path": "frozen/predictions_cp1.json",
+   "sha256": "75c916fd7af8470cee5350568e044155b0135aa415e0e6b749994cd84d9116f6"
+  },
+  {
+   "path": "frozen/UNIT_MANIFEST_cp1.csv",
+   "sha256": "1862bf3f43fbdf47b234d03c9bec4517ef3b800ed1ec6a48382ea05056ea09c8"
+  },
+  {
+   "path": "frozen/SOURCE_DIFFS_cp1.diff",
+   "sha256": "b3dcbf64df12ed958718b59cc76cb5d131e42f7d76fa598aadc91c98685efcff"
+  },
+  {
+   "path": "frozen/freeze_candidate_cp1_code_manifest.json",
+   "sha256": "93bf8df68293537c9da0bba489f9b1dfae9f5373334e906ad677619b19296799"
+  }
+ ],
+ "package": {
+  "candidate_manifest_sha256": "93bf8df68293537c9da0bba489f9b1dfae9f5373334e906ad677619b19296799",
+  "file_count": 60,
+  "added_vs_v4": [
+   "CHANGES_cp1.md",
+   "arms/CP_SEQ_DISP/delivery-reconciliation-execution.ts",
+   "arms/CP_SEQ_DISP/delivery-reconciliation.ts",
+   "private/cells_cp1.json",
+   "runner/run_cp1.py",
+   "src_cp/agent_v1.py",
+   "src_cp/agent_v2.py",
+   "src_cp/authority.py",
+   "src_cp/endpoint.py",
+   "src_cp/evidence.py",
+   "src_cp/plan.mjs",
+   "src_cp/plan_js.mjs",
+   "src_cp/protocol.py",
+   "src_cp/scorer.py",
+   "src_cp/scorer_v2.py",
+   "tests/test_cp1_static.py",
+   "tools/build_cp1_cells.py",
+   "tools/make_execution_manifest_cp1.py"
+  ],
+  "cells_cp1_sha256": "91f8291c0dbf110a6183843396f049bf1c3afcf7635f6a01268b4f70e4e2e856",
+  "cells_p3_sha256": "c244199721f4982bbda5aacf2b09e837e19a6b1395ab62a6dcdbc7025aa190b6"
+ },
+ "analysis_tool": {
+  "path": "analysis_cp1/aggregate_cp1.py",
+  "sha256": "d448010c6834ce1f14d63f09ba0fe02920bbac7f00fa66af1f8641b0fda035e3",
+  "derived_from_v3_sha256": "2ad62ae2c0912d026fd4831b2fa1f79ee5f778ee31edbe57dfe06e427c8c4ac9"
+ },
+ "prep_scripts": [
+  {
+   "path": "prep/scripts/extract_historical_v2.py",
+   "sha256": "ed22c80a9fca642c591c6bdcce34e134aa0b2a741cc7c9e6e7c98e73f913b10c"
+  },
+  {
+   "path": "prep/scripts/gate_worker.py",
+   "sha256": "94f66a973912e782a1c719bf2d422442f27226fd7f931a44d255f61e421437b6"
+  },
+  {
+   "path": "prep/scripts/make_freeze_cp1.py",
+   "sha256": "a6050c4860063f5914edb9c6cba2b64c6aa59501a1c5b56181108f307771f5d5"
+  },
+  {
+   "path": "prep/scripts/make_predictions.py",
+   "sha256": "6f6a641463e5b8c0884cf9e4a090bbe86783b216d94be2f94a174da6fbf9eb53"
+  },
+  {
+   "path": "prep/scripts/selftest_aggregate_cp1.py",
+   "sha256": "bcf0ae02e967b478ccc7f07745f326fbc86549e7957298b1b64a82ee64d78731"
+  },
+  {
+   "path": "prep/scripts/static_gate_check.py",
+   "sha256": "44b5f6bc0534b2c241ef7d8ad4f2e30b14faa5146d2d6d035d38193a6d20a049"
+  },
+  {
+   "path": "prep/scripts/static_replay_classifier.py",
+   "sha256": "5558eacab0b510e83baedb7be4b01b0dae69bd8f0005ec918a6dbfcdfccb64d2"
+  }
+ ],
+ "static_check_outputs": [
+  {
+   "path": "prep/work/historical_v2_by_scenario.csv",
+   "sha256": "12c90bdb0c1e725dcbfe15d0852bf4b21b69ca3f0f341ac4b14e98f797a0f862"
+  },
+  {
+   "path": "prep/work/historical_v2_by_scenario.json",
+   "sha256": "109a4a393015cce4fcfa5d3670311b219dd3f2fa3134c30805fc14cd75ec7f02"
+  },
+  {
+   "path": "prep/work/selftest_aggregate_cp1.json",
+   "sha256": "cfad77ee2f458fda1982c31052462b44ae4452e1fbdf611b8c82de084590894a"
+  },
+  {
+   "path": "prep/work/static_gate_check.json",
+   "sha256": "a4afe828443d4d7f92064c5d91933cfb263e40f3a9dfcdbf3b69fcfbfc2e02f6"
+  },
+  {
+   "path": "prep/work/static_gate_check.stdout.txt",
+   "sha256": "7c536d792ae09c5b5b9ca4348c2a2a52fffeb8929284001d7d6e99fa04903f66"
+  },
+  {
+   "path": "prep/work/static_replay_classifier.json",
+   "sha256": "c636c9c7d2803ce87c2583c298b5cf8cd894525c2025d41a4cbfa7933be79506"
+  },
+  {
+   "path": "prep/work/static_replay_classifier.stdout.txt",
+   "sha256": "57ba2e3bff9579c986367105993f8be115d99a66c3a27e36de9ed4d5adf95114"
+  }
+ ],
+ "guest_generated_later": [
+  "arms_js/ (strip_ts.mjs, arm CP_SEQ_DISP, pinned Node 7fde7b8a...)",
+  "execution-manifest-cp1.json (make_execution_manifest_cp1.py --candidate-manifest frozen/freeze_candidate_cp1_code_manifest.json)",
+  "qualification-authorization.json (only after CPQ passes and the user approves)"
+ ],
+ "rules": "changing any frozen document after the first CPX attempt requires a new version; the old version and the reason are kept"
+}

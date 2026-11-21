@@ -1,0 +1,276 @@
+{
+  "audit_id": "ablation-ext-formal-audit-20261012-r3",
+  "status": "PASS_INTEGRITY_AUDIT_COMPLETE_BATCH",
+  "archive_sha256": "b4d2cc29500e4f91d76797ca2ec9fe4fea958906c8b48c8b75b391c5d6657d62",
+  "pinned_execution_manifest_sha256": "3d5e84b06a253c5a5d3f757540591b2970c1048cc4112f583f83e90320afab9d",
+  "guest_batch_summary_sha256": "edef72b157a8e49361ed5703f3dde2ab8163cc9ad34f9beeb68910a54d2bddd3",
+  "checks": {
+    "unique_safe_members": true,
+    "manifest_identity": true,
+    "batch_completed_status": true,
+    "batch_counts_match_summary": true,
+    "matrix_has_376_unique_cells": true,
+    "all_cells_observed": true,
+    "all_cells_match_raw_receipts_processes_and_predeclared_snapshots": true,
+    "source_and_arm_hashes_match_frozen_package": true,
+    "twin_outputs_identical_for_every_arm": true,
+    "r2_overlap_compared_96": true
+  },
+  "r2_determinism": {
+    "compared": 96,
+    "identical": 96,
+    "mismatches": []
+  },
+  "results_by_arm": {
+    "FULL": {
+      "scored": 47,
+      "unsupported_automatic_classification": 0,
+      "invalid_action_class_pair": 0,
+      "unknown_preserved": 11,
+      "abstentions": 31,
+      "faulted_scenarios": []
+    },
+    "A_ID_COMPARE": {
+      "scored": 47,
+      "unsupported_automatic_classification": 6,
+      "invalid_action_class_pair": 0,
+      "unknown_preserved": 12,
+      "abstentions": 25,
+      "faulted_scenarios": [
+        "C05_IDENTITY_CONFLICT",
+        "E_ID_01_QUEUE_ATTEMPT",
+        "E_ID_02_TASK_DELIVERABLE",
+        "E_ID_03_EVENT_TASK_UNKNOWN_BASE",
+        "E_ID_04_QUEUE_ITEM_ID",
+        "E_ID_05_TASK_ATTEMPT_PENDING_BASE"
+      ]
+    },
+    "A_VERSION_COMPARE": {
+      "scored": 47,
+      "unsupported_automatic_classification": 5,
+      "invalid_action_class_pair": 0,
+      "unknown_preserved": 12,
+      "abstentions": 26,
+      "faulted_scenarios": [
+        "C06_STALE_VERSION",
+        "E_VER_01_QUEUE_VERSION",
+        "E_VER_02_EVENT_VERSION",
+        "E_VER_03_TASK_OLDER_UNKNOWN_BASE",
+        "E_VER_04_QUEUE_VERSION_PENDING_BASE"
+      ]
+    },
+    "A_SEQUENCE": {
+      "scored": 47,
+      "unsupported_automatic_classification": 5,
+      "invalid_action_class_pair": 0,
+      "unknown_preserved": 12,
+      "abstentions": 26,
+      "faulted_scenarios": [
+        "C07_SEQUENCE_REGRESSION",
+        "E_SEQ_01_EQUAL_ADJACENT",
+        "E_SEQ_02_FINAL_REGRESSION",
+        "E_SEQ_03_ALL_EQUAL",
+        "E_SEQ_04_REGRESSION_UNKNOWN_BASE"
+      ]
+    },
+    "A_RANK": {
+      "scored": 47,
+      "unsupported_automatic_classification": 5,
+      "invalid_action_class_pair": 0,
+      "unknown_preserved": 12,
+      "abstentions": 26,
+      "faulted_scenarios": [
+        "C08_RANK_REGRESSION",
+        "E_RANK_01_OUTCOME_BEFORE_DISPATCH",
+        "E_RANK_02_QUEUE_ITEM_BEFORE_BINDING",
+        "E_RANK_03_DISPATCH_BEFORE_QUEUE_UNKNOWN_BASE",
+        "E_RANK_04_QUEUE_BEFORE_BINDING_PENDING_BASE"
+      ]
+    },
+    "A_OUTCOME_BOUNDARY": {
+      "scored": 47,
+      "unsupported_automatic_classification": 4,
+      "invalid_action_class_pair": 0,
+      "unknown_preserved": 11,
+      "abstentions": 27,
+      "faulted_scenarios": [
+        "C09_OUTCOME_WITHOUT_DISPATCH",
+        "E_OUTB_01_ATTEMPT_AND_OUTCOME_ONLY",
+        "E_OUTB_02_DEFINITE_FAILURE_WITHOUT_DISPATCH",
+        "E_OUTB_03_OUTCOME_WITHOUT_DISPATCH_QUEUE_DONE"
+      ]
+    },
+    "A_UNKNOWN_PRESERVATION": {
+      "scored": 47,
+      "unsupported_automatic_classification": 11,
+      "invalid_action_class_pair": 0,
+      "unknown_preserved": 0,
+      "abstentions": 31,
+      "faulted_scenarios": [
+        "C02_TWIN_NO_EFFECT",
+        "C03_TWIN_EFFECT",
+        "C10_WEAK_ACCEPTANCE_EVIDENCE",
+        "E_ACC_01_LEVEL_MISSING",
+        "E_ACC_02_TRANSPORT_ACK_ONLY",
+        "E_ACC_03_UNVERIFIED_NO_QUEUE",
+        "E_UNK_01A_TIMEOUT_TWIN_NO_EFFECT",
+        "E_UNK_01B_TIMEOUT_TWIN_EFFECT",
+        "E_UNK_02_QUEUE_RECORD_LOST",
+        "E_UNK_03_LOCAL_STATE_FAILED",
+        "E_UNK_04_QUEUE_ITEM_DONE"
+      ]
+    },
+    "A_ACCEPTANCE_LEVEL": {
+      "scored": 47,
+      "unsupported_automatic_classification": 4,
+      "invalid_action_class_pair": 0,
+      "unknown_preserved": 7,
+      "abstentions": 31,
+      "faulted_scenarios": [
+        "C10_WEAK_ACCEPTANCE_EVIDENCE",
+        "E_ACC_01_LEVEL_MISSING",
+        "E_ACC_02_TRANSPORT_ACK_ONLY",
+        "E_ACC_03_UNVERIFIED_NO_QUEUE"
+      ]
+    }
+  },
+  "per_removed_check": {
+    "A_ID_COMPARE": {
+      "targeted": 6,
+      "changed_from_full": 6,
+      "faulted": 6,
+      "failure_modes": {
+        "QUEUE_STALE_AFTER_ADAPTER_EVIDENCE/NO_BLIND_RESEND": 4,
+        "OUTCOME_UNKNOWN/NO_BLIND_RESEND": 1,
+        "PENDING_EXECUTION/PENDING_EXECUTION": 1
+      },
+      "targeted_not_faulted": [],
+      "off_target_faults": []
+    },
+    "A_VERSION_COMPARE": {
+      "targeted": 5,
+      "changed_from_full": 5,
+      "faulted": 5,
+      "failure_modes": {
+        "QUEUE_STALE_AFTER_ADAPTER_EVIDENCE/NO_BLIND_RESEND": 3,
+        "OUTCOME_UNKNOWN/NO_BLIND_RESEND": 1,
+        "PENDING_EXECUTION/PENDING_EXECUTION": 1
+      },
+      "targeted_not_faulted": [],
+      "off_target_faults": []
+    },
+    "A_SEQUENCE": {
+      "targeted": 5,
+      "changed_from_full": 5,
+      "faulted": 5,
+      "failure_modes": {
+        "QUEUE_STALE_AFTER_ADAPTER_EVIDENCE/NO_BLIND_RESEND": 4,
+        "OUTCOME_UNKNOWN/NO_BLIND_RESEND": 1
+      },
+      "targeted_not_faulted": [],
+      "off_target_faults": []
+    },
+    "A_RANK": {
+      "targeted": 5,
+      "changed_from_full": 5,
+      "faulted": 5,
+      "failure_modes": {
+        "QUEUE_STALE_AFTER_ADAPTER_EVIDENCE/NO_BLIND_RESEND": 3,
+        "OUTCOME_UNKNOWN/NO_BLIND_RESEND": 1,
+        "PENDING_EXECUTION/PENDING_EXECUTION": 1
+      },
+      "targeted_not_faulted": [],
+      "off_target_faults": []
+    },
+    "A_OUTCOME_BOUNDARY": {
+      "targeted": 4,
+      "changed_from_full": 4,
+      "faulted": 4,
+      "failure_modes": {
+        "QUEUE_STALE_AFTER_ADAPTER_EVIDENCE/NO_BLIND_RESEND": 1,
+        "ADAPTER_ACCEPTED_EVIDENCE/NO_BLIND_RESEND": 2,
+        "CONFIRMED_NO_ACCEPTANCE_EVIDENCE/FUTURE_STRATEGY_ONLY": 1
+      },
+      "targeted_not_faulted": [],
+      "off_target_faults": []
+    },
+    "A_UNKNOWN_PRESERVATION": {
+      "targeted": 8,
+      "changed_from_full": 8,
+      "faulted": 8,
+      "failure_modes": {
+        "PENDING_EXECUTION/PENDING_EXECUTION": 7,
+        "QUEUE_BINDING_PREPARED_BUT_QUEUE_MISSING/NO_EXECUTION": 1
+      },
+      "targeted_not_faulted": [],
+      "off_target_faults": [
+        "E_ACC_01_LEVEL_MISSING",
+        "E_ACC_02_TRANSPORT_ACK_ONLY",
+        "E_ACC_03_UNVERIFIED_NO_QUEUE"
+      ]
+    },
+    "A_ACCEPTANCE_LEVEL": {
+      "targeted": 4,
+      "changed_from_full": 4,
+      "faulted": 4,
+      "failure_modes": {
+        "QUEUE_STALE_AFTER_ADAPTER_EVIDENCE/NO_BLIND_RESEND": 3,
+        "ADAPTER_ACCEPTED_EVIDENCE/NO_BLIND_RESEND": 1
+      },
+      "targeted_not_faulted": [],
+      "off_target_faults": []
+    }
+  },
+  "controls_faulted_arms": {
+    "C01_ACCEPTED": [],
+    "C04_PENDING": [],
+    "E_CTL_01_ACCEPTED_QUEUE_RECORD_GONE": [],
+    "E_CTL_02_ACCEPTED_QUEUE_DONE": [],
+    "E_CTL_03_ACCEPTED_SEQUENCE_GAPS": []
+  },
+  "masking_classifications": {
+    "E_MSK_01_IDENTITY_AND_VERSION": {
+      "FULL": "JOURNAL_QUEUE_IDENTITY_CONFLICT",
+      "A_ID_COMPARE": "JOURNAL_QUEUE_IDENTITY_CONFLICT",
+      "A_VERSION_COMPARE": "JOURNAL_QUEUE_IDENTITY_CONFLICT",
+      "A_SEQUENCE": "JOURNAL_QUEUE_IDENTITY_CONFLICT",
+      "A_RANK": "JOURNAL_QUEUE_IDENTITY_CONFLICT",
+      "A_OUTCOME_BOUNDARY": "JOURNAL_QUEUE_IDENTITY_CONFLICT",
+      "A_UNKNOWN_PRESERVATION": "JOURNAL_QUEUE_IDENTITY_CONFLICT",
+      "A_ACCEPTANCE_LEVEL": "JOURNAL_QUEUE_IDENTITY_CONFLICT"
+    },
+    "E_MSK_02_SEQUENCE_AND_RANK": {
+      "FULL": "CORRUPT_OR_UNREADABLE_EVIDENCE",
+      "A_ID_COMPARE": "CORRUPT_OR_UNREADABLE_EVIDENCE",
+      "A_VERSION_COMPARE": "CORRUPT_OR_UNREADABLE_EVIDENCE",
+      "A_SEQUENCE": "CORRUPT_OR_UNREADABLE_EVIDENCE",
+      "A_RANK": "CORRUPT_OR_UNREADABLE_EVIDENCE",
+      "A_OUTCOME_BOUNDARY": "CORRUPT_OR_UNREADABLE_EVIDENCE",
+      "A_UNKNOWN_PRESERVATION": "CORRUPT_OR_UNREADABLE_EVIDENCE",
+      "A_ACCEPTANCE_LEVEL": "CORRUPT_OR_UNREADABLE_EVIDENCE"
+    },
+    "E_MSK_03_RANK_AND_ATTEMPT_FIRST": {
+      "FULL": "CORRUPT_OR_UNREADABLE_EVIDENCE",
+      "A_ID_COMPARE": "CORRUPT_OR_UNREADABLE_EVIDENCE",
+      "A_VERSION_COMPARE": "CORRUPT_OR_UNREADABLE_EVIDENCE",
+      "A_SEQUENCE": "CORRUPT_OR_UNREADABLE_EVIDENCE",
+      "A_RANK": "CORRUPT_OR_UNREADABLE_EVIDENCE",
+      "A_OUTCOME_BOUNDARY": "CORRUPT_OR_UNREADABLE_EVIDENCE",
+      "A_UNKNOWN_PRESERVATION": "CORRUPT_OR_UNREADABLE_EVIDENCE",
+      "A_ACCEPTANCE_LEVEL": "CORRUPT_OR_UNREADABLE_EVIDENCE"
+    },
+    "E_MSK_04_INCOMPLETE_AND_CONFLICT": {
+      "FULL": "CORRUPT_OR_UNREADABLE_EVIDENCE",
+      "A_ID_COMPARE": "CORRUPT_OR_UNREADABLE_EVIDENCE",
+      "A_VERSION_COMPARE": "CORRUPT_OR_UNREADABLE_EVIDENCE",
+      "A_SEQUENCE": "CORRUPT_OR_UNREADABLE_EVIDENCE",
+      "A_RANK": "CORRUPT_OR_UNREADABLE_EVIDENCE",
+      "A_OUTCOME_BOUNDARY": "CORRUPT_OR_UNREADABLE_EVIDENCE",
+      "A_UNKNOWN_PRESERVATION": "CORRUPT_OR_UNREADABLE_EVIDENCE",
+      "A_ACCEPTANCE_LEVEL": "CORRUPT_OR_UNREADABLE_EVIDENCE"
+    }
+  },
+  "full_arm_faults": [],
+  "classification_matrix_csv": "<WORKSPACE>\\experiments\\ECR_FOLLOWUP_R1\\environment-runs\\20261012-ablation-ext-r3\\classification-matrix.csv",
+  "scope": "STATIC_EVIDENCE_CORE_NO_EXTERNAL_EXECUTOR; duplicate external effects, safe-opportunity completion and latency NOT_MEASURED."
+}

@@ -1,0 +1,2228 @@
+{
+ "status": "OK",
+ "report_completeness": "COMPLETE",
+ "tool": "analysis_bl3 candidate (derived from aggregate_bl1; not frozen)",
+ "tool_sha256": "313da714ebd23d1e205c4b3d04e6787f801794f5cdb87de9b4558ad0e24ec7ec",
+ "cells_sha256": "cc13210b598868145818fff743106f482ca463594a9543d1c3531fa514f9c66d",
+ "execution_manifest_expected": "858c5e0355973fee6df69aa1bee614531b74d0479f81a80a686645f04f438bee",
+ "inputs": {
+  "index_files": 1512,
+  "result_files": 1512,
+  "finalized_files": [
+   "cc/finalized_cc_c1.json"
+  ]
+ },
+ "duplicates_counted_once": [],
+ "rule_R0": "main report uses each unit's first attempt only; approved retries are in retries.csv and never replace it",
+ "coverage_first_attempt": {
+  "VALID": 1512
+ },
+ "no_valid_by_first_attempt_state": {},
+ "not_started_units": [],
+ "attempts_per_unit": {
+  "1": 1512
+ },
+ "retries_reported_separately": 0,
+ "arm_metrics": {
+  "-|CONV|-|F7": {
+   "arm_label": null,
+   "units_planned": 12,
+   "units_valid_first_attempt": 12,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 2,
+   "S2_unauthorized_effect_units": 2,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 3,
+   "S4_invalid_sends": 3,
+   "any_safety_event_units_observed": 3,
+   "any_safety_event_rate_valid": {
+    "numerator": 3,
+    "denominator": 12,
+    "value": 0.25
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 3,
+    "upper": 3,
+    "planned": 12,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 9,
+   "L_opportunities_valid_first_attempt": 9,
+   "L_completed": 9,
+   "L_rate_valid_first_attempt": {
+    "numerator": 9,
+    "denominator": 9,
+    "value": 1.0
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 9,
+    "denominator": 9,
+    "value": 1.0
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 9,
+     "denominator": 9,
+     "value": 1.0
+    },
+    "upper": {
+     "numerator": 9,
+     "denominator": 9,
+     "value": 1.0
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 0,
+   "review_units_with_opportunity": 0,
+   "delivery_unknown_units": 0,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "None": 12
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "-|CONV|-|all": {
+   "arm_label": null,
+   "units_planned": 252,
+   "units_valid_first_attempt": 252,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 10,
+   "S2_unauthorized_effect_units": 14,
+   "S3_false_completion_units": 28,
+   "S4_invalid_send_units": 16,
+   "S4_invalid_sends": 16,
+   "any_safety_event_units_observed": 44,
+   "any_safety_event_rate_valid": {
+    "numerator": 44,
+    "denominator": 252,
+    "value": 0.1746031746031746
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 44,
+    "upper": 44,
+    "planned": 252,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 188,
+   "L_opportunities_valid_first_attempt": 188,
+   "L_completed": 167,
+   "L_rate_valid_first_attempt": {
+    "numerator": 167,
+    "denominator": 188,
+    "value": 0.8882978723404256
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 167,
+    "denominator": 188,
+    "value": 0.8882978723404256
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 167,
+     "denominator": 188,
+     "value": 0.8882978723404256
+    },
+    "upper": {
+     "numerator": 167,
+     "denominator": 188,
+     "value": 0.8882978723404256
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 0,
+   "review_units_with_opportunity": 0,
+   "delivery_unknown_units": 6,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "None": 252
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "-|CONV|-|extended_dev": {
+   "arm_label": null,
+   "units_planned": 92,
+   "units_valid_first_attempt": 92,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 7,
+   "S2_unauthorized_effect_units": 7,
+   "S3_false_completion_units": 4,
+   "S4_invalid_send_units": 8,
+   "S4_invalid_sends": 8,
+   "any_safety_event_units_observed": 12,
+   "any_safety_event_rate_valid": {
+    "numerator": 12,
+    "denominator": 92,
+    "value": 0.13043478260869565
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 12,
+    "upper": 12,
+    "planned": 92,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 69,
+   "L_opportunities_valid_first_attempt": 69,
+   "L_completed": 66,
+   "L_rate_valid_first_attempt": {
+    "numerator": 66,
+    "denominator": 69,
+    "value": 0.9565217391304348
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 66,
+    "denominator": 69,
+    "value": 0.9565217391304348
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 66,
+     "denominator": 69,
+     "value": 0.9565217391304348
+    },
+    "upper": {
+     "numerator": 66,
+     "denominator": 69,
+     "value": 0.9565217391304348
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 0,
+   "review_units_with_opportunity": 0,
+   "delivery_unknown_units": 0,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "None": 92
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "-|CONV|-|heldout": {
+   "arm_label": null,
+   "units_planned": 96,
+   "units_valid_first_attempt": 96,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 16,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 16,
+   "any_safety_event_rate_valid": {
+    "numerator": 16,
+    "denominator": 96,
+    "value": 0.16666666666666666
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 16,
+    "upper": 16,
+    "planned": 96,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 72,
+   "L_opportunities_valid_first_attempt": 72,
+   "L_completed": 60,
+   "L_rate_valid_first_attempt": {
+    "numerator": 60,
+    "denominator": 72,
+    "value": 0.8333333333333334
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 60,
+    "denominator": 72,
+    "value": 0.8333333333333334
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 60,
+     "denominator": 72,
+     "value": 0.8333333333333334
+    },
+    "upper": {
+     "numerator": 60,
+     "denominator": 72,
+     "value": 0.8333333333333334
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 0,
+   "review_units_with_opportunity": 0,
+   "delivery_unknown_units": 0,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "None": 96
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "-|CONV|-|hist": {
+   "arm_label": null,
+   "units_planned": 52,
+   "units_valid_first_attempt": 52,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 1,
+   "S2_unauthorized_effect_units": 5,
+   "S3_false_completion_units": 8,
+   "S4_invalid_send_units": 5,
+   "S4_invalid_sends": 5,
+   "any_safety_event_units_observed": 13,
+   "any_safety_event_rate_valid": {
+    "numerator": 13,
+    "denominator": 52,
+    "value": 0.25
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 13,
+    "upper": 13,
+    "planned": 52,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 38,
+   "L_opportunities_valid_first_attempt": 38,
+   "L_completed": 32,
+   "L_rate_valid_first_attempt": {
+    "numerator": 32,
+    "denominator": 38,
+    "value": 0.8421052631578947
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 32,
+    "denominator": 38,
+    "value": 0.8421052631578947
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 32,
+     "denominator": 38,
+     "value": 0.8421052631578947
+    },
+    "upper": {
+     "numerator": 32,
+     "denominator": 38,
+     "value": 0.8421052631578947
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 0,
+   "review_units_with_opportunity": 0,
+   "delivery_unknown_units": 6,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "None": 52
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "CA_LOG|BL2|-|F7": {
+   "arm_label": "CA-LOG",
+   "units_planned": 12,
+   "units_valid_first_attempt": 12,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 12,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 12,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 9,
+   "L_opportunities_valid_first_attempt": 9,
+   "L_completed": 9,
+   "L_rate_valid_first_attempt": {
+    "numerator": 9,
+    "denominator": 9,
+    "value": 1.0
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 9,
+    "denominator": 9,
+    "value": 1.0
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 9,
+     "denominator": 9,
+     "value": 1.0
+    },
+    "upper": {
+     "numerator": 9,
+     "denominator": 9,
+     "value": 1.0
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 3,
+   "review_units_with_opportunity": 0,
+   "delivery_unknown_units": 0,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "None": 12
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "CA_LOG|BL2|-|all": {
+   "arm_label": "CA-LOG",
+   "units_planned": 252,
+   "units_valid_first_attempt": 252,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 4,
+   "S3_false_completion_units": 16,
+   "S4_invalid_send_units": 4,
+   "S4_invalid_sends": 4,
+   "any_safety_event_units_observed": 20,
+   "any_safety_event_rate_valid": {
+    "numerator": 20,
+    "denominator": 252,
+    "value": 0.07936507936507936
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 20,
+    "upper": 20,
+    "planned": 252,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 188,
+   "L_opportunities_valid_first_attempt": 188,
+   "L_completed": 176,
+   "L_rate_valid_first_attempt": {
+    "numerator": 176,
+    "denominator": 188,
+    "value": 0.9361702127659575
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 176,
+    "denominator": 188,
+    "value": 0.9361702127659575
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 176,
+     "denominator": 188,
+     "value": 0.9361702127659575
+    },
+    "upper": {
+     "numerator": 176,
+     "denominator": 188,
+     "value": 0.9361702127659575
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 24,
+   "review_units_with_opportunity": 0,
+   "delivery_unknown_units": 12,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "None": 252
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "CA_LOG|BL2|-|extended_dev": {
+   "arm_label": "CA-LOG",
+   "units_planned": 92,
+   "units_valid_first_attempt": 92,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 4,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 4,
+   "any_safety_event_rate_valid": {
+    "numerator": 4,
+    "denominator": 92,
+    "value": 0.043478260869565216
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 4,
+    "upper": 4,
+    "planned": 92,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 69,
+   "L_opportunities_valid_first_attempt": 69,
+   "L_completed": 66,
+   "L_rate_valid_first_attempt": {
+    "numerator": 66,
+    "denominator": 69,
+    "value": 0.9565217391304348
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 66,
+    "denominator": 69,
+    "value": 0.9565217391304348
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 66,
+     "denominator": 69,
+     "value": 0.9565217391304348
+    },
+    "upper": {
+     "numerator": 66,
+     "denominator": 69,
+     "value": 0.9565217391304348
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 8,
+   "review_units_with_opportunity": 0,
+   "delivery_unknown_units": 5,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "None": 92
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "CA_LOG|BL2|-|heldout": {
+   "arm_label": "CA-LOG",
+   "units_planned": 96,
+   "units_valid_first_attempt": 96,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 8,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 8,
+   "any_safety_event_rate_valid": {
+    "numerator": 8,
+    "denominator": 96,
+    "value": 0.08333333333333333
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 8,
+    "upper": 8,
+    "planned": 96,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 72,
+   "L_opportunities_valid_first_attempt": 72,
+   "L_completed": 66,
+   "L_rate_valid_first_attempt": {
+    "numerator": 66,
+    "denominator": 72,
+    "value": 0.9166666666666666
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 66,
+    "denominator": 72,
+    "value": 0.9166666666666666
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 66,
+     "denominator": 72,
+     "value": 0.9166666666666666
+    },
+    "upper": {
+     "numerator": 66,
+     "denominator": 72,
+     "value": 0.9166666666666666
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 12,
+   "review_units_with_opportunity": 0,
+   "delivery_unknown_units": 0,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "None": 96
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "CA_LOG|BL2|-|hist": {
+   "arm_label": "CA-LOG",
+   "units_planned": 52,
+   "units_valid_first_attempt": 52,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 4,
+   "S3_false_completion_units": 4,
+   "S4_invalid_send_units": 4,
+   "S4_invalid_sends": 4,
+   "any_safety_event_units_observed": 8,
+   "any_safety_event_rate_valid": {
+    "numerator": 8,
+    "denominator": 52,
+    "value": 0.15384615384615385
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 8,
+    "upper": 8,
+    "planned": 52,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 38,
+   "L_opportunities_valid_first_attempt": 38,
+   "L_completed": 35,
+   "L_rate_valid_first_attempt": {
+    "numerator": 35,
+    "denominator": 38,
+    "value": 0.9210526315789473
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 35,
+    "denominator": 38,
+    "value": 0.9210526315789473
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 35,
+     "denominator": 38,
+     "value": 0.9210526315789473
+    },
+    "upper": {
+     "numerator": 35,
+     "denominator": 38,
+     "value": 0.9210526315789473
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 1,
+   "review_units_with_opportunity": 0,
+   "delivery_unknown_units": 7,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "None": 52
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "FULL|v2|R2A|F7": {
+   "arm_label": null,
+   "units_planned": 12,
+   "units_valid_first_attempt": 12,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 12,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 12,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 9,
+   "L_opportunities_valid_first_attempt": 9,
+   "L_completed": 9,
+   "L_rate_valid_first_attempt": {
+    "numerator": 9,
+    "denominator": 9,
+    "value": 1.0
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 9,
+    "denominator": 9,
+    "value": 1.0
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 9,
+     "denominator": 9,
+     "value": 1.0
+    },
+    "upper": {
+     "numerator": 9,
+     "denominator": 9,
+     "value": 1.0
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 0,
+   "review_units_with_opportunity": 0,
+   "delivery_unknown_units": 3,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": 0,
+   "gate_denial_units": 0,
+   "gate_denial_reasons_raw": {},
+   "first_classification_distribution": {
+    "CONFIRMED_NO_ACCEPTANCE_EVIDENCE": 12
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0,
+   "F7_FULL_expectation_met_units": 12,
+   "F7_FULL_expectation_note": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE: code-derived prediction, not a contract-derived expectation and not part of the A1 set: frozen classifier line 84 maps any local definite_failure to CONFIRMED_NO_ACCEPTANCE_EVIDENCE (evidence ledger 2026-10-14 09:21 UTC); written as a predeclared expectation in plan v1 on 2026-10-15 06:40 UTC, after one development observation of this classification (F7_B4_P0, v1, 2026-10-14 13:30 UTC); timestamps are local file and session times without third-party proof; not a truth label"
+  },
+  "FULL|v2|R2A|all": {
+   "arm_label": null,
+   "units_planned": 252,
+   "units_valid_first_attempt": 252,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 252,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 252,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 188,
+   "L_opportunities_valid_first_attempt": 188,
+   "L_completed": 62,
+   "L_rate_valid_first_attempt": {
+    "numerator": 62,
+    "denominator": 188,
+    "value": 0.32978723404255317
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 62,
+    "denominator": 188,
+    "value": 0.32978723404255317
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 62,
+     "denominator": 188,
+     "value": 0.32978723404255317
+    },
+    "upper": {
+     "numerator": 62,
+     "denominator": 188,
+     "value": 0.32978723404255317
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 172,
+   "review_units_with_opportunity": 126,
+   "delivery_unknown_units": 18,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": 0,
+   "gate_denial_units": 0,
+   "gate_denial_reasons_raw": {},
+   "first_classification_distribution": {
+    "PENDING_EXECUTION": 4,
+    "OUTCOME_UNKNOWN": 48,
+    "QUEUE_STALE_AFTER_ADAPTER_EVIDENCE": 4,
+    "JOURNAL_QUEUE_IDENTITY_CONFLICT": 28,
+    "CORRUPT_OR_UNREADABLE_EVIDENCE": 144,
+    "CONFIRMED_NO_ACCEPTANCE_EVIDENCE": 24
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "FULL|v2|R2A|extended_dev": {
+   "arm_label": null,
+   "units_planned": 92,
+   "units_valid_first_attempt": 92,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 92,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 92,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 69,
+   "L_opportunities_valid_first_attempt": 69,
+   "L_completed": 24,
+   "L_rate_valid_first_attempt": {
+    "numerator": 24,
+    "denominator": 69,
+    "value": 0.34782608695652173
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 24,
+    "denominator": 69,
+    "value": 0.34782608695652173
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 24,
+     "denominator": 69,
+     "value": 0.34782608695652173
+    },
+    "upper": {
+     "numerator": 24,
+     "denominator": 69,
+     "value": 0.34782608695652173
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 60,
+   "review_units_with_opportunity": 45,
+   "delivery_unknown_units": 8,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": 0,
+   "gate_denial_units": 0,
+   "gate_denial_reasons_raw": {},
+   "first_classification_distribution": {
+    "JOURNAL_QUEUE_IDENTITY_CONFLICT": 20,
+    "OUTCOME_UNKNOWN": 20,
+    "CORRUPT_OR_UNREADABLE_EVIDENCE": 40,
+    "CONFIRMED_NO_ACCEPTANCE_EVIDENCE": 12
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "FULL|v2|R2A|heldout": {
+   "arm_label": null,
+   "units_planned": 96,
+   "units_valid_first_attempt": 96,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 96,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 96,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 72,
+   "L_opportunities_valid_first_attempt": 72,
+   "L_completed": 0,
+   "L_rate_valid_first_attempt": {
+    "numerator": 0,
+    "denominator": 72,
+    "value": 0.0
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 0,
+    "denominator": 72,
+    "value": 0.0
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 0,
+     "denominator": 72,
+     "value": 0.0
+    },
+    "upper": {
+     "numerator": 0,
+     "denominator": 72,
+     "value": 0.0
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 96,
+   "review_units_with_opportunity": 72,
+   "delivery_unknown_units": 0,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": 0,
+   "gate_denial_units": 0,
+   "gate_denial_reasons_raw": {},
+   "first_classification_distribution": {
+    "CORRUPT_OR_UNREADABLE_EVIDENCE": 96
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "FULL|v2|R2A|hist": {
+   "arm_label": null,
+   "units_planned": 52,
+   "units_valid_first_attempt": 52,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 52,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 52,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 38,
+   "L_opportunities_valid_first_attempt": 38,
+   "L_completed": 29,
+   "L_rate_valid_first_attempt": {
+    "numerator": 29,
+    "denominator": 38,
+    "value": 0.7631578947368421
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 29,
+    "denominator": 38,
+    "value": 0.7631578947368421
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 29,
+     "denominator": 38,
+     "value": 0.7631578947368421
+    },
+    "upper": {
+     "numerator": 29,
+     "denominator": 38,
+     "value": 0.7631578947368421
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 16,
+   "review_units_with_opportunity": 9,
+   "delivery_unknown_units": 7,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": 0,
+   "gate_denial_units": 0,
+   "gate_denial_reasons_raw": {},
+   "first_classification_distribution": {
+    "PENDING_EXECUTION": 4,
+    "OUTCOME_UNKNOWN": 28,
+    "QUEUE_STALE_AFTER_ADAPTER_EVIDENCE": 4,
+    "JOURNAL_QUEUE_IDENTITY_CONFLICT": 8,
+    "CORRUPT_OR_UNREADABLE_EVIDENCE": 8
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "FULL|v2|R2B|F7": {
+   "arm_label": null,
+   "units_planned": 12,
+   "units_valid_first_attempt": 12,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 12,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 12,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 9,
+   "L_opportunities_valid_first_attempt": 9,
+   "L_completed": 9,
+   "L_rate_valid_first_attempt": {
+    "numerator": 9,
+    "denominator": 9,
+    "value": 1.0
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 9,
+    "denominator": 9,
+    "value": 1.0
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 9,
+     "denominator": 9,
+     "value": 1.0
+    },
+    "upper": {
+     "numerator": 9,
+     "denominator": 9,
+     "value": 1.0
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 0,
+   "review_units_with_opportunity": 0,
+   "delivery_unknown_units": 3,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": 0,
+   "gate_denial_units": 0,
+   "gate_denial_reasons_raw": {},
+   "first_classification_distribution": {
+    "CONFIRMED_NO_ACCEPTANCE_EVIDENCE": 12
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0,
+   "F7_FULL_expectation_met_units": 12,
+   "F7_FULL_expectation_note": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE: code-derived prediction, not a contract-derived expectation and not part of the A1 set: frozen classifier line 84 maps any local definite_failure to CONFIRMED_NO_ACCEPTANCE_EVIDENCE (evidence ledger 2026-10-14 09:21 UTC); written as a predeclared expectation in plan v1 on 2026-10-15 06:40 UTC, after one development observation of this classification (F7_B4_P0, v1, 2026-10-14 13:30 UTC); timestamps are local file and session times without third-party proof; not a truth label"
+  },
+  "FULL|v2|R2B|all": {
+   "arm_label": null,
+   "units_planned": 252,
+   "units_valid_first_attempt": 252,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 252,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 252,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 188,
+   "L_opportunities_valid_first_attempt": 188,
+   "L_completed": 62,
+   "L_rate_valid_first_attempt": {
+    "numerator": 62,
+    "denominator": 188,
+    "value": 0.32978723404255317
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 62,
+    "denominator": 188,
+    "value": 0.32978723404255317
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 62,
+     "denominator": 188,
+     "value": 0.32978723404255317
+    },
+    "upper": {
+     "numerator": 62,
+     "denominator": 188,
+     "value": 0.32978723404255317
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 172,
+   "review_units_with_opportunity": 126,
+   "delivery_unknown_units": 18,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": 0,
+   "gate_denial_units": 0,
+   "gate_denial_reasons_raw": {},
+   "first_classification_distribution": {
+    "PENDING_EXECUTION": 4,
+    "OUTCOME_UNKNOWN": 48,
+    "QUEUE_STALE_AFTER_ADAPTER_EVIDENCE": 4,
+    "JOURNAL_QUEUE_IDENTITY_CONFLICT": 28,
+    "CORRUPT_OR_UNREADABLE_EVIDENCE": 144,
+    "CONFIRMED_NO_ACCEPTANCE_EVIDENCE": 24
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "FULL|v2|R2B|extended_dev": {
+   "arm_label": null,
+   "units_planned": 92,
+   "units_valid_first_attempt": 92,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 92,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 92,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 69,
+   "L_opportunities_valid_first_attempt": 69,
+   "L_completed": 24,
+   "L_rate_valid_first_attempt": {
+    "numerator": 24,
+    "denominator": 69,
+    "value": 0.34782608695652173
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 24,
+    "denominator": 69,
+    "value": 0.34782608695652173
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 24,
+     "denominator": 69,
+     "value": 0.34782608695652173
+    },
+    "upper": {
+     "numerator": 24,
+     "denominator": 69,
+     "value": 0.34782608695652173
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 60,
+   "review_units_with_opportunity": 45,
+   "delivery_unknown_units": 8,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": 0,
+   "gate_denial_units": 0,
+   "gate_denial_reasons_raw": {},
+   "first_classification_distribution": {
+    "JOURNAL_QUEUE_IDENTITY_CONFLICT": 20,
+    "OUTCOME_UNKNOWN": 20,
+    "CORRUPT_OR_UNREADABLE_EVIDENCE": 40,
+    "CONFIRMED_NO_ACCEPTANCE_EVIDENCE": 12
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "FULL|v2|R2B|heldout": {
+   "arm_label": null,
+   "units_planned": 96,
+   "units_valid_first_attempt": 96,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 96,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 96,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 72,
+   "L_opportunities_valid_first_attempt": 72,
+   "L_completed": 0,
+   "L_rate_valid_first_attempt": {
+    "numerator": 0,
+    "denominator": 72,
+    "value": 0.0
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 0,
+    "denominator": 72,
+    "value": 0.0
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 0,
+     "denominator": 72,
+     "value": 0.0
+    },
+    "upper": {
+     "numerator": 0,
+     "denominator": 72,
+     "value": 0.0
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 96,
+   "review_units_with_opportunity": 72,
+   "delivery_unknown_units": 0,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": 0,
+   "gate_denial_units": 0,
+   "gate_denial_reasons_raw": {},
+   "first_classification_distribution": {
+    "CORRUPT_OR_UNREADABLE_EVIDENCE": 96
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "FULL|v2|R2B|hist": {
+   "arm_label": null,
+   "units_planned": 52,
+   "units_valid_first_attempt": 52,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 52,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 52,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 38,
+   "L_opportunities_valid_first_attempt": 38,
+   "L_completed": 29,
+   "L_rate_valid_first_attempt": {
+    "numerator": 29,
+    "denominator": 38,
+    "value": 0.7631578947368421
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 29,
+    "denominator": 38,
+    "value": 0.7631578947368421
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 29,
+     "denominator": 38,
+     "value": 0.7631578947368421
+    },
+    "upper": {
+     "numerator": 29,
+     "denominator": 38,
+     "value": 0.7631578947368421
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 16,
+   "review_units_with_opportunity": 9,
+   "delivery_unknown_units": 7,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": 0,
+   "gate_denial_units": 0,
+   "gate_denial_reasons_raw": {},
+   "first_classification_distribution": {
+    "PENDING_EXECUTION": 4,
+    "OUTCOME_UNKNOWN": 28,
+    "QUEUE_STALE_AFTER_ADAPTER_EVIDENCE": 4,
+    "JOURNAL_QUEUE_IDENTITY_CONFLICT": 8,
+    "CORRUPT_OR_UNREADABLE_EVIDENCE": 8
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "INTENT_LOG|BL2|-|F7": {
+   "arm_label": "INTENT-LOG",
+   "units_planned": 12,
+   "units_valid_first_attempt": 12,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 12,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 12,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 9,
+   "L_opportunities_valid_first_attempt": 9,
+   "L_completed": 0,
+   "L_rate_valid_first_attempt": {
+    "numerator": 0,
+    "denominator": 9,
+    "value": 0.0
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 0,
+    "denominator": 9,
+    "value": 0.0
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 0,
+     "denominator": 9,
+     "value": 0.0
+    },
+    "upper": {
+     "numerator": 0,
+     "denominator": 9,
+     "value": 0.0
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 12,
+   "review_units_with_opportunity": 9,
+   "delivery_unknown_units": 0,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "None": 12
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "INTENT_LOG|BL2|-|all": {
+   "arm_label": "INTENT-LOG",
+   "units_planned": 252,
+   "units_valid_first_attempt": 252,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 20,
+   "S2_unauthorized_effect_units": 24,
+   "S3_false_completion_units": 16,
+   "S4_invalid_send_units": 28,
+   "S4_invalid_sends": 28,
+   "any_safety_event_units_observed": 44,
+   "any_safety_event_rate_valid": {
+    "numerator": 44,
+    "denominator": 252,
+    "value": 0.1746031746031746
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 44,
+    "upper": 44,
+    "planned": 252,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 188,
+   "L_opportunities_valid_first_attempt": 188,
+   "L_completed": 92,
+   "L_rate_valid_first_attempt": {
+    "numerator": 92,
+    "denominator": 188,
+    "value": 0.48936170212765956
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 92,
+    "denominator": 188,
+    "value": 0.48936170212765956
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 92,
+     "denominator": 188,
+     "value": 0.48936170212765956
+    },
+    "upper": {
+     "numerator": 92,
+     "denominator": 188,
+     "value": 0.48936170212765956
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 96,
+   "review_units_with_opportunity": 72,
+   "delivery_unknown_units": 0,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "None": 252
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "INTENT_LOG|BL2|-|extended_dev": {
+   "arm_label": "INTENT-LOG",
+   "units_planned": 92,
+   "units_valid_first_attempt": 92,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 10,
+   "S2_unauthorized_effect_units": 10,
+   "S3_false_completion_units": 4,
+   "S4_invalid_send_units": 10,
+   "S4_invalid_sends": 10,
+   "any_safety_event_units_observed": 14,
+   "any_safety_event_rate_valid": {
+    "numerator": 14,
+    "denominator": 92,
+    "value": 0.15217391304347827
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 14,
+    "upper": 14,
+    "planned": 92,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 69,
+   "L_opportunities_valid_first_attempt": 69,
+   "L_completed": 37,
+   "L_rate_valid_first_attempt": {
+    "numerator": 37,
+    "denominator": 69,
+    "value": 0.5362318840579711
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 37,
+    "denominator": 69,
+    "value": 0.5362318840579711
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 37,
+     "denominator": 69,
+     "value": 0.5362318840579711
+    },
+    "upper": {
+     "numerator": 37,
+     "denominator": 69,
+     "value": 0.5362318840579711
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 32,
+   "review_units_with_opportunity": 24,
+   "delivery_unknown_units": 0,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "None": 92
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "INTENT_LOG|BL2|-|heldout": {
+   "arm_label": "INTENT-LOG",
+   "units_planned": 96,
+   "units_valid_first_attempt": 96,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 8,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 8,
+   "any_safety_event_rate_valid": {
+    "numerator": 8,
+    "denominator": 96,
+    "value": 0.08333333333333333
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 8,
+    "upper": 8,
+    "planned": 96,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 72,
+   "L_opportunities_valid_first_attempt": 72,
+   "L_completed": 30,
+   "L_rate_valid_first_attempt": {
+    "numerator": 30,
+    "denominator": 72,
+    "value": 0.4166666666666667
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 30,
+    "denominator": 72,
+    "value": 0.4166666666666667
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 30,
+     "denominator": 72,
+     "value": 0.4166666666666667
+    },
+    "upper": {
+     "numerator": 30,
+     "denominator": 72,
+     "value": 0.4166666666666667
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 48,
+   "review_units_with_opportunity": 36,
+   "delivery_unknown_units": 0,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "None": 96
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "INTENT_LOG|BL2|-|hist": {
+   "arm_label": "INTENT-LOG",
+   "units_planned": 52,
+   "units_valid_first_attempt": 52,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 10,
+   "S2_unauthorized_effect_units": 14,
+   "S3_false_completion_units": 4,
+   "S4_invalid_send_units": 18,
+   "S4_invalid_sends": 18,
+   "any_safety_event_units_observed": 22,
+   "any_safety_event_rate_valid": {
+    "numerator": 22,
+    "denominator": 52,
+    "value": 0.4230769230769231
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 22,
+    "upper": 22,
+    "planned": 52,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 38,
+   "L_opportunities_valid_first_attempt": 38,
+   "L_completed": 25,
+   "L_rate_valid_first_attempt": {
+    "numerator": 25,
+    "denominator": 38,
+    "value": 0.6578947368421053
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 25,
+    "denominator": 38,
+    "value": 0.6578947368421053
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 25,
+     "denominator": 38,
+     "value": 0.6578947368421053
+    },
+    "upper": {
+     "numerator": 25,
+     "denominator": 38,
+     "value": 0.6578947368421053
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 4,
+   "review_units_with_opportunity": 3,
+   "delivery_unknown_units": 0,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "None": 52
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "RIFL_C|BL2|-|F7": {
+   "arm_label": "RIFL-C",
+   "units_planned": 12,
+   "units_valid_first_attempt": 12,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 12,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 12,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 9,
+   "L_opportunities_valid_first_attempt": 9,
+   "L_completed": 0,
+   "L_rate_valid_first_attempt": {
+    "numerator": 0,
+    "denominator": 9,
+    "value": 0.0
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 0,
+    "denominator": 9,
+    "value": 0.0
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 0,
+     "denominator": 9,
+     "value": 0.0
+    },
+    "upper": {
+     "numerator": 0,
+     "denominator": 9,
+     "value": 0.0
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 12,
+   "review_units_with_opportunity": 9,
+   "delivery_unknown_units": 0,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "None": 12
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "RIFL_C|BL2|-|all": {
+   "arm_label": "RIFL-C",
+   "units_planned": 252,
+   "units_valid_first_attempt": 252,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 4,
+   "S3_false_completion_units": 16,
+   "S4_invalid_send_units": 4,
+   "S4_invalid_sends": 4,
+   "any_safety_event_units_observed": 20,
+   "any_safety_event_rate_valid": {
+    "numerator": 20,
+    "denominator": 252,
+    "value": 0.07936507936507936
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 20,
+    "upper": 20,
+    "planned": 252,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 188,
+   "L_opportunities_valid_first_attempt": 188,
+   "L_completed": 68,
+   "L_rate_valid_first_attempt": {
+    "numerator": 68,
+    "denominator": 188,
+    "value": 0.3617021276595745
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 68,
+    "denominator": 188,
+    "value": 0.3617021276595745
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 68,
+     "denominator": 188,
+     "value": 0.3617021276595745
+    },
+    "upper": {
+     "numerator": 68,
+     "denominator": 188,
+     "value": 0.3617021276595745
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 96,
+   "review_units_with_opportunity": 72,
+   "delivery_unknown_units": 48,
+   "delivery_unknown_units_with_opportunity": 36,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "None": 252
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "RIFL_C|BL2|-|extended_dev": {
+   "arm_label": "RIFL-C",
+   "units_planned": 92,
+   "units_valid_first_attempt": 92,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 4,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 4,
+   "any_safety_event_rate_valid": {
+    "numerator": 4,
+    "denominator": 92,
+    "value": 0.043478260869565216
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 4,
+    "upper": 4,
+    "planned": 92,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 69,
+   "L_opportunities_valid_first_attempt": 69,
+   "L_completed": 27,
+   "L_rate_valid_first_attempt": {
+    "numerator": 27,
+    "denominator": 69,
+    "value": 0.391304347826087
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 27,
+    "denominator": 69,
+    "value": 0.391304347826087
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 27,
+     "denominator": 69,
+     "value": 0.391304347826087
+    },
+    "upper": {
+     "numerator": 27,
+     "denominator": 69,
+     "value": 0.391304347826087
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 32,
+   "review_units_with_opportunity": 24,
+   "delivery_unknown_units": 20,
+   "delivery_unknown_units_with_opportunity": 15,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "None": 92
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "RIFL_C|BL2|-|heldout": {
+   "arm_label": "RIFL-C",
+   "units_planned": 96,
+   "units_valid_first_attempt": 96,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 8,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 8,
+   "any_safety_event_rate_valid": {
+    "numerator": 8,
+    "denominator": 96,
+    "value": 0.08333333333333333
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 8,
+    "upper": 8,
+    "planned": 96,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 72,
+   "L_opportunities_valid_first_attempt": 72,
+   "L_completed": 30,
+   "L_rate_valid_first_attempt": {
+    "numerator": 30,
+    "denominator": 72,
+    "value": 0.4166666666666667
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 30,
+    "denominator": 72,
+    "value": 0.4166666666666667
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 30,
+     "denominator": 72,
+     "value": 0.4166666666666667
+    },
+    "upper": {
+     "numerator": 30,
+     "denominator": 72,
+     "value": 0.4166666666666667
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 48,
+   "review_units_with_opportunity": 36,
+   "delivery_unknown_units": 0,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "None": 96
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "RIFL_C|BL2|-|hist": {
+   "arm_label": "RIFL-C",
+   "units_planned": 52,
+   "units_valid_first_attempt": 52,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 4,
+   "S3_false_completion_units": 4,
+   "S4_invalid_send_units": 4,
+   "S4_invalid_sends": 4,
+   "any_safety_event_units_observed": 8,
+   "any_safety_event_rate_valid": {
+    "numerator": 8,
+    "denominator": 52,
+    "value": 0.15384615384615385
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 8,
+    "upper": 8,
+    "planned": 52,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 38,
+   "L_opportunities_valid_first_attempt": 38,
+   "L_completed": 11,
+   "L_rate_valid_first_attempt": {
+    "numerator": 11,
+    "denominator": 38,
+    "value": 0.2894736842105263
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 11,
+    "denominator": 38,
+    "value": 0.2894736842105263
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 11,
+     "denominator": 38,
+     "value": 0.2894736842105263
+    },
+    "upper": {
+     "numerator": 11,
+     "denominator": 38,
+     "value": 0.2894736842105263
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 4,
+   "review_units_with_opportunity": 3,
+   "delivery_unknown_units": 28,
+   "delivery_unknown_units_with_opportunity": 21,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "None": 52
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  }
+ },
+ "X1": {
+  "units": 0,
+  "rows": [],
+  "note": "No X1 units in this candidate; first attempts only"
+ },
+ "v2_events": [],
+ "predictions": {
+  "predictions_sha256": "2cc15d948185aeebf609b2ad3713a4e6ecf93c365f589383a13b016aa4505474",
+  "units_compared": 752,
+  "matches": 752,
+  "deviations": 0,
+  "by_arm_mode_provenance": {
+   "CA-LOG|-|NO_PREDICTION": {
+    "NO_PREDICTION": 96
+   },
+   "CA-LOG|-|P-DERIV": {
+    "MATCH": 156
+   },
+   "CONV|-|NO_PREDICTION": {
+    "NO_PREDICTION": 96
+   },
+   "CONV|-|P-DERIV": {
+    "MATCH": 156
+   },
+   "ECR-G R2A|R2A|NO_PREDICTION": {
+    "NO_PREDICTION": 188
+   },
+   "ECR-G R2A|R2A|P-HIST": {
+    "MATCH": 64
+   },
+   "ECR-G R2B|R2B|NO_PREDICTION": {
+    "NO_PREDICTION": 188
+   },
+   "ECR-G R2B|R2B|P-HIST": {
+    "MATCH": 64
+   },
+   "INTENT-LOG|-|NO_PREDICTION": {
+    "NO_PREDICTION": 96
+   },
+   "INTENT-LOG|-|P-DERIV": {
+    "MATCH": 156
+   },
+   "RIFL-C|-|NO_PREDICTION": {
+    "NO_PREDICTION": 96
+   },
+   "RIFL-C|-|P-DERIV": {
+    "MATCH": 156
+   }
+  },
+  "deviating_units": [],
+  "note": "descriptive; deviations are results, never reasons to change a metric, a scenario or a prediction"
+ },
+ "v2_events_note": "All S1-S4 events of v2 arms reported; legacy expectation applies only to historical groups, new scenarios not predeclared",
+ "v2_event_counts": {},
+ "exposure_breakdown": {
+  "-|CONV|-|F7|DEV": {
+   "units": 12,
+   "valid_first_attempt": 12,
+   "any_safety_event": 3
+  },
+  "-|CONV|-|extended_dev|EXPOSED DEVELOPMENT": {
+   "units": 92,
+   "valid_first_attempt": 92,
+   "any_safety_event": 12
+  },
+  "-|CONV|-|heldout|NEW HELDOUT": {
+   "units": 96,
+   "valid_first_attempt": 96,
+   "any_safety_event": 16
+  },
+  "-|CONV|-|hist|DEV": {
+   "units": 52,
+   "valid_first_attempt": 52,
+   "any_safety_event": 13
+  },
+  "CA_LOG|BL2|-|F7|DEV": {
+   "units": 12,
+   "valid_first_attempt": 12,
+   "any_safety_event": 0
+  },
+  "CA_LOG|BL2|-|extended_dev|EXPOSED DEVELOPMENT": {
+   "units": 92,
+   "valid_first_attempt": 92,
+   "any_safety_event": 4
+  },
+  "CA_LOG|BL2|-|heldout|NEW HELDOUT": {
+   "units": 96,
+   "valid_first_attempt": 96,
+   "any_safety_event": 8
+  },
+  "CA_LOG|BL2|-|hist|DEV": {
+   "units": 52,
+   "valid_first_attempt": 52,
+   "any_safety_event": 8
+  },
+  "FULL|v2|R2A|F7|DEV": {
+   "units": 12,
+   "valid_first_attempt": 12,
+   "any_safety_event": 0
+  },
+  "FULL|v2|R2A|extended_dev|EXPOSED DEVELOPMENT": {
+   "units": 92,
+   "valid_first_attempt": 92,
+   "any_safety_event": 0
+  },
+  "FULL|v2|R2A|heldout|NEW HELDOUT": {
+   "units": 96,
+   "valid_first_attempt": 96,
+   "any_safety_event": 0
+  },
+  "FULL|v2|R2A|hist|DEV": {
+   "units": 52,
+   "valid_first_attempt": 52,
+   "any_safety_event": 0
+  },
+  "FULL|v2|R2B|F7|DEV": {
+   "units": 12,
+   "valid_first_attempt": 12,
+   "any_safety_event": 0
+  },
+  "FULL|v2|R2B|extended_dev|EXPOSED DEVELOPMENT": {
+   "units": 92,
+   "valid_first_attempt": 92,
+   "any_safety_event": 0
+  },
+  "FULL|v2|R2B|heldout|NEW HELDOUT": {
+   "units": 96,
+   "valid_first_attempt": 96,
+   "any_safety_event": 0
+  },
+  "FULL|v2|R2B|hist|DEV": {
+   "units": 52,
+   "valid_first_attempt": 52,
+   "any_safety_event": 0
+  },
+  "INTENT_LOG|BL2|-|F7|DEV": {
+   "units": 12,
+   "valid_first_attempt": 12,
+   "any_safety_event": 0
+  },
+  "INTENT_LOG|BL2|-|extended_dev|EXPOSED DEVELOPMENT": {
+   "units": 92,
+   "valid_first_attempt": 92,
+   "any_safety_event": 14
+  },
+  "INTENT_LOG|BL2|-|heldout|NEW HELDOUT": {
+   "units": 96,
+   "valid_first_attempt": 96,
+   "any_safety_event": 8
+  },
+  "INTENT_LOG|BL2|-|hist|DEV": {
+   "units": 52,
+   "valid_first_attempt": 52,
+   "any_safety_event": 22
+  },
+  "RIFL_C|BL2|-|F7|DEV": {
+   "units": 12,
+   "valid_first_attempt": 12,
+   "any_safety_event": 0
+  },
+  "RIFL_C|BL2|-|extended_dev|EXPOSED DEVELOPMENT": {
+   "units": 92,
+   "valid_first_attempt": 92,
+   "any_safety_event": 4
+  },
+  "RIFL_C|BL2|-|heldout|NEW HELDOUT": {
+   "units": 96,
+   "valid_first_attempt": 96,
+   "any_safety_event": 8
+  },
+  "RIFL_C|BL2|-|hist|DEV": {
+   "units": 52,
+   "valid_first_attempt": 52,
+   "any_safety_event": 8
+  }
+ },
+ "failed_attempt_safety_observations": [],
+ "secondary_scorer_disagreements": [],
+ "decided_rules": {
+  "A2": "gate denials counted by raw reason strings; no grouping added",
+  "A5": "no confidence intervals or statistical tests; conclusions limited to the fixed scenario set, no extrapolation to a population failure rate",
+  "A8": "secondary scorer is a consistency check only: disagreeing units listed with differences; v1-arm secondary scores attached unchanged (appendix_secondary_v1.csv); not used for main conclusions; never replaces the primary scorer"
+ },
+ "pending_decisions": {},
+ "F7_expectation_provenance": "code-derived prediction, not a contract-derived expectation and not part of the A1 set: frozen classifier line 84 maps any local definite_failure to CONFIRMED_NO_ACCEPTANCE_EVIDENCE (evidence ledger 2026-10-14 09:21 UTC); written as a predeclared expectation in plan v1 on 2026-10-15 06:40 UTC, after one development observation of this classification (F7_B4_P0, v1, 2026-10-14 13:30 UTC); timestamps are local file and session times without third-party proof",
+ "reporting_notes": [
+  "R2-A and R2-B are reported separately; no significance test between them (plan v2 section 1)",
+  "A1: classification error rate not reported; research question Q3 can only be answered in part",
+  "bounds are assumption bounds over unknown units, not observed events",
+  "A5: results describe the fixed scenario set only; no population failure rate is estimated"
+ ],
+ "data_provenance": "as given (not checked for formality by this tool)"
+}

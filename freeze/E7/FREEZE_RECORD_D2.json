@@ -1,0 +1,30 @@
+{
+ "status": "FROZEN (Addendum D2) - pass 2 rerun on a new disk; c1 void (inode exhaustion at 2621/2848)",
+ "utc": "2026-11-14T12:25:35.732637+00:00",
+ "approval": "user in chat 2026-11-14: 我们一边整理一边重跑第二次实验可以吗？第一次正式实验是有结果的",
+ "files_sha256": {
+  "protocol/ADDENDUM_D2_rerun_pass2.md": "9e7471030a77e4c93e1f475836375f6766b73b8a7d2ad32fdcca285bddc04969",
+  "RUNBOOK_c2_第二遍重跑.md": "21682a0304ba23fa4f24a0e114f3fc27d3f27cd43faa5f17535f14fb68bb1082",
+  "guest_tools/qualification-authorization-c2.TEMPLATE.json": "161161d9568c7ef546dbdedd56bb532ab9c665bff5e9dcb95b26d53b78d4fc38",
+  "README_补丁r2.md": "b323c177aa80d820ae9523b1896c689e0c1f9ac0f4f28e7b0d7d44557f2ecac7"
+ },
+ "addendum_D_freeze_record_sha256": "de42d3f6556dd9bcaf807cb1615ce76e4a5ca08b02760f073c271128daac1d62",
+ "unchanged": {
+  "candidate_bl6_manifest_sha256": "d8f724d181e1900ad436f4732aab16a4a94750a1fef3e6d44dffad06caf04bd0",
+  "cells_bl6_sha256": "57b268d9ddb355b71943391181e58ac4cf67a2870f019f562bc1c918ae816db7",
+  "predictions_bl6_sha256": "2297a4975c4ca8d75ac8905a4ec9aeb2417a894b09600207913b956300c566d9",
+  "audit_tool": "audit_qualification_bl6_r1.py (Erratum D1)"
+ },
+ "batch_ids": {
+  "qualification_valid": "ecr-bl6q-srv-b1",
+  "run1_valid": "ecr-bl6x-srv-b1",
+  "run2_void": "ecr-bl6x-srv-c1",
+  "qualification_new": "ecr-bl6q-srv-b2",
+  "run2_new": "ecr-bl6x-srv-c2"
+ },
+ "gate_GS": {
+  "min_free_inodes": 1300000,
+  "min_free_bytes": 21474836480
+ },
+ "vm_disk": "new fresh clone of original ECR_FOLLOWUP_R1.vmdk sha256 07360d6431e637e7cf51e5e5879cf83b20dfa9d419b7a3fa7bbc02c1b0a03e9d, resized +60G; old c1 disk kept untouched"
+}

@@ -1,0 +1,1213 @@
+{
+  "scenarios": [
+    {
+      "attempt_id": "ablation-core-r2-C01_ACCEPTED-a1",
+      "logical_operation_id": "ablation-core-r2-C01_ACCEPTED",
+      "scenario_id": "C01_ACCEPTED",
+      "scope": "STATIC_EVIDENCE_CORE; NO_PROCESS_FAULT_INJECTION",
+      "snapshot": {
+        "journalAttempt": {
+          "events": [
+            {
+              "artifactId": "ablation-core-r2-C01_ACCEPTED-artifact",
+              "artifactSetId": "ablation-core-r2-C01_ACCEPTED-set",
+              "attemptId": "ablation-core-r2-C01_ACCEPTED-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C01_ACCEPTED-deliverable",
+              "eventId": "ablation-core-r2-C01_ACCEPTED-event-1",
+              "eventType": "AttemptCommitted",
+              "journalSequence": 1,
+              "queueBindingId": "ablation-core-r2-C01_ACCEPTED-binding",
+              "taskId": "ablation-core-r2-C01_ACCEPTED-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C01_ACCEPTED-artifact",
+              "artifactSetId": "ablation-core-r2-C01_ACCEPTED-set",
+              "attemptId": "ablation-core-r2-C01_ACCEPTED-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C01_ACCEPTED-deliverable",
+              "eventId": "ablation-core-r2-C01_ACCEPTED-event-2",
+              "eventType": "QueueBindingPrepared",
+              "journalSequence": 2,
+              "queueBindingId": "ablation-core-r2-C01_ACCEPTED-binding",
+              "taskId": "ablation-core-r2-C01_ACCEPTED-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C01_ACCEPTED-artifact",
+              "artifactSetId": "ablation-core-r2-C01_ACCEPTED-set",
+              "attemptId": "ablation-core-r2-C01_ACCEPTED-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C01_ACCEPTED-deliverable",
+              "eventId": "ablation-core-r2-C01_ACCEPTED-event-3",
+              "eventType": "QueueItemPersisted",
+              "journalSequence": 3,
+              "queueBindingId": "ablation-core-r2-C01_ACCEPTED-binding",
+              "queueItemId": "ablation-core-r2-C01_ACCEPTED-queue",
+              "taskId": "ablation-core-r2-C01_ACCEPTED-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C01_ACCEPTED-artifact",
+              "artifactSetId": "ablation-core-r2-C01_ACCEPTED-set",
+              "attemptId": "ablation-core-r2-C01_ACCEPTED-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C01_ACCEPTED-deliverable",
+              "eventId": "ablation-core-r2-C01_ACCEPTED-event-4",
+              "eventType": "DispatchBoundaryCrossed",
+              "journalSequence": 4,
+              "queueBindingId": "ablation-core-r2-C01_ACCEPTED-binding",
+              "queueItemId": "ablation-core-r2-C01_ACCEPTED-queue",
+              "taskId": "ablation-core-r2-C01_ACCEPTED-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C01_ACCEPTED-artifact",
+              "artifactSetId": "ablation-core-r2-C01_ACCEPTED-set",
+              "attemptId": "ablation-core-r2-C01_ACCEPTED-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C01_ACCEPTED-deliverable",
+              "eventId": "ablation-core-r2-C01_ACCEPTED-event-5",
+              "eventType": "AdapterOutcomeObserved",
+              "evidenceLevel": "adapter_accepted",
+              "journalSequence": 5,
+              "outcome": "adapter_accepted",
+              "queueBindingId": "ablation-core-r2-C01_ACCEPTED-binding",
+              "queueItemId": "ablation-core-r2-C01_ACCEPTED-queue",
+              "taskId": "ablation-core-r2-C01_ACCEPTED-task",
+              "taskStateVersion": 1
+            }
+          ]
+        },
+        "queueItem": {
+          "artifactId": "ablation-core-r2-C01_ACCEPTED-artifact",
+          "artifactSetId": "ablation-core-r2-C01_ACCEPTED-set",
+          "attemptId": "ablation-core-r2-C01_ACCEPTED-a1",
+          "bindingGeneration": 1,
+          "deliverableId": "ablation-core-r2-C01_ACCEPTED-deliverable",
+          "pending": true,
+          "queueBindingId": "ablation-core-r2-C01_ACCEPTED-binding",
+          "queueItemId": "ablation-core-r2-C01_ACCEPTED-queue",
+          "taskId": "ablation-core-r2-C01_ACCEPTED-task",
+          "taskStateVersion": 1
+        },
+        "taskContext": {
+          "artifactId": "ablation-core-r2-C01_ACCEPTED-artifact",
+          "artifactSetId": "ablation-core-r2-C01_ACCEPTED-set",
+          "attemptId": "ablation-core-r2-C01_ACCEPTED-a1",
+          "bindingGeneration": 1,
+          "deliverableId": "ablation-core-r2-C01_ACCEPTED-deliverable",
+          "deliveryState": "pending",
+          "queueBindingId": "ablation-core-r2-C01_ACCEPTED-binding",
+          "taskId": "ablation-core-r2-C01_ACCEPTED-task",
+          "taskStateVersion": 1
+        }
+      },
+      "transport_request_id": "ablation-core-r2-C01_ACCEPTED-t1",
+      "twin_group": null
+    },
+    {
+      "attempt_id": "ablation-core-r2-TWIN_UNKNOWN-a1",
+      "logical_operation_id": "ablation-core-r2-TWIN_UNKNOWN",
+      "scenario_id": "C02_TWIN_NO_EFFECT",
+      "scope": "STATIC_EVIDENCE_CORE; NO_PROCESS_FAULT_INJECTION",
+      "snapshot": {
+        "journalAttempt": {
+          "events": [
+            {
+              "artifactId": "ablation-core-r2-TWIN_UNKNOWN-artifact",
+              "artifactSetId": "ablation-core-r2-TWIN_UNKNOWN-set",
+              "attemptId": "ablation-core-r2-TWIN_UNKNOWN-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-TWIN_UNKNOWN-deliverable",
+              "eventId": "ablation-core-r2-TWIN_UNKNOWN-event-1",
+              "eventType": "AttemptCommitted",
+              "journalSequence": 1,
+              "queueBindingId": "ablation-core-r2-TWIN_UNKNOWN-binding",
+              "taskId": "ablation-core-r2-TWIN_UNKNOWN-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-TWIN_UNKNOWN-artifact",
+              "artifactSetId": "ablation-core-r2-TWIN_UNKNOWN-set",
+              "attemptId": "ablation-core-r2-TWIN_UNKNOWN-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-TWIN_UNKNOWN-deliverable",
+              "eventId": "ablation-core-r2-TWIN_UNKNOWN-event-2",
+              "eventType": "QueueBindingPrepared",
+              "journalSequence": 2,
+              "queueBindingId": "ablation-core-r2-TWIN_UNKNOWN-binding",
+              "taskId": "ablation-core-r2-TWIN_UNKNOWN-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-TWIN_UNKNOWN-artifact",
+              "artifactSetId": "ablation-core-r2-TWIN_UNKNOWN-set",
+              "attemptId": "ablation-core-r2-TWIN_UNKNOWN-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-TWIN_UNKNOWN-deliverable",
+              "eventId": "ablation-core-r2-TWIN_UNKNOWN-event-3",
+              "eventType": "QueueItemPersisted",
+              "journalSequence": 3,
+              "queueBindingId": "ablation-core-r2-TWIN_UNKNOWN-binding",
+              "queueItemId": "ablation-core-r2-TWIN_UNKNOWN-queue",
+              "taskId": "ablation-core-r2-TWIN_UNKNOWN-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-TWIN_UNKNOWN-artifact",
+              "artifactSetId": "ablation-core-r2-TWIN_UNKNOWN-set",
+              "attemptId": "ablation-core-r2-TWIN_UNKNOWN-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-TWIN_UNKNOWN-deliverable",
+              "eventId": "ablation-core-r2-TWIN_UNKNOWN-event-4",
+              "eventType": "DispatchBoundaryCrossed",
+              "journalSequence": 4,
+              "queueBindingId": "ablation-core-r2-TWIN_UNKNOWN-binding",
+              "queueItemId": "ablation-core-r2-TWIN_UNKNOWN-queue",
+              "taskId": "ablation-core-r2-TWIN_UNKNOWN-task",
+              "taskStateVersion": 1
+            }
+          ]
+        },
+        "queueItem": {
+          "artifactId": "ablation-core-r2-TWIN_UNKNOWN-artifact",
+          "artifactSetId": "ablation-core-r2-TWIN_UNKNOWN-set",
+          "attemptId": "ablation-core-r2-TWIN_UNKNOWN-a1",
+          "bindingGeneration": 1,
+          "deliverableId": "ablation-core-r2-TWIN_UNKNOWN-deliverable",
+          "pending": true,
+          "queueBindingId": "ablation-core-r2-TWIN_UNKNOWN-binding",
+          "queueItemId": "ablation-core-r2-TWIN_UNKNOWN-queue",
+          "taskId": "ablation-core-r2-TWIN_UNKNOWN-task",
+          "taskStateVersion": 1
+        },
+        "taskContext": {
+          "artifactId": "ablation-core-r2-TWIN_UNKNOWN-artifact",
+          "artifactSetId": "ablation-core-r2-TWIN_UNKNOWN-set",
+          "attemptId": "ablation-core-r2-TWIN_UNKNOWN-a1",
+          "bindingGeneration": 1,
+          "deliverableId": "ablation-core-r2-TWIN_UNKNOWN-deliverable",
+          "deliveryState": "pending",
+          "queueBindingId": "ablation-core-r2-TWIN_UNKNOWN-binding",
+          "taskId": "ablation-core-r2-TWIN_UNKNOWN-task",
+          "taskStateVersion": 1
+        }
+      },
+      "transport_request_id": "ablation-core-r2-TWIN_UNKNOWN-t1",
+      "twin_group": "TWIN_UNKNOWN"
+    },
+    {
+      "attempt_id": "ablation-core-r2-TWIN_UNKNOWN-a1",
+      "logical_operation_id": "ablation-core-r2-TWIN_UNKNOWN",
+      "scenario_id": "C03_TWIN_EFFECT",
+      "scope": "STATIC_EVIDENCE_CORE; NO_PROCESS_FAULT_INJECTION",
+      "snapshot": {
+        "journalAttempt": {
+          "events": [
+            {
+              "artifactId": "ablation-core-r2-TWIN_UNKNOWN-artifact",
+              "artifactSetId": "ablation-core-r2-TWIN_UNKNOWN-set",
+              "attemptId": "ablation-core-r2-TWIN_UNKNOWN-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-TWIN_UNKNOWN-deliverable",
+              "eventId": "ablation-core-r2-TWIN_UNKNOWN-event-1",
+              "eventType": "AttemptCommitted",
+              "journalSequence": 1,
+              "queueBindingId": "ablation-core-r2-TWIN_UNKNOWN-binding",
+              "taskId": "ablation-core-r2-TWIN_UNKNOWN-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-TWIN_UNKNOWN-artifact",
+              "artifactSetId": "ablation-core-r2-TWIN_UNKNOWN-set",
+              "attemptId": "ablation-core-r2-TWIN_UNKNOWN-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-TWIN_UNKNOWN-deliverable",
+              "eventId": "ablation-core-r2-TWIN_UNKNOWN-event-2",
+              "eventType": "QueueBindingPrepared",
+              "journalSequence": 2,
+              "queueBindingId": "ablation-core-r2-TWIN_UNKNOWN-binding",
+              "taskId": "ablation-core-r2-TWIN_UNKNOWN-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-TWIN_UNKNOWN-artifact",
+              "artifactSetId": "ablation-core-r2-TWIN_UNKNOWN-set",
+              "attemptId": "ablation-core-r2-TWIN_UNKNOWN-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-TWIN_UNKNOWN-deliverable",
+              "eventId": "ablation-core-r2-TWIN_UNKNOWN-event-3",
+              "eventType": "QueueItemPersisted",
+              "journalSequence": 3,
+              "queueBindingId": "ablation-core-r2-TWIN_UNKNOWN-binding",
+              "queueItemId": "ablation-core-r2-TWIN_UNKNOWN-queue",
+              "taskId": "ablation-core-r2-TWIN_UNKNOWN-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-TWIN_UNKNOWN-artifact",
+              "artifactSetId": "ablation-core-r2-TWIN_UNKNOWN-set",
+              "attemptId": "ablation-core-r2-TWIN_UNKNOWN-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-TWIN_UNKNOWN-deliverable",
+              "eventId": "ablation-core-r2-TWIN_UNKNOWN-event-4",
+              "eventType": "DispatchBoundaryCrossed",
+              "journalSequence": 4,
+              "queueBindingId": "ablation-core-r2-TWIN_UNKNOWN-binding",
+              "queueItemId": "ablation-core-r2-TWIN_UNKNOWN-queue",
+              "taskId": "ablation-core-r2-TWIN_UNKNOWN-task",
+              "taskStateVersion": 1
+            }
+          ]
+        },
+        "queueItem": {
+          "artifactId": "ablation-core-r2-TWIN_UNKNOWN-artifact",
+          "artifactSetId": "ablation-core-r2-TWIN_UNKNOWN-set",
+          "attemptId": "ablation-core-r2-TWIN_UNKNOWN-a1",
+          "bindingGeneration": 1,
+          "deliverableId": "ablation-core-r2-TWIN_UNKNOWN-deliverable",
+          "pending": true,
+          "queueBindingId": "ablation-core-r2-TWIN_UNKNOWN-binding",
+          "queueItemId": "ablation-core-r2-TWIN_UNKNOWN-queue",
+          "taskId": "ablation-core-r2-TWIN_UNKNOWN-task",
+          "taskStateVersion": 1
+        },
+        "taskContext": {
+          "artifactId": "ablation-core-r2-TWIN_UNKNOWN-artifact",
+          "artifactSetId": "ablation-core-r2-TWIN_UNKNOWN-set",
+          "attemptId": "ablation-core-r2-TWIN_UNKNOWN-a1",
+          "bindingGeneration": 1,
+          "deliverableId": "ablation-core-r2-TWIN_UNKNOWN-deliverable",
+          "deliveryState": "pending",
+          "queueBindingId": "ablation-core-r2-TWIN_UNKNOWN-binding",
+          "taskId": "ablation-core-r2-TWIN_UNKNOWN-task",
+          "taskStateVersion": 1
+        }
+      },
+      "transport_request_id": "ablation-core-r2-TWIN_UNKNOWN-t1",
+      "twin_group": "TWIN_UNKNOWN"
+    },
+    {
+      "attempt_id": "ablation-core-r2-C04_PENDING-a1",
+      "logical_operation_id": "ablation-core-r2-C04_PENDING",
+      "scenario_id": "C04_PENDING",
+      "scope": "STATIC_EVIDENCE_CORE; NO_PROCESS_FAULT_INJECTION",
+      "snapshot": {
+        "journalAttempt": {
+          "events": [
+            {
+              "artifactId": "ablation-core-r2-C04_PENDING-artifact",
+              "artifactSetId": "ablation-core-r2-C04_PENDING-set",
+              "attemptId": "ablation-core-r2-C04_PENDING-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C04_PENDING-deliverable",
+              "eventId": "ablation-core-r2-C04_PENDING-event-1",
+              "eventType": "AttemptCommitted",
+              "journalSequence": 1,
+              "queueBindingId": "ablation-core-r2-C04_PENDING-binding",
+              "taskId": "ablation-core-r2-C04_PENDING-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C04_PENDING-artifact",
+              "artifactSetId": "ablation-core-r2-C04_PENDING-set",
+              "attemptId": "ablation-core-r2-C04_PENDING-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C04_PENDING-deliverable",
+              "eventId": "ablation-core-r2-C04_PENDING-event-2",
+              "eventType": "QueueBindingPrepared",
+              "journalSequence": 2,
+              "queueBindingId": "ablation-core-r2-C04_PENDING-binding",
+              "taskId": "ablation-core-r2-C04_PENDING-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C04_PENDING-artifact",
+              "artifactSetId": "ablation-core-r2-C04_PENDING-set",
+              "attemptId": "ablation-core-r2-C04_PENDING-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C04_PENDING-deliverable",
+              "eventId": "ablation-core-r2-C04_PENDING-event-3",
+              "eventType": "QueueItemPersisted",
+              "journalSequence": 3,
+              "queueBindingId": "ablation-core-r2-C04_PENDING-binding",
+              "queueItemId": "ablation-core-r2-C04_PENDING-queue",
+              "taskId": "ablation-core-r2-C04_PENDING-task",
+              "taskStateVersion": 1
+            }
+          ]
+        },
+        "queueItem": {
+          "artifactId": "ablation-core-r2-C04_PENDING-artifact",
+          "artifactSetId": "ablation-core-r2-C04_PENDING-set",
+          "attemptId": "ablation-core-r2-C04_PENDING-a1",
+          "bindingGeneration": 1,
+          "deliverableId": "ablation-core-r2-C04_PENDING-deliverable",
+          "pending": true,
+          "queueBindingId": "ablation-core-r2-C04_PENDING-binding",
+          "queueItemId": "ablation-core-r2-C04_PENDING-queue",
+          "taskId": "ablation-core-r2-C04_PENDING-task",
+          "taskStateVersion": 1
+        },
+        "taskContext": {
+          "artifactId": "ablation-core-r2-C04_PENDING-artifact",
+          "artifactSetId": "ablation-core-r2-C04_PENDING-set",
+          "attemptId": "ablation-core-r2-C04_PENDING-a1",
+          "bindingGeneration": 1,
+          "deliverableId": "ablation-core-r2-C04_PENDING-deliverable",
+          "deliveryState": "pending",
+          "queueBindingId": "ablation-core-r2-C04_PENDING-binding",
+          "taskId": "ablation-core-r2-C04_PENDING-task",
+          "taskStateVersion": 1
+        }
+      },
+      "transport_request_id": "ablation-core-r2-C04_PENDING-t1",
+      "twin_group": null
+    },
+    {
+      "attempt_id": "ablation-core-r2-C05_IDENTITY_CONFLICT-a1",
+      "logical_operation_id": "ablation-core-r2-C05_IDENTITY_CONFLICT",
+      "scenario_id": "C05_IDENTITY_CONFLICT",
+      "scope": "STATIC_EVIDENCE_CORE; NO_PROCESS_FAULT_INJECTION",
+      "snapshot": {
+        "journalAttempt": {
+          "events": [
+            {
+              "artifactId": "ablation-core-r2-C05_IDENTITY_CONFLICT-artifact",
+              "artifactSetId": "ablation-core-r2-C05_IDENTITY_CONFLICT-set",
+              "attemptId": "ablation-core-r2-C05_IDENTITY_CONFLICT-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C05_IDENTITY_CONFLICT-deliverable",
+              "eventId": "ablation-core-r2-C05_IDENTITY_CONFLICT-event-1",
+              "eventType": "AttemptCommitted",
+              "journalSequence": 1,
+              "queueBindingId": "ablation-core-r2-C05_IDENTITY_CONFLICT-binding",
+              "taskId": "ablation-core-r2-C05_IDENTITY_CONFLICT-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C05_IDENTITY_CONFLICT-artifact",
+              "artifactSetId": "ablation-core-r2-C05_IDENTITY_CONFLICT-set",
+              "attemptId": "ablation-core-r2-C05_IDENTITY_CONFLICT-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C05_IDENTITY_CONFLICT-deliverable",
+              "eventId": "ablation-core-r2-C05_IDENTITY_CONFLICT-event-2",
+              "eventType": "QueueBindingPrepared",
+              "journalSequence": 2,
+              "queueBindingId": "ablation-core-r2-C05_IDENTITY_CONFLICT-binding",
+              "taskId": "ablation-core-r2-C05_IDENTITY_CONFLICT-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C05_IDENTITY_CONFLICT-artifact",
+              "artifactSetId": "ablation-core-r2-C05_IDENTITY_CONFLICT-set",
+              "attemptId": "ablation-core-r2-C05_IDENTITY_CONFLICT-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C05_IDENTITY_CONFLICT-deliverable",
+              "eventId": "ablation-core-r2-C05_IDENTITY_CONFLICT-event-3",
+              "eventType": "QueueItemPersisted",
+              "journalSequence": 3,
+              "queueBindingId": "ablation-core-r2-C05_IDENTITY_CONFLICT-binding",
+              "queueItemId": "ablation-core-r2-C05_IDENTITY_CONFLICT-queue",
+              "taskId": "ablation-core-r2-C05_IDENTITY_CONFLICT-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C05_IDENTITY_CONFLICT-artifact",
+              "artifactSetId": "ablation-core-r2-C05_IDENTITY_CONFLICT-set",
+              "attemptId": "ablation-core-r2-C05_IDENTITY_CONFLICT-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C05_IDENTITY_CONFLICT-deliverable",
+              "eventId": "ablation-core-r2-C05_IDENTITY_CONFLICT-event-4",
+              "eventType": "DispatchBoundaryCrossed",
+              "journalSequence": 4,
+              "queueBindingId": "ablation-core-r2-C05_IDENTITY_CONFLICT-binding",
+              "queueItemId": "ablation-core-r2-C05_IDENTITY_CONFLICT-queue",
+              "taskId": "ablation-core-r2-C05_IDENTITY_CONFLICT-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C05_IDENTITY_CONFLICT-artifact",
+              "artifactSetId": "ablation-core-r2-C05_IDENTITY_CONFLICT-set",
+              "attemptId": "ablation-core-r2-C05_IDENTITY_CONFLICT-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C05_IDENTITY_CONFLICT-deliverable",
+              "eventId": "ablation-core-r2-C05_IDENTITY_CONFLICT-event-5",
+              "eventType": "AdapterOutcomeObserved",
+              "evidenceLevel": "adapter_accepted",
+              "journalSequence": 5,
+              "outcome": "adapter_accepted",
+              "queueBindingId": "ablation-core-r2-C05_IDENTITY_CONFLICT-binding",
+              "queueItemId": "ablation-core-r2-C05_IDENTITY_CONFLICT-queue",
+              "taskId": "ablation-core-r2-C05_IDENTITY_CONFLICT-task",
+              "taskStateVersion": 1
+            }
+          ]
+        },
+        "queueItem": {
+          "artifactId": "ablation-core-r2-C05_IDENTITY_CONFLICT-artifact",
+          "artifactSetId": "ablation-core-r2-C05_IDENTITY_CONFLICT-set",
+          "attemptId": "ablation-core-r2-C05_IDENTITY_CONFLICT-a1",
+          "bindingGeneration": 1,
+          "deliverableId": "ablation-core-r2-C05_IDENTITY_CONFLICT-deliverable",
+          "pending": true,
+          "queueBindingId": "ablation-core-r2-C05_IDENTITY_CONFLICT-binding",
+          "queueItemId": "ablation-core-r2-C05_IDENTITY_CONFLICT-queue",
+          "taskId": "ablation-core-r2-C05_IDENTITY_CONFLICT-task",
+          "taskStateVersion": 1
+        },
+        "taskContext": {
+          "artifactId": "OTHER_ARTIFACT",
+          "artifactSetId": "ablation-core-r2-C05_IDENTITY_CONFLICT-set",
+          "attemptId": "ablation-core-r2-C05_IDENTITY_CONFLICT-a1",
+          "bindingGeneration": 1,
+          "deliverableId": "ablation-core-r2-C05_IDENTITY_CONFLICT-deliverable",
+          "deliveryState": "pending",
+          "queueBindingId": "ablation-core-r2-C05_IDENTITY_CONFLICT-binding",
+          "taskId": "ablation-core-r2-C05_IDENTITY_CONFLICT-task",
+          "taskStateVersion": 1
+        }
+      },
+      "transport_request_id": "ablation-core-r2-C05_IDENTITY_CONFLICT-t1",
+      "twin_group": null
+    },
+    {
+      "attempt_id": "ablation-core-r2-C06_STALE_VERSION-a1",
+      "logical_operation_id": "ablation-core-r2-C06_STALE_VERSION",
+      "scenario_id": "C06_STALE_VERSION",
+      "scope": "STATIC_EVIDENCE_CORE; NO_PROCESS_FAULT_INJECTION",
+      "snapshot": {
+        "journalAttempt": {
+          "events": [
+            {
+              "artifactId": "ablation-core-r2-C06_STALE_VERSION-artifact",
+              "artifactSetId": "ablation-core-r2-C06_STALE_VERSION-set",
+              "attemptId": "ablation-core-r2-C06_STALE_VERSION-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C06_STALE_VERSION-deliverable",
+              "eventId": "ablation-core-r2-C06_STALE_VERSION-event-1",
+              "eventType": "AttemptCommitted",
+              "journalSequence": 1,
+              "queueBindingId": "ablation-core-r2-C06_STALE_VERSION-binding",
+              "taskId": "ablation-core-r2-C06_STALE_VERSION-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C06_STALE_VERSION-artifact",
+              "artifactSetId": "ablation-core-r2-C06_STALE_VERSION-set",
+              "attemptId": "ablation-core-r2-C06_STALE_VERSION-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C06_STALE_VERSION-deliverable",
+              "eventId": "ablation-core-r2-C06_STALE_VERSION-event-2",
+              "eventType": "QueueBindingPrepared",
+              "journalSequence": 2,
+              "queueBindingId": "ablation-core-r2-C06_STALE_VERSION-binding",
+              "taskId": "ablation-core-r2-C06_STALE_VERSION-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C06_STALE_VERSION-artifact",
+              "artifactSetId": "ablation-core-r2-C06_STALE_VERSION-set",
+              "attemptId": "ablation-core-r2-C06_STALE_VERSION-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C06_STALE_VERSION-deliverable",
+              "eventId": "ablation-core-r2-C06_STALE_VERSION-event-3",
+              "eventType": "QueueItemPersisted",
+              "journalSequence": 3,
+              "queueBindingId": "ablation-core-r2-C06_STALE_VERSION-binding",
+              "queueItemId": "ablation-core-r2-C06_STALE_VERSION-queue",
+              "taskId": "ablation-core-r2-C06_STALE_VERSION-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C06_STALE_VERSION-artifact",
+              "artifactSetId": "ablation-core-r2-C06_STALE_VERSION-set",
+              "attemptId": "ablation-core-r2-C06_STALE_VERSION-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C06_STALE_VERSION-deliverable",
+              "eventId": "ablation-core-r2-C06_STALE_VERSION-event-4",
+              "eventType": "DispatchBoundaryCrossed",
+              "journalSequence": 4,
+              "queueBindingId": "ablation-core-r2-C06_STALE_VERSION-binding",
+              "queueItemId": "ablation-core-r2-C06_STALE_VERSION-queue",
+              "taskId": "ablation-core-r2-C06_STALE_VERSION-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C06_STALE_VERSION-artifact",
+              "artifactSetId": "ablation-core-r2-C06_STALE_VERSION-set",
+              "attemptId": "ablation-core-r2-C06_STALE_VERSION-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C06_STALE_VERSION-deliverable",
+              "eventId": "ablation-core-r2-C06_STALE_VERSION-event-5",
+              "eventType": "AdapterOutcomeObserved",
+              "evidenceLevel": "adapter_accepted",
+              "journalSequence": 5,
+              "outcome": "adapter_accepted",
+              "queueBindingId": "ablation-core-r2-C06_STALE_VERSION-binding",
+              "queueItemId": "ablation-core-r2-C06_STALE_VERSION-queue",
+              "taskId": "ablation-core-r2-C06_STALE_VERSION-task",
+              "taskStateVersion": 1
+            }
+          ]
+        },
+        "queueItem": {
+          "artifactId": "ablation-core-r2-C06_STALE_VERSION-artifact",
+          "artifactSetId": "ablation-core-r2-C06_STALE_VERSION-set",
+          "attemptId": "ablation-core-r2-C06_STALE_VERSION-a1",
+          "bindingGeneration": 1,
+          "deliverableId": "ablation-core-r2-C06_STALE_VERSION-deliverable",
+          "pending": true,
+          "queueBindingId": "ablation-core-r2-C06_STALE_VERSION-binding",
+          "queueItemId": "ablation-core-r2-C06_STALE_VERSION-queue",
+          "taskId": "ablation-core-r2-C06_STALE_VERSION-task",
+          "taskStateVersion": 1
+        },
+        "taskContext": {
+          "artifactId": "ablation-core-r2-C06_STALE_VERSION-artifact",
+          "artifactSetId": "ablation-core-r2-C06_STALE_VERSION-set",
+          "attemptId": "ablation-core-r2-C06_STALE_VERSION-a1",
+          "bindingGeneration": 1,
+          "deliverableId": "ablation-core-r2-C06_STALE_VERSION-deliverable",
+          "deliveryState": "pending",
+          "queueBindingId": "ablation-core-r2-C06_STALE_VERSION-binding",
+          "taskId": "ablation-core-r2-C06_STALE_VERSION-task",
+          "taskStateVersion": 2
+        }
+      },
+      "transport_request_id": "ablation-core-r2-C06_STALE_VERSION-t1",
+      "twin_group": null
+    },
+    {
+      "attempt_id": "ablation-core-r2-C07_SEQUENCE_REGRESSION-a1",
+      "logical_operation_id": "ablation-core-r2-C07_SEQUENCE_REGRESSION",
+      "scenario_id": "C07_SEQUENCE_REGRESSION",
+      "scope": "STATIC_EVIDENCE_CORE; NO_PROCESS_FAULT_INJECTION",
+      "snapshot": {
+        "journalAttempt": {
+          "events": [
+            {
+              "artifactId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-artifact",
+              "artifactSetId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-set",
+              "attemptId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-deliverable",
+              "eventId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-event-1",
+              "eventType": "AttemptCommitted",
+              "journalSequence": 1,
+              "queueBindingId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-binding",
+              "taskId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-artifact",
+              "artifactSetId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-set",
+              "attemptId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-deliverable",
+              "eventId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-event-2",
+              "eventType": "QueueBindingPrepared",
+              "journalSequence": 2,
+              "queueBindingId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-binding",
+              "taskId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-artifact",
+              "artifactSetId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-set",
+              "attemptId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-deliverable",
+              "eventId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-event-3",
+              "eventType": "QueueItemPersisted",
+              "journalSequence": 1,
+              "queueBindingId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-binding",
+              "queueItemId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-queue",
+              "taskId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-artifact",
+              "artifactSetId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-set",
+              "attemptId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-deliverable",
+              "eventId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-event-4",
+              "eventType": "DispatchBoundaryCrossed",
+              "journalSequence": 4,
+              "queueBindingId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-binding",
+              "queueItemId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-queue",
+              "taskId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-artifact",
+              "artifactSetId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-set",
+              "attemptId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-deliverable",
+              "eventId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-event-5",
+              "eventType": "AdapterOutcomeObserved",
+              "evidenceLevel": "adapter_accepted",
+              "journalSequence": 5,
+              "outcome": "adapter_accepted",
+              "queueBindingId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-binding",
+              "queueItemId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-queue",
+              "taskId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-task",
+              "taskStateVersion": 1
+            }
+          ]
+        },
+        "queueItem": {
+          "artifactId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-artifact",
+          "artifactSetId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-set",
+          "attemptId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-a1",
+          "bindingGeneration": 1,
+          "deliverableId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-deliverable",
+          "pending": true,
+          "queueBindingId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-binding",
+          "queueItemId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-queue",
+          "taskId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-task",
+          "taskStateVersion": 1
+        },
+        "taskContext": {
+          "artifactId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-artifact",
+          "artifactSetId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-set",
+          "attemptId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-a1",
+          "bindingGeneration": 1,
+          "deliverableId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-deliverable",
+          "deliveryState": "pending",
+          "queueBindingId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-binding",
+          "taskId": "ablation-core-r2-C07_SEQUENCE_REGRESSION-task",
+          "taskStateVersion": 1
+        }
+      },
+      "transport_request_id": "ablation-core-r2-C07_SEQUENCE_REGRESSION-t1",
+      "twin_group": null
+    },
+    {
+      "attempt_id": "ablation-core-r2-C08_RANK_REGRESSION-a1",
+      "logical_operation_id": "ablation-core-r2-C08_RANK_REGRESSION",
+      "scenario_id": "C08_RANK_REGRESSION",
+      "scope": "STATIC_EVIDENCE_CORE; NO_PROCESS_FAULT_INJECTION",
+      "snapshot": {
+        "journalAttempt": {
+          "events": [
+            {
+              "artifactId": "ablation-core-r2-C08_RANK_REGRESSION-artifact",
+              "artifactSetId": "ablation-core-r2-C08_RANK_REGRESSION-set",
+              "attemptId": "ablation-core-r2-C08_RANK_REGRESSION-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C08_RANK_REGRESSION-deliverable",
+              "eventId": "ablation-core-r2-C08_RANK_REGRESSION-event-1",
+              "eventType": "AttemptCommitted",
+              "journalSequence": 1,
+              "queueBindingId": "ablation-core-r2-C08_RANK_REGRESSION-binding",
+              "taskId": "ablation-core-r2-C08_RANK_REGRESSION-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C08_RANK_REGRESSION-artifact",
+              "artifactSetId": "ablation-core-r2-C08_RANK_REGRESSION-set",
+              "attemptId": "ablation-core-r2-C08_RANK_REGRESSION-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C08_RANK_REGRESSION-deliverable",
+              "eventId": "ablation-core-r2-C08_RANK_REGRESSION-event-2",
+              "eventType": "QueueBindingPrepared",
+              "journalSequence": 2,
+              "queueBindingId": "ablation-core-r2-C08_RANK_REGRESSION-binding",
+              "taskId": "ablation-core-r2-C08_RANK_REGRESSION-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C08_RANK_REGRESSION-artifact",
+              "artifactSetId": "ablation-core-r2-C08_RANK_REGRESSION-set",
+              "attemptId": "ablation-core-r2-C08_RANK_REGRESSION-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C08_RANK_REGRESSION-deliverable",
+              "eventId": "ablation-core-r2-C08_RANK_REGRESSION-event-3",
+              "eventType": "DispatchBoundaryCrossed",
+              "journalSequence": 3,
+              "queueBindingId": "ablation-core-r2-C08_RANK_REGRESSION-binding",
+              "queueItemId": "ablation-core-r2-C08_RANK_REGRESSION-queue",
+              "taskId": "ablation-core-r2-C08_RANK_REGRESSION-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C08_RANK_REGRESSION-artifact",
+              "artifactSetId": "ablation-core-r2-C08_RANK_REGRESSION-set",
+              "attemptId": "ablation-core-r2-C08_RANK_REGRESSION-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C08_RANK_REGRESSION-deliverable",
+              "eventId": "ablation-core-r2-C08_RANK_REGRESSION-event-4",
+              "eventType": "QueueItemPersisted",
+              "journalSequence": 4,
+              "queueBindingId": "ablation-core-r2-C08_RANK_REGRESSION-binding",
+              "queueItemId": "ablation-core-r2-C08_RANK_REGRESSION-queue",
+              "taskId": "ablation-core-r2-C08_RANK_REGRESSION-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C08_RANK_REGRESSION-artifact",
+              "artifactSetId": "ablation-core-r2-C08_RANK_REGRESSION-set",
+              "attemptId": "ablation-core-r2-C08_RANK_REGRESSION-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C08_RANK_REGRESSION-deliverable",
+              "eventId": "ablation-core-r2-C08_RANK_REGRESSION-event-5",
+              "eventType": "AdapterOutcomeObserved",
+              "evidenceLevel": "adapter_accepted",
+              "journalSequence": 5,
+              "outcome": "adapter_accepted",
+              "queueBindingId": "ablation-core-r2-C08_RANK_REGRESSION-binding",
+              "queueItemId": "ablation-core-r2-C08_RANK_REGRESSION-queue",
+              "taskId": "ablation-core-r2-C08_RANK_REGRESSION-task",
+              "taskStateVersion": 1
+            }
+          ]
+        },
+        "queueItem": {
+          "artifactId": "ablation-core-r2-C08_RANK_REGRESSION-artifact",
+          "artifactSetId": "ablation-core-r2-C08_RANK_REGRESSION-set",
+          "attemptId": "ablation-core-r2-C08_RANK_REGRESSION-a1",
+          "bindingGeneration": 1,
+          "deliverableId": "ablation-core-r2-C08_RANK_REGRESSION-deliverable",
+          "pending": true,
+          "queueBindingId": "ablation-core-r2-C08_RANK_REGRESSION-binding",
+          "queueItemId": "ablation-core-r2-C08_RANK_REGRESSION-queue",
+          "taskId": "ablation-core-r2-C08_RANK_REGRESSION-task",
+          "taskStateVersion": 1
+        },
+        "taskContext": {
+          "artifactId": "ablation-core-r2-C08_RANK_REGRESSION-artifact",
+          "artifactSetId": "ablation-core-r2-C08_RANK_REGRESSION-set",
+          "attemptId": "ablation-core-r2-C08_RANK_REGRESSION-a1",
+          "bindingGeneration": 1,
+          "deliverableId": "ablation-core-r2-C08_RANK_REGRESSION-deliverable",
+          "deliveryState": "pending",
+          "queueBindingId": "ablation-core-r2-C08_RANK_REGRESSION-binding",
+          "taskId": "ablation-core-r2-C08_RANK_REGRESSION-task",
+          "taskStateVersion": 1
+        }
+      },
+      "transport_request_id": "ablation-core-r2-C08_RANK_REGRESSION-t1",
+      "twin_group": null
+    },
+    {
+      "attempt_id": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-a1",
+      "logical_operation_id": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH",
+      "scenario_id": "C09_OUTCOME_WITHOUT_DISPATCH",
+      "scope": "STATIC_EVIDENCE_CORE; NO_PROCESS_FAULT_INJECTION",
+      "snapshot": {
+        "journalAttempt": {
+          "events": [
+            {
+              "artifactId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-artifact",
+              "artifactSetId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-set",
+              "attemptId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-deliverable",
+              "eventId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-event-1",
+              "eventType": "AttemptCommitted",
+              "journalSequence": 1,
+              "queueBindingId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-binding",
+              "taskId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-artifact",
+              "artifactSetId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-set",
+              "attemptId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-deliverable",
+              "eventId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-event-2",
+              "eventType": "QueueBindingPrepared",
+              "journalSequence": 2,
+              "queueBindingId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-binding",
+              "taskId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-artifact",
+              "artifactSetId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-set",
+              "attemptId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-deliverable",
+              "eventId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-event-3",
+              "eventType": "QueueItemPersisted",
+              "journalSequence": 3,
+              "queueBindingId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-binding",
+              "queueItemId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-queue",
+              "taskId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-artifact",
+              "artifactSetId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-set",
+              "attemptId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-deliverable",
+              "eventId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-event-4",
+              "eventType": "AdapterOutcomeObserved",
+              "evidenceLevel": "adapter_accepted",
+              "journalSequence": 4,
+              "outcome": "adapter_accepted",
+              "queueBindingId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-binding",
+              "queueItemId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-queue",
+              "taskId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-task",
+              "taskStateVersion": 1
+            }
+          ]
+        },
+        "queueItem": {
+          "artifactId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-artifact",
+          "artifactSetId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-set",
+          "attemptId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-a1",
+          "bindingGeneration": 1,
+          "deliverableId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-deliverable",
+          "pending": true,
+          "queueBindingId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-binding",
+          "queueItemId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-queue",
+          "taskId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-task",
+          "taskStateVersion": 1
+        },
+        "taskContext": {
+          "artifactId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-artifact",
+          "artifactSetId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-set",
+          "attemptId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-a1",
+          "bindingGeneration": 1,
+          "deliverableId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-deliverable",
+          "deliveryState": "pending",
+          "queueBindingId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-binding",
+          "taskId": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-task",
+          "taskStateVersion": 1
+        }
+      },
+      "transport_request_id": "ablation-core-r2-C09_OUTCOME_WITHOUT_DISPATCH-t1",
+      "twin_group": null
+    },
+    {
+      "attempt_id": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-a1",
+      "logical_operation_id": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE",
+      "scenario_id": "C10_WEAK_ACCEPTANCE_EVIDENCE",
+      "scope": "STATIC_EVIDENCE_CORE; NO_PROCESS_FAULT_INJECTION",
+      "snapshot": {
+        "journalAttempt": {
+          "events": [
+            {
+              "artifactId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-artifact",
+              "artifactSetId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-set",
+              "attemptId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-deliverable",
+              "eventId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-event-1",
+              "eventType": "AttemptCommitted",
+              "journalSequence": 1,
+              "queueBindingId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-binding",
+              "taskId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-artifact",
+              "artifactSetId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-set",
+              "attemptId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-deliverable",
+              "eventId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-event-2",
+              "eventType": "QueueBindingPrepared",
+              "journalSequence": 2,
+              "queueBindingId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-binding",
+              "taskId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-artifact",
+              "artifactSetId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-set",
+              "attemptId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-deliverable",
+              "eventId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-event-3",
+              "eventType": "QueueItemPersisted",
+              "journalSequence": 3,
+              "queueBindingId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-binding",
+              "queueItemId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-queue",
+              "taskId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-artifact",
+              "artifactSetId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-set",
+              "attemptId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-deliverable",
+              "eventId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-event-4",
+              "eventType": "DispatchBoundaryCrossed",
+              "journalSequence": 4,
+              "queueBindingId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-binding",
+              "queueItemId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-queue",
+              "taskId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-artifact",
+              "artifactSetId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-set",
+              "attemptId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-deliverable",
+              "eventId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-event-5",
+              "eventType": "AdapterOutcomeObserved",
+              "evidenceLevel": "local_unverified",
+              "journalSequence": 5,
+              "outcome": "adapter_accepted",
+              "queueBindingId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-binding",
+              "queueItemId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-queue",
+              "taskId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-task",
+              "taskStateVersion": 1
+            }
+          ]
+        },
+        "queueItem": {
+          "artifactId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-artifact",
+          "artifactSetId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-set",
+          "attemptId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-a1",
+          "bindingGeneration": 1,
+          "deliverableId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-deliverable",
+          "pending": true,
+          "queueBindingId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-binding",
+          "queueItemId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-queue",
+          "taskId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-task",
+          "taskStateVersion": 1
+        },
+        "taskContext": {
+          "artifactId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-artifact",
+          "artifactSetId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-set",
+          "attemptId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-a1",
+          "bindingGeneration": 1,
+          "deliverableId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-deliverable",
+          "deliveryState": "pending",
+          "queueBindingId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-binding",
+          "taskId": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-task",
+          "taskStateVersion": 1
+        }
+      },
+      "transport_request_id": "ablation-core-r2-C10_WEAK_ACCEPTANCE_EVIDENCE-t1",
+      "twin_group": null
+    },
+    {
+      "attempt_id": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-a1",
+      "logical_operation_id": "ablation-core-r2-C11_INCOMPLETE_IDENTITY",
+      "scenario_id": "C11_INCOMPLETE_IDENTITY",
+      "scope": "STATIC_EVIDENCE_CORE; NO_PROCESS_FAULT_INJECTION",
+      "snapshot": {
+        "journalAttempt": {
+          "events": [
+            {
+              "artifactId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-artifact",
+              "artifactSetId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-set",
+              "attemptId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-deliverable",
+              "eventId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-event-1",
+              "eventType": "AttemptCommitted",
+              "journalSequence": 1,
+              "queueBindingId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-binding",
+              "taskId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-artifact",
+              "artifactSetId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-set",
+              "attemptId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-deliverable",
+              "eventId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-event-2",
+              "eventType": "QueueBindingPrepared",
+              "journalSequence": 2,
+              "queueBindingId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-binding",
+              "taskId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-artifact",
+              "artifactSetId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-set",
+              "attemptId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-deliverable",
+              "eventId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-event-3",
+              "eventType": "QueueItemPersisted",
+              "journalSequence": 3,
+              "queueBindingId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-binding",
+              "queueItemId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-queue",
+              "taskId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-artifact",
+              "artifactSetId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-set",
+              "attemptId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-deliverable",
+              "eventId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-event-4",
+              "eventType": "DispatchBoundaryCrossed",
+              "journalSequence": 4,
+              "queueBindingId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-binding",
+              "queueItemId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-queue",
+              "taskId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactSetId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-set",
+              "attemptId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-deliverable",
+              "eventId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-event-5",
+              "eventType": "AdapterOutcomeObserved",
+              "evidenceLevel": "adapter_accepted",
+              "journalSequence": 5,
+              "outcome": "adapter_accepted",
+              "queueBindingId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-binding",
+              "queueItemId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-queue",
+              "taskId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-task",
+              "taskStateVersion": 1
+            }
+          ]
+        },
+        "queueItem": {
+          "artifactId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-artifact",
+          "artifactSetId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-set",
+          "attemptId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-a1",
+          "bindingGeneration": 1,
+          "deliverableId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-deliverable",
+          "pending": true,
+          "queueBindingId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-binding",
+          "queueItemId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-queue",
+          "taskId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-task",
+          "taskStateVersion": 1
+        },
+        "taskContext": {
+          "artifactId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-artifact",
+          "artifactSetId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-set",
+          "attemptId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-a1",
+          "bindingGeneration": 1,
+          "deliverableId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-deliverable",
+          "deliveryState": "pending",
+          "queueBindingId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-binding",
+          "taskId": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-task",
+          "taskStateVersion": 1
+        }
+      },
+      "transport_request_id": "ablation-core-r2-C11_INCOMPLETE_IDENTITY-t1",
+      "twin_group": null
+    },
+    {
+      "attempt_id": "ablation-core-r2-C12_UNREADABLE_JOURNAL-a1",
+      "logical_operation_id": "ablation-core-r2-C12_UNREADABLE_JOURNAL",
+      "scenario_id": "C12_UNREADABLE_JOURNAL",
+      "scope": "STATIC_EVIDENCE_CORE; NO_PROCESS_FAULT_INJECTION",
+      "snapshot": {
+        "journalAttempt": {
+          "events": [
+            {
+              "artifactId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-artifact",
+              "artifactSetId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-set",
+              "attemptId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-deliverable",
+              "eventId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-event-1",
+              "eventType": "AttemptCommitted",
+              "journalSequence": 1,
+              "queueBindingId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-binding",
+              "taskId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-artifact",
+              "artifactSetId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-set",
+              "attemptId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-deliverable",
+              "eventId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-event-2",
+              "eventType": "QueueBindingPrepared",
+              "journalSequence": 2,
+              "queueBindingId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-binding",
+              "taskId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-artifact",
+              "artifactSetId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-set",
+              "attemptId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-deliverable",
+              "eventId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-event-3",
+              "eventType": "QueueItemPersisted",
+              "journalSequence": 3,
+              "queueBindingId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-binding",
+              "queueItemId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-queue",
+              "taskId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-artifact",
+              "artifactSetId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-set",
+              "attemptId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-deliverable",
+              "eventId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-event-4",
+              "eventType": "DispatchBoundaryCrossed",
+              "journalSequence": 4,
+              "queueBindingId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-binding",
+              "queueItemId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-queue",
+              "taskId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-task",
+              "taskStateVersion": 1
+            },
+            {
+              "artifactId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-artifact",
+              "artifactSetId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-set",
+              "attemptId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-a1",
+              "bindingGeneration": 1,
+              "deliverableId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-deliverable",
+              "eventId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-event-5",
+              "eventType": "AdapterOutcomeObserved",
+              "evidenceLevel": "adapter_accepted",
+              "journalSequence": 5,
+              "outcome": "adapter_accepted",
+              "queueBindingId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-binding",
+              "queueItemId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-queue",
+              "taskId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-task",
+              "taskStateVersion": 1
+            }
+          ],
+          "unreadable": true
+        },
+        "queueItem": {
+          "artifactId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-artifact",
+          "artifactSetId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-set",
+          "attemptId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-a1",
+          "bindingGeneration": 1,
+          "deliverableId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-deliverable",
+          "pending": true,
+          "queueBindingId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-binding",
+          "queueItemId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-queue",
+          "taskId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-task",
+          "taskStateVersion": 1
+        },
+        "taskContext": {
+          "artifactId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-artifact",
+          "artifactSetId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-set",
+          "attemptId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-a1",
+          "bindingGeneration": 1,
+          "deliverableId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-deliverable",
+          "deliveryState": "pending",
+          "queueBindingId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-binding",
+          "taskId": "ablation-core-r2-C12_UNREADABLE_JOURNAL-task",
+          "taskStateVersion": 1
+        }
+      },
+      "transport_request_id": "ablation-core-r2-C12_UNREADABLE_JOURNAL-t1",
+      "twin_group": null
+    }
+  ],
+  "status": "CORE_INPUTS_FROZEN_RUNTIME_PENDING"
+}

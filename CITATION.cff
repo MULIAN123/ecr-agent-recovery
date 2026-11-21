@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript when using these artifacts."
+title: "Evidence-Constrained Recovery for Ambiguous Irreversible Tool Effects in LLM Agent Systems"
+authors:
+  - family-names: "Tang"
+    given-names: "Yayuan"
+  - family-names: "Lian"
+    given-names: "Hang"
+  - family-names: "Jiang"
+    given-names: "Zhihui"
+type: software

@@ -1,0 +1,29 @@
+{
+ "differences": [
+  {
+   "diag_fields": [
+    "eligibility"
+   ],
+   "scorer_fields": [],
+   "unit_id": "E8:G6:A4:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A:A4_violated"
+  },
+  {
+   "diag_fields": [
+    "eligibility"
+   ],
+   "scorer_fields": [],
+   "unit_id": "E8:G6:A4:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A:A4_violated"
+  },
+  {
+   "diag_fields": [
+    "eligibility"
+   ],
+   "scorer_fields": [],
+   "unit_id": "E8:G6:A4:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A:A4_violated"
+  }
+ ],
+ "gate": "G-D",
+ "rule": "differences are analysed one by one; no majority vote and no choice of one run",
+ "status": "DIFFERENCES_TO_ANALYSE",
+ "units_compared": 269
+}

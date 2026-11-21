@@ -1,0 +1,32 @@
+{
+ "status": "FROZEN (Addendum D) - no bl6 unit has run on any machine; held-out-2 never run locally",
+ "utc": "2026-11-14T07:29:38.119295+00:00",
+ "approval": "user in chat 2026-11-14: 我认为先改进再跑一轮实验，然后跟上次一样，你做好之后，我用学院服务器接着跑实验",
+ "addendum_D_sha256": "d7b23a9b53c7b92b3da04e8b633f7d4fddf56c2c4cbff426e94bd354a641c3b1",
+ "candidate_bl6_manifest_sha256": "d8f724d181e1900ad436f4732aab16a4a94750a1fef3e6d44dffad06caf04bd0",
+ "candidate_bl6_tar_sha256": "2e85cc135adef06e21fd00b9ef320529a484e638465f31147350d3c0781c3fc6",
+ "cells_bl6_sha256": "57b268d9ddb355b71943391181e58ac4cf67a2870f019f562bc1c918ae816db7",
+ "predictions_bl6_sha256": "2297a4975c4ca8d75ac8905a4ec9aeb2417a894b09600207913b956300c566d9",
+ "host_tools": {
+  "aggregate_bl6.py": "5fcc21ee844c36702b7af83eb5edcb90767b79e318098d91fe6f1be8c423e6f9",
+  "audit_qualification_bl6.py": "84c925bd12c0d08b14ba879fb63bf8cb6c43cb769fcd75f52f0f581e950f4a15",
+  "gate_gd_bl6.py": "71d241db981141adf270dcd8976a2bd4766449d0152e44ac12bc4bd13819149f",
+  "gate_gk_bl6.py": "b50d9aff6fc8bfd16e0ca6b7c00c2f1bdef317ad14f7e3fde9e83f599e5513f9"
+ },
+ "bl5_results_freeze_record_sha256": "91528c772c4c3231ae79f8c11b9a7c6663d3159b21f1d0a6883535e6ef8aa55f",
+ "evidence_sha256": {
+  "prep/work/harness_v2_dev.json": "15c4bc5ad47a4e24fe58cd8a54b2bff864ee5464e9cae9610a9d86e73397c97a",
+  "prep/work/harness_v2_heldout1.json": "d6224dd2972e7f751d321c5b8ffc5c4c096537f88fba03fa25d9c77f82faa368",
+  "prep/work/harness_v3_dev.json": "61fe372fa834a8749bb5d87f8b4696768a4070e945d7832c52d87fd3b8a92d55",
+  "prep/work/harness_v3_heldout1.json": "f392dac6c8841a078fe40635e2ef6f573ab134d91cc2db10eb47f5f0a17c0567",
+  "prep/work/predictions_bl6.json": "2297a4975c4ca8d75ac8905a4ec9aeb2417a894b09600207913b956300c566d9",
+  "prep/work/score_v3_vs_v2.txt": "a408416dd93f261efc7a126184a38afc2c6965e6ae4105a33a3ffd149c62de13",
+  "prep/work/selftest_host_tools_bl6.log": "89a3bfc02101f6a62652f727286d163b891f4ffe47d9f3d09557514531d234e5"
+ },
+ "batch_ids": {
+  "qualification": "ecr-bl6q-srv-b1",
+  "run1": "ecr-bl6x-srv-b1",
+  "run2": "ecr-bl6x-srv-c1"
+ },
+ "vm_disk": "fresh clone of original ECR_FOLLOWUP_R1.vmdk sha256 07360d6431e637e7cf51e5e5879cf83b20dfa9d419b7a3fa7bbc02c1b0a03e9d"
+}

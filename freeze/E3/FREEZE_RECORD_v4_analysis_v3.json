@@ -1,0 +1,156 @@
+{
+ "record": "FREEZE_RECORD_v4_analysis_v3",
+ "status": "FROZEN (local SHA-256 and file times only; no third-party timestamp or preregistration claimed)",
+ "approval": "user approved the freeze in chat on 2026-10-16 ('批准冻结'); VM boot for the read-only check approved ('同意开机')",
+ "frozen_utc": "2026-10-16T11:34:33.037302+00:00",
+ "not_approved": [
+  "formal P3-A run (decision B)",
+  "P3-C",
+  "-C_lvl / DSH",
+  "D9",
+  "any code change",
+  "paper changes"
+ ],
+ "identities": {
+  "run_package_candidate_manifest_v4": {
+   "sha256": "6496b502131237e0553c599a195f2902fe508bf1c3de81415d02e293ce9b40d8",
+   "file_count": 42,
+   "package": "codex_qqrobot/experiments/ECR_FOLLOWUP_R1/async_sim_r2"
+  },
+  "execution_manifest": {
+   "sha256": "5034c58c5ec354a2ef83f62a56de449440bab72fd3f678ac53ae882df7d44133",
+   "file_count": 55,
+   "vm_path": "/home/ecradmin/ecr-r2-qualification-20261015-claude-02/async_sim_r2/execution-manifest-r2.json"
+  },
+  "strip_manifest": "853c843bf1b79ff3548a3519b567a0bd48c1998a8d15428dac58ff3d1a7434bb",
+  "generated_js_files": {
+   "arms_js/A_ACCEPTANCE_LEVEL/delivery-reconciliation-execution.js": "3ba1f9a09f6932d606f21bb8015d14ebc608e0c8ffc173200ba59b1f3e86e0b4",
+   "arms_js/A_ACCEPTANCE_LEVEL/delivery-reconciliation.js": "44be72a8e7154457cd7a9680b5fc1216c0af518f1a5162a61b8a660abf10d10c",
+   "arms_js/A_ACCEPTANCE_LEVEL/package.json": "1239d4d885dcad42201a27ed9324f8f0f760b78700d8db9ced39a511cffe7eae",
+   "arms_js/A_OUTCOME_BOUNDARY/delivery-reconciliation-execution.js": "3ba1f9a09f6932d606f21bb8015d14ebc608e0c8ffc173200ba59b1f3e86e0b4",
+   "arms_js/A_OUTCOME_BOUNDARY/delivery-reconciliation.js": "eedaa5945838476a7f2b8774ae1d500772adee941e41988247bb54bad466e412",
+   "arms_js/A_OUTCOME_BOUNDARY/package.json": "1239d4d885dcad42201a27ed9324f8f0f760b78700d8db9ced39a511cffe7eae",
+   "arms_js/A_UNKNOWN_PRESERVATION/delivery-reconciliation-execution.js": "3ba1f9a09f6932d606f21bb8015d14ebc608e0c8ffc173200ba59b1f3e86e0b4",
+   "arms_js/A_UNKNOWN_PRESERVATION/delivery-reconciliation.js": "6161618168585328a3b7dc124a7b49d45c8672b2cb5e17b9dab791958cc22ed7",
+   "arms_js/A_UNKNOWN_PRESERVATION/package.json": "1239d4d885dcad42201a27ed9324f8f0f760b78700d8db9ced39a511cffe7eae",
+   "arms_js/FULL/delivery-reconciliation-execution.js": "3ba1f9a09f6932d606f21bb8015d14ebc608e0c8ffc173200ba59b1f3e86e0b4",
+   "arms_js/FULL/delivery-reconciliation.js": "915809daa4d00855fffd669554ee732fe07796fd6b853d2b58169f64903de958",
+   "arms_js/FULL/package.json": "1239d4d885dcad42201a27ed9324f8f0f760b78700d8db9ced39a511cffe7eae",
+   "arms_js/strip-manifest.json": "853c843bf1b79ff3548a3519b567a0bd48c1998a8d15428dac58ff3d1a7434bb"
+  },
+  "cells_p3": "c244199721f4982bbda5aacf2b09e837e19a6b1395ab62a6dcdbc7025aa190b6",
+  "node_v24_21_0_binary": "7fde7b8afa198da66257f42ee2001d874c7355631e6d1579a5fb5ef1f246df4c",
+  "vm_uuids": [
+   "a15b4d56-f8c6-4048-1b04-8235eb3c75a7",
+   "564d5ba1-c6f8-4840-1b04-8235eb3c75a7"
+  ],
+  "kernel": "6.8.0-146-generic",
+  "python": "3.12.3",
+  "r1_cells": "b7f66c5523a7251250bbf59b65a9867466c33c0d08f5b05d07210c8f4a292869",
+  "r1_outcome_matrix": "d81ad998c775ae054552ef9aed44a80fcac1e4e68a3c3873158520abb94f023b",
+  "analysis_manifest_v3": {
+   "sha256": "3a44f73425363410e6c7b3221876dbb2e97401e3a00f6af52f0f1eb6aefe15fe",
+   "files": {
+    "aggregate_p3a.py": "2ad62ae2c0912d026fd4831b2fa1f79ee5f778ee31edbe57dfe06e427c8c4ac9",
+    "ANALYSIS_RULES_P3A_v3.md": "c4c6f3290eedb008ea1a930ef2250dded0bfe31aff0760f65850dcae425e5be5",
+    "tests/test_aggregate_p3a.py": "1c80a327db44e8fd7a1e4d58802d9b872d5725346876d1129c4fee99588b0770"
+   },
+   "package": "codex_qqrobot/experiments/ECR_FOLLOWUP_R1/analysis_r2"
+  }
+ },
+ "documents_sha256": {
+  "PHASE3_PREEXECUTION_PLAN_v4.md": "1d6bc6200aa747c292c05b9f095e628c5d5d9422a6c09d1116bd771e3ee43b7e",
+  "PHASE3_PREEXECUTION_PLAN_v3_review1.md": "66bfa9d83e22ee5bd3f7b9af0b1d7ea0390fcfa48fcbaedc658b37e1ee0c4166",
+  "QUAL2_EXECUTION_SCOPE_v4.md": "48ffafafff330bcb260c7dcc8d9c0ee4af71336b0c3063f96537839cf86be584",
+  "QUAL2_STATUS_20261015.md (first Q3-cross call FAIL kept)": "95f971505f9808743c68d982c268f846d9a9de8d668a13c421cd447e034dbfe2",
+  "QUAL2_STATUS_20261015_r2.md": "51e204ff0aabec56a5170308bedaab897640144a866767e57a1d3137abc7c5d1",
+  "FREEZE_AND_FORMAL_RUN_APPROVAL_v4_r4.md": "5feb9b2c54ef4ec730a5a6c1d289a6f8cb28249c248000e64d893cf88d738d23",
+  "ANALYSIS_DECISIONS_A1_A10_r1.md": "e7388995730d6bcb8a27620546ab514624762c63f896d36c86ce71a1484f27e0",
+  "selftest_evidence_v4/evidence.json": "20cd377e55f61a7499d84f379514d8a8dd6a7521feb893b6db7e5d0b3318d2b4",
+  "analysis_r2_test_evidence_v3/evidence.json": "56fe18d823f5ae624ae4d87502916af3392984f1fc0cd0121154fcb617d00a55",
+  "qualification: q3_cross_report.json (first call, FAIL)": "43f606581f9cd76147cc90749d44f67ed8d396f6ccded0a83506c2a1b3009e89",
+  "qualification: q3_cross_recovery_r1_report.json": "7e001b8b34acd6ca164e28dba5512926e6d85b783a38c48ea09d4074e75f6027",
+  "qualification: q5_finalized_states.json": "7179c72ae33109c2f5516b91c943ae38be4c004ae448f37f386174e54b0d03d1",
+  "qualification: q5_compare_r1.json": "ebf26c20e9c1cb73f9109c318dcf30855504eec0ee2d6fe07821a59c9425487f"
+ },
+ "checks": {
+  "candidate_manifest_v4_hash": {
+   "ok": true
+  },
+  "host_run_package_equals_candidate_v4": {
+   "ok": true
+  },
+  "cells_p3_in_candidate": {
+   "ok": true
+  },
+  "execution_manifest_hash": {
+   "ok": true
+  },
+  "execution_manifest_binds_candidate_v4": {
+   "ok": true
+  },
+  "execution_manifest_contains_all_candidate_files": {
+   "ok": true
+  },
+  "execution_manifest_extra_files_are_arms_js": {
+   "ok": true,
+   "detail": [
+    "arms_js/A_ACCEPTANCE_LEVEL/delivery-reconciliation-execution.js",
+    "arms_js/A_ACCEPTANCE_LEVEL/delivery-reconciliation.js",
+    "arms_js/A_ACCEPTANCE_LEVEL/package.json",
+    "arms_js/A_OUTCOME_BOUNDARY/delivery-reconciliation-execution.js",
+    "arms_js/A_OUTCOME_BOUNDARY/delivery-reconciliation.js",
+    "arms_js/A_OUTCOME_BOUNDARY/package.json",
+    "arms_js/A_UNKNOWN_PRESERVATION/delivery-reconciliation-execution.js",
+    "arms_js/A_UNKNOWN_PRESERVATION/delivery-reconciliation.js",
+    "arms_js/A_UNKNOWN_PRESERVATION/package.json",
+    "arms_js/FULL/delivery-reconciliation-execution.js",
+    "arms_js/FULL/delivery-reconciliation.js",
+    "arms_js/FULL/package.json",
+    "arms_js/strip-manifest.json"
+   ]
+  },
+  "execution_manifest_node_and_route": {
+   "ok": true
+  },
+  "strip_manifest_hash": {
+   "ok": true
+  },
+  "generated_js_equal_execution_manifest": {
+   "ok": true
+  },
+  "r1_cells_hash": {
+   "ok": true
+  },
+  "r1_outcome_matrix_hash": {
+   "ok": true
+  },
+  "analysis_manifest_v3_hash": {
+   "ok": true
+  },
+  "host_analysis_package_equals_manifest_v3": {
+   "ok": true
+  },
+  "analysis_depends_on_frozen_identities": {
+   "ok": true
+  },
+  "vm_readonly_check": {
+   "ok": true,
+   "detail": {
+    "log": "work\\freeze_20261016\\step01_vm_readonly_check.log",
+    "log_sha256": "d955ad6e6a5e8410448459a43fd794f78cb181c4d90582c46472bf5e7c46cff4"
+   }
+  }
+ },
+ "known_issues_frozen_as_is": [
+  "plan v4 said all package text files are CRLF; actually 28 LF / 14 CRLF (correction in QUAL2_STATUS_20261015_r2.md)",
+  "Q3 same-runtime 792 replays = T 72 + J 720",
+  "test helper emits a ResourceWarning (cosmetic)",
+  "recorder checks Node size/mtime per call; full hash before/after runs",
+  "qualification run 1 (v2 code) records have no code-identity binding; cannot be repaired",
+  "authority.py comment on crash hooks inconsistent with P3-C use (D5); not blocking P3-A",
+  "F7/FULL expectation is a code-derived prediction written after one development observation; not part of the A1 set",
+  "classification error rate not reported (A1); research question Q3 answered only in part"
+ ],
+ "change_rule": "any change to a frozen object requires a new version number and a new freeze record"
+}

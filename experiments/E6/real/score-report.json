@@ -1,0 +1,216 @@
+{
+  "executed": 252,
+  "observed": 235,
+  "by_arm_desc_phase": {
+    "D0|plain|post-effect": {
+      "trials": 33,
+      "duplicate": 18,
+      "completed": 15,
+      "missed_completion": 0,
+      "call_record_lost": 18,
+      "outcome_unknown_signal": 6,
+      "model_resend_attempted": 18,
+      "guard_denials": 0
+    },
+    "D0|plain|pre-effect": {
+      "trials": 6,
+      "duplicate": 0,
+      "completed": 5,
+      "missed_completion": 1,
+      "call_record_lost": 6,
+      "outcome_unknown_signal": 0,
+      "model_resend_attempted": 5,
+      "guard_denials": 0
+    },
+    "D0|warn|post-effect": {
+      "trials": 33,
+      "duplicate": 18,
+      "completed": 15,
+      "missed_completion": 0,
+      "call_record_lost": 18,
+      "outcome_unknown_signal": 6,
+      "model_resend_attempted": 18,
+      "guard_denials": 0
+    },
+    "D0|warn|pre-effect": {
+      "trials": 6,
+      "duplicate": 0,
+      "completed": 6,
+      "missed_completion": 0,
+      "call_record_lost": 6,
+      "outcome_unknown_signal": 0,
+      "model_resend_attempted": 6,
+      "guard_denials": 0
+    },
+    "D1|plain|post-effect": {
+      "trials": 33,
+      "duplicate": 0,
+      "completed": 33,
+      "missed_completion": 0,
+      "call_record_lost": 0,
+      "outcome_unknown_signal": 24,
+      "model_resend_attempted": 0,
+      "guard_denials": 0
+    },
+    "D1|plain|pre-effect": {
+      "trials": 6,
+      "duplicate": 0,
+      "completed": 0,
+      "missed_completion": 6,
+      "call_record_lost": 0,
+      "outcome_unknown_signal": 6,
+      "model_resend_attempted": 0,
+      "guard_denials": 0
+    },
+    "D1|warn|post-effect": {
+      "trials": 33,
+      "duplicate": 0,
+      "completed": 33,
+      "missed_completion": 0,
+      "call_record_lost": 0,
+      "outcome_unknown_signal": 24,
+      "model_resend_attempted": 0,
+      "guard_denials": 0
+    },
+    "D1|warn|pre-effect": {
+      "trials": 6,
+      "duplicate": 0,
+      "completed": 0,
+      "missed_completion": 6,
+      "call_record_lost": 0,
+      "outcome_unknown_signal": 6,
+      "model_resend_attempted": 0,
+      "guard_denials": 0
+    },
+    "D2|plain|post-effect": {
+      "trials": 33,
+      "duplicate": 0,
+      "completed": 33,
+      "missed_completion": 0,
+      "call_record_lost": 1,
+      "outcome_unknown_signal": 24,
+      "model_resend_attempted": 2,
+      "guard_denials": 2
+    },
+    "D2|plain|pre-effect": {
+      "trials": 6,
+      "duplicate": 0,
+      "completed": 0,
+      "missed_completion": 6,
+      "call_record_lost": 0,
+      "outcome_unknown_signal": 6,
+      "model_resend_attempted": 0,
+      "guard_denials": 0
+    },
+    "D2|warn|post-effect": {
+      "trials": 34,
+      "duplicate": 0,
+      "completed": 34,
+      "missed_completion": 0,
+      "call_record_lost": 0,
+      "outcome_unknown_signal": 24,
+      "model_resend_attempted": 0,
+      "guard_denials": 0
+    },
+    "D2|warn|pre-effect": {
+      "trials": 6,
+      "duplicate": 0,
+      "completed": 0,
+      "missed_completion": 6,
+      "call_record_lost": 0,
+      "outcome_unknown_signal": 6,
+      "model_resend_attempted": 0,
+      "guard_denials": 0
+    }
+  },
+  "model_behaviour_by_dsh_state_desc": {
+    "outcome_unknown|plain": {
+      "trials": 65,
+      "model_resend_attempted": 2
+    },
+    "outcome_unknown|warn": {
+      "trials": 66,
+      "model_resend_attempted": 0
+    },
+    "record_lost|plain": {
+      "trials": 25,
+      "model_resend_attempted": 23
+    },
+    "record_lost|warn": {
+      "trials": 24,
+      "model_resend_attempted": 24
+    },
+    "result_durable|plain": {
+      "trials": 27,
+      "model_resend_attempted": 0
+    },
+    "result_durable|warn": {
+      "trials": 28,
+      "model_resend_attempted": 0
+    }
+  },
+  "flush_latency_us": {
+    "n": 159,
+    "median": 3040,
+    "p95": 16698,
+    "max": 70485
+  },
+  "duplicates_by_kill_point": {
+    "pre": {
+      "D0|warn": 0,
+      "D0|plain": 0,
+      "D1|warn": 0,
+      "D1|plain": 0,
+      "D2|warn": 0,
+      "D2|plain": 0
+    },
+    "0": {
+      "D0|warn": 6,
+      "D0|plain": 6,
+      "D1|warn": 0,
+      "D1|plain": 0,
+      "D2|warn": 0,
+      "D2|plain": 0
+    },
+    "100": {
+      "D0|warn": 6,
+      "D0|plain": 6,
+      "D1|warn": 0,
+      "D1|plain": 0,
+      "D2|warn": 0,
+      "D2|plain": 0
+    },
+    "150": {
+      "D0|warn": 6,
+      "D0|plain": 6,
+      "D1|warn": 0,
+      "D1|plain": 0,
+      "D2|warn": 0,
+      "D2|plain": 0
+    },
+    "250": {
+      "D0|warn": 0,
+      "D0|plain": 0,
+      "D1|warn": 0,
+      "D1|plain": 0,
+      "D2|warn": 0,
+      "D2|plain": 0
+    },
+    "400": {
+      "D0|warn": 0,
+      "D0|plain": 0,
+      "D1|warn": 0,
+      "D1|plain": 0,
+      "D2|warn": 0,
+      "D2|plain": 0
+    },
+    "1500": {
+      "D0|warn": 0,
+      "D0|plain": 0,
+      "D1|warn": 0,
+      "D1|plain": 0,
+      "D2|warn": 0,
+      "D2|plain": 0
+    }
+  }
+}

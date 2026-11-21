@@ -1,0 +1,12 @@
+{
+  "status": "PROTOCOL_AND_CANDIDATE_FROZEN",
+  "created_utc": "2026-11-13T12:39:08.716352+00:00",
+  "authorization": "User confirmed the protocol and VM startup in chat; formal qualification and experimental execution not authorized by this confirmation.",
+  "protocol_sha256": "99785a583acb4c2a7a7bad5dceb345cd1770886cd7c997c4d56bff463f94b246",
+  "candidate_manifest_sha256": "8211289fb3461bcd3b1bcf947aa3bae388d2e934bb4d28c78d9f2b9827c88dd6",
+  "review_artifacts_manifest_sha256": "f3c8426adc339dd1a122ac9f6b8ac33848457b1b30e185fdc462f2fc69962a7e",
+  "qualification_units": 9,
+  "vx_units_per_run": 1512,
+  "new_heldout_scenarios": 96,
+  "limitations": "Guest execution manifest is not yet generated. No VM qualification, formal experiment or runtime integration has occurred. Corrections require a new version and documented protocol amendment."
+}

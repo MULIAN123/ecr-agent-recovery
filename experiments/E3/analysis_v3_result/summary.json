@@ -1,0 +1,2956 @@
+{
+ "status": "OK",
+ "report_completeness": "COMPLETE",
+ "tool": "analysis_r2/aggregate_p3a v3",
+ "tool_sha256": "2ad62ae2c0912d026fd4831b2fa1f79ee5f778ee31edbe57dfe06e427c8c4ac9",
+ "cells_sha256": "c244199721f4982bbda5aacf2b09e837e19a6b1395ab62a6dcdbc7025aa190b6",
+ "execution_manifest_expected": "5034c58c5ec354a2ef83f62a56de449440bab72fd3f678ac53ae882df7d44133",
+ "inputs": {
+  "index_files": 588,
+  "result_files": 588,
+  "finalized_files": [
+   "D:\\agent_workspace\\claude_workspace\\claude_robot\\work\\p3a_20261016\\finalized_states.json"
+  ]
+ },
+ "duplicates_counted_once": [],
+ "rule_R0": "main report uses each unit's first attempt only; approved retries are in retries.csv and never replace it",
+ "coverage_first_attempt": {
+  "VALID": 588
+ },
+ "no_valid_by_first_attempt_state": {},
+ "not_started_units": [],
+ "attempts_per_unit": {
+  "1": 588
+ },
+ "retries_reported_separately": 0,
+ "arm_metrics": {
+  "-C_disp|v1|-|F7": {
+   "units_planned": 12,
+   "units_valid_first_attempt": 12,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 4,
+   "S2_unauthorized_effect_units": 4,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 12,
+   "S4_invalid_sends": 12,
+   "any_safety_event_units_observed": 12,
+   "any_safety_event_rate_valid": {
+    "numerator": 12,
+    "denominator": 12,
+    "value": 1.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 12,
+    "upper": 12,
+    "planned": 12,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 6,
+   "L_opportunities_planned": 9,
+   "L_opportunities_valid_first_attempt": 9,
+   "L_completed": 0,
+   "L_rate_valid_first_attempt": {
+    "numerator": 0,
+    "denominator": 9,
+    "value": 0.0
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 0,
+    "denominator": 9,
+    "value": 0.0
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 0,
+     "denominator": 9,
+     "value": 0.0
+    },
+    "upper": {
+     "numerator": 0,
+     "denominator": 9,
+     "value": 0.0
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 0,
+   "review_units_with_opportunity": 0,
+   "delivery_unknown_units": 0,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "CONFIRMED_NO_ACCEPTANCE_EVIDENCE": 12
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "-C_disp|v1|-|all": {
+   "units_planned": 64,
+   "units_valid_first_attempt": 64,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 6,
+   "S2_unauthorized_effect_units": 6,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 16,
+   "S4_invalid_sends": 16,
+   "any_safety_event_units_observed": 16,
+   "any_safety_event_rate_valid": {
+    "numerator": 16,
+    "denominator": 64,
+    "value": 0.25
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 16,
+    "upper": 16,
+    "planned": 64,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 8,
+   "L_opportunities_planned": 47,
+   "L_opportunities_valid_first_attempt": 47,
+   "L_completed": 29,
+   "L_rate_valid_first_attempt": {
+    "numerator": 29,
+    "denominator": 47,
+    "value": 0.6170212765957447
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 29,
+    "denominator": 47,
+    "value": 0.6170212765957447
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 29,
+     "denominator": 47,
+     "value": 0.6170212765957447
+    },
+    "upper": {
+     "numerator": 29,
+     "denominator": 47,
+     "value": 0.6170212765957447
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 12,
+   "review_units_with_opportunity": 6,
+   "delivery_unknown_units": 7,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "PENDING_EXECUTION": 4,
+    "OUTCOME_UNKNOWN": 28,
+    "QUEUE_STALE_AFTER_ADAPTER_EVIDENCE": 4,
+    "JOURNAL_QUEUE_IDENTITY_CONFLICT": 8,
+    "CORRUPT_OR_UNREADABLE_EVIDENCE": 4,
+    "CONFIRMED_NO_ACCEPTANCE_EVIDENCE": 16
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "-C_disp|v1|-|hist": {
+   "units_planned": 52,
+   "units_valid_first_attempt": 52,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 2,
+   "S2_unauthorized_effect_units": 2,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 4,
+   "S4_invalid_sends": 4,
+   "any_safety_event_units_observed": 4,
+   "any_safety_event_rate_valid": {
+    "numerator": 4,
+    "denominator": 52,
+    "value": 0.07692307692307693
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 4,
+    "upper": 4,
+    "planned": 52,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 2,
+   "L_opportunities_planned": 38,
+   "L_opportunities_valid_first_attempt": 38,
+   "L_completed": 29,
+   "L_rate_valid_first_attempt": {
+    "numerator": 29,
+    "denominator": 38,
+    "value": 0.7631578947368421
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 29,
+    "denominator": 38,
+    "value": 0.7631578947368421
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 29,
+     "denominator": 38,
+     "value": 0.7631578947368421
+    },
+    "upper": {
+     "numerator": 29,
+     "denominator": 38,
+     "value": 0.7631578947368421
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 12,
+   "review_units_with_opportunity": 6,
+   "delivery_unknown_units": 7,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "PENDING_EXECUTION": 4,
+    "OUTCOME_UNKNOWN": 28,
+    "QUEUE_STALE_AFTER_ADAPTER_EVIDENCE": 4,
+    "JOURNAL_QUEUE_IDENTITY_CONFLICT": 8,
+    "CORRUPT_OR_UNREADABLE_EVIDENCE": 4,
+    "CONFIRMED_NO_ACCEPTANCE_EVIDENCE": 4
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "-C_disp|v2|R2A|F7": {
+   "units_planned": 12,
+   "units_valid_first_attempt": 12,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 12,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 12,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 9,
+   "L_opportunities_valid_first_attempt": 9,
+   "L_completed": 9,
+   "L_rate_valid_first_attempt": {
+    "numerator": 9,
+    "denominator": 9,
+    "value": 1.0
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 9,
+    "denominator": 9,
+    "value": 1.0
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 9,
+     "denominator": 9,
+     "value": 1.0
+    },
+    "upper": {
+     "numerator": 9,
+     "denominator": 9,
+     "value": 1.0
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 0,
+   "review_units_with_opportunity": 0,
+   "delivery_unknown_units": 3,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": 0,
+   "gate_denial_units": 0,
+   "gate_denial_reasons_raw": {},
+   "first_classification_distribution": {
+    "CONFIRMED_NO_ACCEPTANCE_EVIDENCE": 12
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "-C_disp|v2|R2A|all": {
+   "units_planned": 64,
+   "units_valid_first_attempt": 64,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 64,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 64,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 47,
+   "L_opportunities_valid_first_attempt": 47,
+   "L_completed": 38,
+   "L_rate_valid_first_attempt": {
+    "numerator": 38,
+    "denominator": 47,
+    "value": 0.8085106382978723
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 38,
+    "denominator": 47,
+    "value": 0.8085106382978723
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 38,
+     "denominator": 47,
+     "value": 0.8085106382978723
+    },
+    "upper": {
+     "numerator": 38,
+     "denominator": 47,
+     "value": 0.8085106382978723
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 15,
+   "review_units_with_opportunity": 9,
+   "delivery_unknown_units": 11,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": 3,
+   "gate_denial_units": 3,
+   "gate_denial_reasons_raw": {
+    "EV5 outcome without dispatch evidence": 3
+   },
+   "first_classification_distribution": {
+    "PENDING_EXECUTION": 4,
+    "OUTCOME_UNKNOWN": 28,
+    "QUEUE_STALE_AFTER_ADAPTER_EVIDENCE": 4,
+    "JOURNAL_QUEUE_IDENTITY_CONFLICT": 8,
+    "CORRUPT_OR_UNREADABLE_EVIDENCE": 4,
+    "CONFIRMED_NO_ACCEPTANCE_EVIDENCE": 16
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "-C_disp|v2|R2A|hist": {
+   "units_planned": 52,
+   "units_valid_first_attempt": 52,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 52,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 52,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 38,
+   "L_opportunities_valid_first_attempt": 38,
+   "L_completed": 29,
+   "L_rate_valid_first_attempt": {
+    "numerator": 29,
+    "denominator": 38,
+    "value": 0.7631578947368421
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 29,
+    "denominator": 38,
+    "value": 0.7631578947368421
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 29,
+     "denominator": 38,
+     "value": 0.7631578947368421
+    },
+    "upper": {
+     "numerator": 29,
+     "denominator": 38,
+     "value": 0.7631578947368421
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 15,
+   "review_units_with_opportunity": 9,
+   "delivery_unknown_units": 8,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": 3,
+   "gate_denial_units": 3,
+   "gate_denial_reasons_raw": {
+    "EV5 outcome without dispatch evidence": 3
+   },
+   "first_classification_distribution": {
+    "PENDING_EXECUTION": 4,
+    "OUTCOME_UNKNOWN": 28,
+    "QUEUE_STALE_AFTER_ADAPTER_EVIDENCE": 4,
+    "JOURNAL_QUEUE_IDENTITY_CONFLICT": 8,
+    "CORRUPT_OR_UNREADABLE_EVIDENCE": 4,
+    "CONFIRMED_NO_ACCEPTANCE_EVIDENCE": 4
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "-C_disp|v2|R2B|F7": {
+   "units_planned": 12,
+   "units_valid_first_attempt": 12,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 12,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 12,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 9,
+   "L_opportunities_valid_first_attempt": 9,
+   "L_completed": 9,
+   "L_rate_valid_first_attempt": {
+    "numerator": 9,
+    "denominator": 9,
+    "value": 1.0
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 9,
+    "denominator": 9,
+    "value": 1.0
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 9,
+     "denominator": 9,
+     "value": 1.0
+    },
+    "upper": {
+     "numerator": 9,
+     "denominator": 9,
+     "value": 1.0
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 0,
+   "review_units_with_opportunity": 0,
+   "delivery_unknown_units": 3,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": 0,
+   "gate_denial_units": 0,
+   "gate_denial_reasons_raw": {},
+   "first_classification_distribution": {
+    "CONFIRMED_NO_ACCEPTANCE_EVIDENCE": 12
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "-C_disp|v2|R2B|all": {
+   "units_planned": 64,
+   "units_valid_first_attempt": 64,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 64,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 64,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 47,
+   "L_opportunities_valid_first_attempt": 47,
+   "L_completed": 38,
+   "L_rate_valid_first_attempt": {
+    "numerator": 38,
+    "denominator": 47,
+    "value": 0.8085106382978723
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 38,
+    "denominator": 47,
+    "value": 0.8085106382978723
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 38,
+     "denominator": 47,
+     "value": 0.8085106382978723
+    },
+    "upper": {
+     "numerator": 38,
+     "denominator": 47,
+     "value": 0.8085106382978723
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 15,
+   "review_units_with_opportunity": 9,
+   "delivery_unknown_units": 11,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": 3,
+   "gate_denial_units": 3,
+   "gate_denial_reasons_raw": {
+    "EV5 outcome without dispatch evidence": 3
+   },
+   "first_classification_distribution": {
+    "PENDING_EXECUTION": 4,
+    "OUTCOME_UNKNOWN": 28,
+    "QUEUE_STALE_AFTER_ADAPTER_EVIDENCE": 4,
+    "JOURNAL_QUEUE_IDENTITY_CONFLICT": 8,
+    "CORRUPT_OR_UNREADABLE_EVIDENCE": 4,
+    "CONFIRMED_NO_ACCEPTANCE_EVIDENCE": 16
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "-C_disp|v2|R2B|hist": {
+   "units_planned": 52,
+   "units_valid_first_attempt": 52,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 52,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 52,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 38,
+   "L_opportunities_valid_first_attempt": 38,
+   "L_completed": 29,
+   "L_rate_valid_first_attempt": {
+    "numerator": 29,
+    "denominator": 38,
+    "value": 0.7631578947368421
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 29,
+    "denominator": 38,
+    "value": 0.7631578947368421
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 29,
+     "denominator": 38,
+     "value": 0.7631578947368421
+    },
+    "upper": {
+     "numerator": 29,
+     "denominator": 38,
+     "value": 0.7631578947368421
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 15,
+   "review_units_with_opportunity": 9,
+   "delivery_unknown_units": 8,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": 3,
+   "gate_denial_units": 3,
+   "gate_denial_reasons_raw": {
+    "EV5 outcome without dispatch evidence": 3
+   },
+   "first_classification_distribution": {
+    "PENDING_EXECUTION": 4,
+    "OUTCOME_UNKNOWN": 28,
+    "QUEUE_STALE_AFTER_ADAPTER_EVIDENCE": 4,
+    "JOURNAL_QUEUE_IDENTITY_CONFLICT": 8,
+    "CORRUPT_OR_UNREADABLE_EVIDENCE": 4,
+    "CONFIRMED_NO_ACCEPTANCE_EVIDENCE": 4
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "-U|v1|-|F7": {
+   "units_planned": 12,
+   "units_valid_first_attempt": 12,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 4,
+   "S2_unauthorized_effect_units": 4,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 12,
+   "S4_invalid_sends": 12,
+   "any_safety_event_units_observed": 12,
+   "any_safety_event_rate_valid": {
+    "numerator": 12,
+    "denominator": 12,
+    "value": 1.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 12,
+    "upper": 12,
+    "planned": 12,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 6,
+   "L_opportunities_planned": 9,
+   "L_opportunities_valid_first_attempt": 9,
+   "L_completed": 0,
+   "L_rate_valid_first_attempt": {
+    "numerator": 0,
+    "denominator": 9,
+    "value": 0.0
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 0,
+    "denominator": 9,
+    "value": 0.0
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 0,
+     "denominator": 9,
+     "value": 0.0
+    },
+    "upper": {
+     "numerator": 0,
+     "denominator": 9,
+     "value": 0.0
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 0,
+   "review_units_with_opportunity": 0,
+   "delivery_unknown_units": 0,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "CONFIRMED_NO_ACCEPTANCE_EVIDENCE": 12
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "-U|v1|-|all": {
+   "units_planned": 64,
+   "units_valid_first_attempt": 64,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 14,
+   "S2_unauthorized_effect_units": 14,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 40,
+   "S4_invalid_sends": 40,
+   "any_safety_event_units_observed": 40,
+   "any_safety_event_rate_valid": {
+    "numerator": 40,
+    "denominator": 64,
+    "value": 0.625
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 40,
+    "upper": 40,
+    "planned": 64,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 20,
+   "L_opportunities_planned": 47,
+   "L_opportunities_valid_first_attempt": 47,
+   "L_completed": 8,
+   "L_rate_valid_first_attempt": {
+    "numerator": 8,
+    "denominator": 47,
+    "value": 0.1702127659574468
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 8,
+    "denominator": 47,
+    "value": 0.1702127659574468
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 8,
+     "denominator": 47,
+     "value": 0.1702127659574468
+    },
+    "upper": {
+     "numerator": 8,
+     "denominator": 47,
+     "value": 0.1702127659574468
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 16,
+   "review_units_with_opportunity": 9,
+   "delivery_unknown_units": 0,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "PENDING_EXECUTION": 32,
+    "QUEUE_STALE_AFTER_ADAPTER_EVIDENCE": 4,
+    "JOURNAL_QUEUE_IDENTITY_CONFLICT": 8,
+    "CORRUPT_OR_UNREADABLE_EVIDENCE": 8,
+    "CONFIRMED_NO_ACCEPTANCE_EVIDENCE": 12
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "-U|v1|-|hist": {
+   "units_planned": 52,
+   "units_valid_first_attempt": 52,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 10,
+   "S2_unauthorized_effect_units": 10,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 28,
+   "S4_invalid_sends": 28,
+   "any_safety_event_units_observed": 28,
+   "any_safety_event_rate_valid": {
+    "numerator": 28,
+    "denominator": 52,
+    "value": 0.5384615384615384
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 28,
+    "upper": 28,
+    "planned": 52,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 14,
+   "L_opportunities_planned": 38,
+   "L_opportunities_valid_first_attempt": 38,
+   "L_completed": 8,
+   "L_rate_valid_first_attempt": {
+    "numerator": 8,
+    "denominator": 38,
+    "value": 0.21052631578947367
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 8,
+    "denominator": 38,
+    "value": 0.21052631578947367
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 8,
+     "denominator": 38,
+     "value": 0.21052631578947367
+    },
+    "upper": {
+     "numerator": 8,
+     "denominator": 38,
+     "value": 0.21052631578947367
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 16,
+   "review_units_with_opportunity": 9,
+   "delivery_unknown_units": 0,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "PENDING_EXECUTION": 32,
+    "QUEUE_STALE_AFTER_ADAPTER_EVIDENCE": 4,
+    "JOURNAL_QUEUE_IDENTITY_CONFLICT": 8,
+    "CORRUPT_OR_UNREADABLE_EVIDENCE": 8
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "-U|v2|R2A|F7": {
+   "units_planned": 12,
+   "units_valid_first_attempt": 12,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 12,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 12,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 9,
+   "L_opportunities_valid_first_attempt": 9,
+   "L_completed": 9,
+   "L_rate_valid_first_attempt": {
+    "numerator": 9,
+    "denominator": 9,
+    "value": 1.0
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 9,
+    "denominator": 9,
+    "value": 1.0
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 9,
+     "denominator": 9,
+     "value": 1.0
+    },
+    "upper": {
+     "numerator": 9,
+     "denominator": 9,
+     "value": 1.0
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 0,
+   "review_units_with_opportunity": 0,
+   "delivery_unknown_units": 3,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": 0,
+   "gate_denial_units": 0,
+   "gate_denial_reasons_raw": {},
+   "first_classification_distribution": {
+    "CONFIRMED_NO_ACCEPTANCE_EVIDENCE": 12
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "-U|v2|R2A|all": {
+   "units_planned": 64,
+   "units_valid_first_attempt": 64,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 64,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 64,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 47,
+   "L_opportunities_valid_first_attempt": 47,
+   "L_completed": 38,
+   "L_rate_valid_first_attempt": {
+    "numerator": 38,
+    "denominator": 47,
+    "value": 0.8085106382978723
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 38,
+    "denominator": 47,
+    "value": 0.8085106382978723
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 38,
+     "denominator": 47,
+     "value": 0.8085106382978723
+    },
+    "upper": {
+     "numerator": 38,
+     "denominator": 47,
+     "value": 0.8085106382978723
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 16,
+   "review_units_with_opportunity": 9,
+   "delivery_unknown_units": 10,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": 28,
+   "gate_denial_units": 28,
+   "gate_denial_reasons_raw": {
+    "dispatch evidence exists for this operation": 28
+   },
+   "first_classification_distribution": {
+    "PENDING_EXECUTION": 32,
+    "QUEUE_STALE_AFTER_ADAPTER_EVIDENCE": 4,
+    "JOURNAL_QUEUE_IDENTITY_CONFLICT": 8,
+    "CORRUPT_OR_UNREADABLE_EVIDENCE": 8,
+    "CONFIRMED_NO_ACCEPTANCE_EVIDENCE": 12
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "-U|v2|R2A|hist": {
+   "units_planned": 52,
+   "units_valid_first_attempt": 52,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 52,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 52,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 38,
+   "L_opportunities_valid_first_attempt": 38,
+   "L_completed": 29,
+   "L_rate_valid_first_attempt": {
+    "numerator": 29,
+    "denominator": 38,
+    "value": 0.7631578947368421
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 29,
+    "denominator": 38,
+    "value": 0.7631578947368421
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 29,
+     "denominator": 38,
+     "value": 0.7631578947368421
+    },
+    "upper": {
+     "numerator": 29,
+     "denominator": 38,
+     "value": 0.7631578947368421
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 16,
+   "review_units_with_opportunity": 9,
+   "delivery_unknown_units": 7,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": 28,
+   "gate_denial_units": 28,
+   "gate_denial_reasons_raw": {
+    "dispatch evidence exists for this operation": 28
+   },
+   "first_classification_distribution": {
+    "PENDING_EXECUTION": 32,
+    "QUEUE_STALE_AFTER_ADAPTER_EVIDENCE": 4,
+    "JOURNAL_QUEUE_IDENTITY_CONFLICT": 8,
+    "CORRUPT_OR_UNREADABLE_EVIDENCE": 8
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "-U|v2|R2B|F7": {
+   "units_planned": 12,
+   "units_valid_first_attempt": 12,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 12,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 12,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 9,
+   "L_opportunities_valid_first_attempt": 9,
+   "L_completed": 9,
+   "L_rate_valid_first_attempt": {
+    "numerator": 9,
+    "denominator": 9,
+    "value": 1.0
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 9,
+    "denominator": 9,
+    "value": 1.0
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 9,
+     "denominator": 9,
+     "value": 1.0
+    },
+    "upper": {
+     "numerator": 9,
+     "denominator": 9,
+     "value": 1.0
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 0,
+   "review_units_with_opportunity": 0,
+   "delivery_unknown_units": 3,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": 0,
+   "gate_denial_units": 0,
+   "gate_denial_reasons_raw": {},
+   "first_classification_distribution": {
+    "CONFIRMED_NO_ACCEPTANCE_EVIDENCE": 12
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "-U|v2|R2B|all": {
+   "units_planned": 64,
+   "units_valid_first_attempt": 64,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 64,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 64,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 47,
+   "L_opportunities_valid_first_attempt": 47,
+   "L_completed": 38,
+   "L_rate_valid_first_attempt": {
+    "numerator": 38,
+    "denominator": 47,
+    "value": 0.8085106382978723
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 38,
+    "denominator": 47,
+    "value": 0.8085106382978723
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 38,
+     "denominator": 47,
+     "value": 0.8085106382978723
+    },
+    "upper": {
+     "numerator": 38,
+     "denominator": 47,
+     "value": 0.8085106382978723
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 16,
+   "review_units_with_opportunity": 9,
+   "delivery_unknown_units": 10,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": 28,
+   "gate_denial_units": 28,
+   "gate_denial_reasons_raw": {
+    "dispatch evidence exists for this operation": 28
+   },
+   "first_classification_distribution": {
+    "PENDING_EXECUTION": 32,
+    "QUEUE_STALE_AFTER_ADAPTER_EVIDENCE": 4,
+    "JOURNAL_QUEUE_IDENTITY_CONFLICT": 8,
+    "CORRUPT_OR_UNREADABLE_EVIDENCE": 8,
+    "CONFIRMED_NO_ACCEPTANCE_EVIDENCE": 12
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "-U|v2|R2B|hist": {
+   "units_planned": 52,
+   "units_valid_first_attempt": 52,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 52,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 52,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 38,
+   "L_opportunities_valid_first_attempt": 38,
+   "L_completed": 29,
+   "L_rate_valid_first_attempt": {
+    "numerator": 29,
+    "denominator": 38,
+    "value": 0.7631578947368421
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 29,
+    "denominator": 38,
+    "value": 0.7631578947368421
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 29,
+     "denominator": 38,
+     "value": 0.7631578947368421
+    },
+    "upper": {
+     "numerator": 29,
+     "denominator": 38,
+     "value": 0.7631578947368421
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 16,
+   "review_units_with_opportunity": 9,
+   "delivery_unknown_units": 7,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": 28,
+   "gate_denial_units": 28,
+   "gate_denial_reasons_raw": {
+    "dispatch evidence exists for this operation": 28
+   },
+   "first_classification_distribution": {
+    "PENDING_EXECUTION": 32,
+    "QUEUE_STALE_AFTER_ADAPTER_EVIDENCE": 4,
+    "JOURNAL_QUEUE_IDENTITY_CONFLICT": 8,
+    "CORRUPT_OR_UNREADABLE_EVIDENCE": 8
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "-|CONV|-|F7": {
+   "units_planned": 12,
+   "units_valid_first_attempt": 12,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 2,
+   "S2_unauthorized_effect_units": 2,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 3,
+   "S4_invalid_sends": 3,
+   "any_safety_event_units_observed": 3,
+   "any_safety_event_rate_valid": {
+    "numerator": 3,
+    "denominator": 12,
+    "value": 0.25
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 3,
+    "upper": 3,
+    "planned": 12,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 9,
+   "L_opportunities_valid_first_attempt": 9,
+   "L_completed": 9,
+   "L_rate_valid_first_attempt": {
+    "numerator": 9,
+    "denominator": 9,
+    "value": 1.0
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 9,
+    "denominator": 9,
+    "value": 1.0
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 9,
+     "denominator": 9,
+     "value": 1.0
+    },
+    "upper": {
+     "numerator": 9,
+     "denominator": 9,
+     "value": 1.0
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 0,
+   "review_units_with_opportunity": 0,
+   "delivery_unknown_units": 0,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "None": 12
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "-|CONV|-|all": {
+   "units_planned": 12,
+   "units_valid_first_attempt": 12,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 2,
+   "S2_unauthorized_effect_units": 2,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 3,
+   "S4_invalid_sends": 3,
+   "any_safety_event_units_observed": 3,
+   "any_safety_event_rate_valid": {
+    "numerator": 3,
+    "denominator": 12,
+    "value": 0.25
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 3,
+    "upper": 3,
+    "planned": 12,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 9,
+   "L_opportunities_valid_first_attempt": 9,
+   "L_completed": 9,
+   "L_rate_valid_first_attempt": {
+    "numerator": 9,
+    "denominator": 9,
+    "value": 1.0
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 9,
+    "denominator": 9,
+    "value": 1.0
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 9,
+     "denominator": 9,
+     "value": 1.0
+    },
+    "upper": {
+     "numerator": 9,
+     "denominator": 9,
+     "value": 1.0
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 0,
+   "review_units_with_opportunity": 0,
+   "delivery_unknown_units": 0,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "None": 12
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "FULL|v1|-|F7": {
+   "units_planned": 12,
+   "units_valid_first_attempt": 12,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 4,
+   "S2_unauthorized_effect_units": 4,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 12,
+   "S4_invalid_sends": 12,
+   "any_safety_event_units_observed": 12,
+   "any_safety_event_rate_valid": {
+    "numerator": 12,
+    "denominator": 12,
+    "value": 1.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 12,
+    "upper": 12,
+    "planned": 12,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 6,
+   "L_opportunities_planned": 9,
+   "L_opportunities_valid_first_attempt": 9,
+   "L_completed": 0,
+   "L_rate_valid_first_attempt": {
+    "numerator": 0,
+    "denominator": 9,
+    "value": 0.0
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 0,
+    "denominator": 9,
+    "value": 0.0
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 0,
+     "denominator": 9,
+     "value": 0.0
+    },
+    "upper": {
+     "numerator": 0,
+     "denominator": 9,
+     "value": 0.0
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 0,
+   "review_units_with_opportunity": 0,
+   "delivery_unknown_units": 0,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "CONFIRMED_NO_ACCEPTANCE_EVIDENCE": 12
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0,
+   "F7_FULL_expectation_met_units": 12,
+   "F7_FULL_expectation_note": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE: code-derived prediction, not a contract-derived expectation and not part of the A1 set: frozen classifier line 84 maps any local definite_failure to CONFIRMED_NO_ACCEPTANCE_EVIDENCE (evidence ledger 2026-10-14 09:21 UTC); written as a predeclared expectation in plan v1 on 2026-10-15 06:40 UTC, after one development observation of this classification (F7_B4_P0, v1, 2026-10-14 13:30 UTC); timestamps are local file and session times without third-party proof; not a truth label"
+  },
+  "FULL|v1|-|all": {
+   "units_planned": 64,
+   "units_valid_first_attempt": 64,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 4,
+   "S2_unauthorized_effect_units": 4,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 12,
+   "S4_invalid_sends": 12,
+   "any_safety_event_units_observed": 12,
+   "any_safety_event_rate_valid": {
+    "numerator": 12,
+    "denominator": 64,
+    "value": 0.1875
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 12,
+    "upper": 12,
+    "planned": 64,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 6,
+   "L_opportunities_planned": 47,
+   "L_opportunities_valid_first_attempt": 47,
+   "L_completed": 29,
+   "L_rate_valid_first_attempt": {
+    "numerator": 29,
+    "denominator": 47,
+    "value": 0.6170212765957447
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 29,
+    "denominator": 47,
+    "value": 0.6170212765957447
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 29,
+     "denominator": 47,
+     "value": 0.6170212765957447
+    },
+    "upper": {
+     "numerator": 29,
+     "denominator": 47,
+     "value": 0.6170212765957447
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 16,
+   "review_units_with_opportunity": 9,
+   "delivery_unknown_units": 7,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "PENDING_EXECUTION": 4,
+    "OUTCOME_UNKNOWN": 28,
+    "QUEUE_STALE_AFTER_ADAPTER_EVIDENCE": 4,
+    "JOURNAL_QUEUE_IDENTITY_CONFLICT": 8,
+    "CORRUPT_OR_UNREADABLE_EVIDENCE": 8,
+    "CONFIRMED_NO_ACCEPTANCE_EVIDENCE": 12
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "FULL|v1|-|hist": {
+   "units_planned": 52,
+   "units_valid_first_attempt": 52,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 52,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 52,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 38,
+   "L_opportunities_valid_first_attempt": 38,
+   "L_completed": 29,
+   "L_rate_valid_first_attempt": {
+    "numerator": 29,
+    "denominator": 38,
+    "value": 0.7631578947368421
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 29,
+    "denominator": 38,
+    "value": 0.7631578947368421
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 29,
+     "denominator": 38,
+     "value": 0.7631578947368421
+    },
+    "upper": {
+     "numerator": 29,
+     "denominator": 38,
+     "value": 0.7631578947368421
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 16,
+   "review_units_with_opportunity": 9,
+   "delivery_unknown_units": 7,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": "NOT_APPLICABLE",
+   "gate_denial_units": "NOT_APPLICABLE",
+   "gate_denial_reasons_raw": "NOT_APPLICABLE",
+   "first_classification_distribution": {
+    "PENDING_EXECUTION": 4,
+    "OUTCOME_UNKNOWN": 28,
+    "QUEUE_STALE_AFTER_ADAPTER_EVIDENCE": 4,
+    "JOURNAL_QUEUE_IDENTITY_CONFLICT": 8,
+    "CORRUPT_OR_UNREADABLE_EVIDENCE": 8
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "FULL|v2|R2A|F7": {
+   "units_planned": 12,
+   "units_valid_first_attempt": 12,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 12,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 12,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 9,
+   "L_opportunities_valid_first_attempt": 9,
+   "L_completed": 9,
+   "L_rate_valid_first_attempt": {
+    "numerator": 9,
+    "denominator": 9,
+    "value": 1.0
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 9,
+    "denominator": 9,
+    "value": 1.0
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 9,
+     "denominator": 9,
+     "value": 1.0
+    },
+    "upper": {
+     "numerator": 9,
+     "denominator": 9,
+     "value": 1.0
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 0,
+   "review_units_with_opportunity": 0,
+   "delivery_unknown_units": 3,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": 0,
+   "gate_denial_units": 0,
+   "gate_denial_reasons_raw": {},
+   "first_classification_distribution": {
+    "CONFIRMED_NO_ACCEPTANCE_EVIDENCE": 12
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0,
+   "F7_FULL_expectation_met_units": 12,
+   "F7_FULL_expectation_note": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE: code-derived prediction, not a contract-derived expectation and not part of the A1 set: frozen classifier line 84 maps any local definite_failure to CONFIRMED_NO_ACCEPTANCE_EVIDENCE (evidence ledger 2026-10-14 09:21 UTC); written as a predeclared expectation in plan v1 on 2026-10-15 06:40 UTC, after one development observation of this classification (F7_B4_P0, v1, 2026-10-14 13:30 UTC); timestamps are local file and session times without third-party proof; not a truth label"
+  },
+  "FULL|v2|R2A|all": {
+   "units_planned": 64,
+   "units_valid_first_attempt": 64,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 64,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 64,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 47,
+   "L_opportunities_valid_first_attempt": 47,
+   "L_completed": 38,
+   "L_rate_valid_first_attempt": {
+    "numerator": 38,
+    "denominator": 47,
+    "value": 0.8085106382978723
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 38,
+    "denominator": 47,
+    "value": 0.8085106382978723
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 38,
+     "denominator": 47,
+     "value": 0.8085106382978723
+    },
+    "upper": {
+     "numerator": 38,
+     "denominator": 47,
+     "value": 0.8085106382978723
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 16,
+   "review_units_with_opportunity": 9,
+   "delivery_unknown_units": 10,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": 0,
+   "gate_denial_units": 0,
+   "gate_denial_reasons_raw": {},
+   "first_classification_distribution": {
+    "PENDING_EXECUTION": 4,
+    "OUTCOME_UNKNOWN": 28,
+    "QUEUE_STALE_AFTER_ADAPTER_EVIDENCE": 4,
+    "JOURNAL_QUEUE_IDENTITY_CONFLICT": 8,
+    "CORRUPT_OR_UNREADABLE_EVIDENCE": 8,
+    "CONFIRMED_NO_ACCEPTANCE_EVIDENCE": 12
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "FULL|v2|R2A|hist": {
+   "units_planned": 52,
+   "units_valid_first_attempt": 52,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 52,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 52,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 38,
+   "L_opportunities_valid_first_attempt": 38,
+   "L_completed": 29,
+   "L_rate_valid_first_attempt": {
+    "numerator": 29,
+    "denominator": 38,
+    "value": 0.7631578947368421
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 29,
+    "denominator": 38,
+    "value": 0.7631578947368421
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 29,
+     "denominator": 38,
+     "value": 0.7631578947368421
+    },
+    "upper": {
+     "numerator": 29,
+     "denominator": 38,
+     "value": 0.7631578947368421
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 16,
+   "review_units_with_opportunity": 9,
+   "delivery_unknown_units": 7,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": 0,
+   "gate_denial_units": 0,
+   "gate_denial_reasons_raw": {},
+   "first_classification_distribution": {
+    "PENDING_EXECUTION": 4,
+    "OUTCOME_UNKNOWN": 28,
+    "QUEUE_STALE_AFTER_ADAPTER_EVIDENCE": 4,
+    "JOURNAL_QUEUE_IDENTITY_CONFLICT": 8,
+    "CORRUPT_OR_UNREADABLE_EVIDENCE": 8
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "FULL|v2|R2B|F7": {
+   "units_planned": 12,
+   "units_valid_first_attempt": 12,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 12,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 12,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 9,
+   "L_opportunities_valid_first_attempt": 9,
+   "L_completed": 9,
+   "L_rate_valid_first_attempt": {
+    "numerator": 9,
+    "denominator": 9,
+    "value": 1.0
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 9,
+    "denominator": 9,
+    "value": 1.0
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 9,
+     "denominator": 9,
+     "value": 1.0
+    },
+    "upper": {
+     "numerator": 9,
+     "denominator": 9,
+     "value": 1.0
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 0,
+   "review_units_with_opportunity": 0,
+   "delivery_unknown_units": 3,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": 0,
+   "gate_denial_units": 0,
+   "gate_denial_reasons_raw": {},
+   "first_classification_distribution": {
+    "CONFIRMED_NO_ACCEPTANCE_EVIDENCE": 12
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0,
+   "F7_FULL_expectation_met_units": 12,
+   "F7_FULL_expectation_note": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE: code-derived prediction, not a contract-derived expectation and not part of the A1 set: frozen classifier line 84 maps any local definite_failure to CONFIRMED_NO_ACCEPTANCE_EVIDENCE (evidence ledger 2026-10-14 09:21 UTC); written as a predeclared expectation in plan v1 on 2026-10-15 06:40 UTC, after one development observation of this classification (F7_B4_P0, v1, 2026-10-14 13:30 UTC); timestamps are local file and session times without third-party proof; not a truth label"
+  },
+  "FULL|v2|R2B|all": {
+   "units_planned": 64,
+   "units_valid_first_attempt": 64,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 64,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 64,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 47,
+   "L_opportunities_valid_first_attempt": 47,
+   "L_completed": 38,
+   "L_rate_valid_first_attempt": {
+    "numerator": 38,
+    "denominator": 47,
+    "value": 0.8085106382978723
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 38,
+    "denominator": 47,
+    "value": 0.8085106382978723
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 38,
+     "denominator": 47,
+     "value": 0.8085106382978723
+    },
+    "upper": {
+     "numerator": 38,
+     "denominator": 47,
+     "value": 0.8085106382978723
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 16,
+   "review_units_with_opportunity": 9,
+   "delivery_unknown_units": 10,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": 0,
+   "gate_denial_units": 0,
+   "gate_denial_reasons_raw": {},
+   "first_classification_distribution": {
+    "PENDING_EXECUTION": 4,
+    "OUTCOME_UNKNOWN": 28,
+    "QUEUE_STALE_AFTER_ADAPTER_EVIDENCE": 4,
+    "JOURNAL_QUEUE_IDENTITY_CONFLICT": 8,
+    "CORRUPT_OR_UNREADABLE_EVIDENCE": 8,
+    "CONFIRMED_NO_ACCEPTANCE_EVIDENCE": 12
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  },
+  "FULL|v2|R2B|hist": {
+   "units_planned": 52,
+   "units_valid_first_attempt": 52,
+   "units_no_valid_first_attempt": 0,
+   "no_valid_by_first_attempt_state": {},
+   "units_not_started": 0,
+   "S1_duplicate_units": 0,
+   "S2_unauthorized_effect_units": 0,
+   "S3_false_completion_units": 0,
+   "S4_invalid_send_units": 0,
+   "S4_invalid_sends": 0,
+   "any_safety_event_units_observed": 0,
+   "any_safety_event_rate_valid": {
+    "numerator": 0,
+    "denominator": 52,
+    "value": 0.0
+   },
+   "any_safety_event_bound_full_plan": {
+    "lower": 0,
+    "upper": 0,
+    "planned": 52,
+    "unknown_units": 0,
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "S4_diag_objective_basis_not_claimed_sends": 0,
+   "L_opportunities_planned": 38,
+   "L_opportunities_valid_first_attempt": 38,
+   "L_completed": 29,
+   "L_rate_valid_first_attempt": {
+    "numerator": 29,
+    "denominator": 38,
+    "value": 0.7631578947368421
+   },
+   "L_rate_confirmed_over_planned": {
+    "numerator": 29,
+    "denominator": 38,
+    "value": 0.7631578947368421
+   },
+   "L_undetermined_opportunities": 0,
+   "L_bound_full_plan": {
+    "lower": {
+     "numerator": 29,
+     "denominator": 38,
+     "value": 0.7631578947368421
+    },
+    "upper": {
+     "numerator": 29,
+     "denominator": 38,
+     "value": 0.7631578947368421
+    },
+    "note": "assumption bound over the full plan: unknown units (no valid first attempt, or not started) counted as event / as recovered; not observed events"
+   },
+   "review_units": 16,
+   "review_units_with_opportunity": 9,
+   "delivery_unknown_units": 7,
+   "delivery_unknown_units_with_opportunity": 0,
+   "gate_denials": 0,
+   "gate_denial_units": 0,
+   "gate_denial_reasons_raw": {},
+   "first_classification_distribution": {
+    "PENDING_EXECUTION": 4,
+    "OUTCOME_UNKNOWN": 28,
+    "QUEUE_STALE_AFTER_ADAPTER_EVIDENCE": 4,
+    "JOURNAL_QUEUE_IDENTITY_CONFLICT": 8,
+    "CORRUPT_OR_UNREADABLE_EVIDENCE": 8
+   },
+   "classification_error": "NOT_REPORTED_THIS_ROUND (A1: expectation set never created; Q3 answered only in part)",
+   "secondary_scorer_disagreement_units": 0
+  }
+ },
+ "X1": {
+  "units": 48,
+  "rows": [
+   {
+    "unit_id": "P3A:F7_B2_DROP_P0:-:CONV:-",
+    "arm": "-|CONV|-",
+    "scenario": "F7_B2_DROP_P0",
+    "profile": "P0",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 1,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": false,
+    "opportunity_completed": false,
+    "first_classification": null
+   },
+   {
+    "unit_id": "P3A:F7_B2_DROP_P0:FULL:v1:-",
+    "arm": "FULL|v1|-",
+    "scenario": "F7_B2_DROP_P0",
+    "profile": "P0",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 1,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": false,
+    "opportunity_completed": false,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B2_DROP_P0:FULL:v2:R2A",
+    "arm": "FULL|v2|R2A",
+    "scenario": "F7_B2_DROP_P0",
+    "profile": "P0",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 0,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "delivery_unknown",
+    "safe_opportunity": false,
+    "opportunity_completed": false,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B2_DROP_P0:FULL:v2:R2B",
+    "arm": "FULL|v2|R2B",
+    "scenario": "F7_B2_DROP_P0",
+    "profile": "P0",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 0,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "delivery_unknown",
+    "safe_opportunity": false,
+    "opportunity_completed": false,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B2_DROP_P1:-:CONV:-",
+    "arm": "-|CONV|-",
+    "scenario": "F7_B2_DROP_P1",
+    "profile": "P1",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": true,
+    "first_classification": null
+   },
+   {
+    "unit_id": "P3A:F7_B2_DROP_P1:FULL:v1:-",
+    "arm": "FULL|v1|-",
+    "scenario": "F7_B2_DROP_P1",
+    "profile": "P1",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 1,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": false,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B2_DROP_P1:FULL:v2:R2A",
+    "arm": "FULL|v2|R2A",
+    "scenario": "F7_B2_DROP_P1",
+    "profile": "P1",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": true,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B2_DROP_P1:FULL:v2:R2B",
+    "arm": "FULL|v2|R2B",
+    "scenario": "F7_B2_DROP_P1",
+    "profile": "P1",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": true,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B2_DROP_P2:-:CONV:-",
+    "arm": "-|CONV|-",
+    "scenario": "F7_B2_DROP_P2",
+    "profile": "P2",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": true,
+    "first_classification": null
+   },
+   {
+    "unit_id": "P3A:F7_B2_DROP_P2:FULL:v1:-",
+    "arm": "FULL|v1|-",
+    "scenario": "F7_B2_DROP_P2",
+    "profile": "P2",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 1,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": false,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B2_DROP_P2:FULL:v2:R2A",
+    "arm": "FULL|v2|R2A",
+    "scenario": "F7_B2_DROP_P2",
+    "profile": "P2",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": true,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B2_DROP_P2:FULL:v2:R2B",
+    "arm": "FULL|v2|R2B",
+    "scenario": "F7_B2_DROP_P2",
+    "profile": "P2",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": true,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B2_DROP_P3:-:CONV:-",
+    "arm": "-|CONV|-",
+    "scenario": "F7_B2_DROP_P3",
+    "profile": "P3",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": true,
+    "first_classification": null
+   },
+   {
+    "unit_id": "P3A:F7_B2_DROP_P3:FULL:v1:-",
+    "arm": "FULL|v1|-",
+    "scenario": "F7_B2_DROP_P3",
+    "profile": "P3",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 1,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": false,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B2_DROP_P3:FULL:v2:R2A",
+    "arm": "FULL|v2|R2A",
+    "scenario": "F7_B2_DROP_P3",
+    "profile": "P3",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": true,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B2_DROP_P3:FULL:v2:R2B",
+    "arm": "FULL|v2|R2B",
+    "scenario": "F7_B2_DROP_P3",
+    "profile": "P3",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": true,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B3_LATE_P0:-:CONV:-",
+    "arm": "-|CONV|-",
+    "scenario": "F7_B3_LATE_P0",
+    "profile": "P0",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 2,
+    "S1": true,
+    "S2": true,
+    "S3": false,
+    "S4_sends": 1,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": false,
+    "opportunity_completed": false,
+    "first_classification": null
+   },
+   {
+    "unit_id": "P3A:F7_B3_LATE_P0:FULL:v1:-",
+    "arm": "FULL|v1|-",
+    "scenario": "F7_B3_LATE_P0",
+    "profile": "P0",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 2,
+    "S1": true,
+    "S2": true,
+    "S3": false,
+    "S4_sends": 1,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": false,
+    "opportunity_completed": false,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B3_LATE_P0:FULL:v2:R2A",
+    "arm": "FULL|v2|R2A",
+    "scenario": "F7_B3_LATE_P0",
+    "profile": "P0",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "delivery_unknown",
+    "safe_opportunity": false,
+    "opportunity_completed": false,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B3_LATE_P0:FULL:v2:R2B",
+    "arm": "FULL|v2|R2B",
+    "scenario": "F7_B3_LATE_P0",
+    "profile": "P0",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "delivery_unknown",
+    "safe_opportunity": false,
+    "opportunity_completed": false,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B3_LATE_P1:-:CONV:-",
+    "arm": "-|CONV|-",
+    "scenario": "F7_B3_LATE_P1",
+    "profile": "P1",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": true,
+    "first_classification": null
+   },
+   {
+    "unit_id": "P3A:F7_B3_LATE_P1:FULL:v1:-",
+    "arm": "FULL|v1|-",
+    "scenario": "F7_B3_LATE_P1",
+    "profile": "P1",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 2,
+    "S1": true,
+    "S2": true,
+    "S3": false,
+    "S4_sends": 1,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": false,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B3_LATE_P1:FULL:v2:R2A",
+    "arm": "FULL|v2|R2A",
+    "scenario": "F7_B3_LATE_P1",
+    "profile": "P1",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": true,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B3_LATE_P1:FULL:v2:R2B",
+    "arm": "FULL|v2|R2B",
+    "scenario": "F7_B3_LATE_P1",
+    "profile": "P1",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": true,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B3_LATE_P2:-:CONV:-",
+    "arm": "-|CONV|-",
+    "scenario": "F7_B3_LATE_P2",
+    "profile": "P2",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": true,
+    "first_classification": null
+   },
+   {
+    "unit_id": "P3A:F7_B3_LATE_P2:FULL:v1:-",
+    "arm": "FULL|v1|-",
+    "scenario": "F7_B3_LATE_P2",
+    "profile": "P2",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 1,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": false,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B3_LATE_P2:FULL:v2:R2A",
+    "arm": "FULL|v2|R2A",
+    "scenario": "F7_B3_LATE_P2",
+    "profile": "P2",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": true,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B3_LATE_P2:FULL:v2:R2B",
+    "arm": "FULL|v2|R2B",
+    "scenario": "F7_B3_LATE_P2",
+    "profile": "P2",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": true,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B3_LATE_P3:-:CONV:-",
+    "arm": "-|CONV|-",
+    "scenario": "F7_B3_LATE_P3",
+    "profile": "P3",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": true,
+    "first_classification": null
+   },
+   {
+    "unit_id": "P3A:F7_B3_LATE_P3:FULL:v1:-",
+    "arm": "FULL|v1|-",
+    "scenario": "F7_B3_LATE_P3",
+    "profile": "P3",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 1,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": false,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B3_LATE_P3:FULL:v2:R2A",
+    "arm": "FULL|v2|R2A",
+    "scenario": "F7_B3_LATE_P3",
+    "profile": "P3",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": true,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B3_LATE_P3:FULL:v2:R2B",
+    "arm": "FULL|v2|R2B",
+    "scenario": "F7_B3_LATE_P3",
+    "profile": "P3",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": true,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B4_P0:-:CONV:-",
+    "arm": "-|CONV|-",
+    "scenario": "F7_B4_P0",
+    "profile": "P0",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 2,
+    "S1": true,
+    "S2": true,
+    "S3": false,
+    "S4_sends": 1,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": false,
+    "opportunity_completed": false,
+    "first_classification": null
+   },
+   {
+    "unit_id": "P3A:F7_B4_P0:FULL:v1:-",
+    "arm": "FULL|v1|-",
+    "scenario": "F7_B4_P0",
+    "profile": "P0",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 2,
+    "S1": true,
+    "S2": true,
+    "S3": false,
+    "S4_sends": 1,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": false,
+    "opportunity_completed": false,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B4_P0:FULL:v2:R2A",
+    "arm": "FULL|v2|R2A",
+    "scenario": "F7_B4_P0",
+    "profile": "P0",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "delivery_unknown",
+    "safe_opportunity": false,
+    "opportunity_completed": false,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B4_P0:FULL:v2:R2B",
+    "arm": "FULL|v2|R2B",
+    "scenario": "F7_B4_P0",
+    "profile": "P0",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "delivery_unknown",
+    "safe_opportunity": false,
+    "opportunity_completed": false,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B4_P1:-:CONV:-",
+    "arm": "-|CONV|-",
+    "scenario": "F7_B4_P1",
+    "profile": "P1",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": true,
+    "first_classification": null
+   },
+   {
+    "unit_id": "P3A:F7_B4_P1:FULL:v1:-",
+    "arm": "FULL|v1|-",
+    "scenario": "F7_B4_P1",
+    "profile": "P1",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 2,
+    "S1": true,
+    "S2": true,
+    "S3": false,
+    "S4_sends": 1,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": false,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B4_P1:FULL:v2:R2A",
+    "arm": "FULL|v2|R2A",
+    "scenario": "F7_B4_P1",
+    "profile": "P1",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": true,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B4_P1:FULL:v2:R2B",
+    "arm": "FULL|v2|R2B",
+    "scenario": "F7_B4_P1",
+    "profile": "P1",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": true,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B4_P2:-:CONV:-",
+    "arm": "-|CONV|-",
+    "scenario": "F7_B4_P2",
+    "profile": "P2",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": true,
+    "first_classification": null
+   },
+   {
+    "unit_id": "P3A:F7_B4_P2:FULL:v1:-",
+    "arm": "FULL|v1|-",
+    "scenario": "F7_B4_P2",
+    "profile": "P2",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 1,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": false,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B4_P2:FULL:v2:R2A",
+    "arm": "FULL|v2|R2A",
+    "scenario": "F7_B4_P2",
+    "profile": "P2",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": true,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B4_P2:FULL:v2:R2B",
+    "arm": "FULL|v2|R2B",
+    "scenario": "F7_B4_P2",
+    "profile": "P2",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": true,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B4_P3:-:CONV:-",
+    "arm": "-|CONV|-",
+    "scenario": "F7_B4_P3",
+    "profile": "P3",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": true,
+    "first_classification": null
+   },
+   {
+    "unit_id": "P3A:F7_B4_P3:FULL:v1:-",
+    "arm": "FULL|v1|-",
+    "scenario": "F7_B4_P3",
+    "profile": "P3",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 1,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": false,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B4_P3:FULL:v2:R2A",
+    "arm": "FULL|v2|R2A",
+    "scenario": "F7_B4_P3",
+    "profile": "P3",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": true,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   },
+   {
+    "unit_id": "P3A:F7_B4_P3:FULL:v2:R2B",
+    "arm": "FULL|v2|R2B",
+    "scenario": "F7_B4_P3",
+    "profile": "P3",
+    "status": "VALID",
+    "first_attempt_state": "VALID_COMPLETED",
+    "effect_count": 1,
+    "S1": false,
+    "S2": false,
+    "S3": false,
+    "S4_sends": 0,
+    "final_state": "adapter_accepted",
+    "safe_opportunity": true,
+    "opportunity_completed": true,
+    "first_classification": "CONFIRMED_NO_ACCEPTANCE_EVIDENCE"
+   }
+  ],
+  "note": "X1 = F7 x {FULL/v1, CONV, FULL/v2-R2A, FULL/v2-R2B}; 48 units contained in P3A; first attempts only"
+ },
+ "v2_events": [],
+ "v2_events_note": "A10: all S1-S4 events of all v2 arms; plan_expectation VIOLATED for each; mechanism_guarantee per event; nothing excluded",
+ "v2_event_counts": {},
+ "exposure_breakdown": {
+  "-C_disp|v1|-|F7|NEW": {
+   "units": 12,
+   "valid_first_attempt": 12,
+   "any_safety_event": 12
+  },
+  "-C_disp|v1|-|hist|SEEN": {
+   "units": 52,
+   "valid_first_attempt": 52,
+   "any_safety_event": 4
+  },
+  "-C_disp|v2|R2A|F7|NEW": {
+   "units": 12,
+   "valid_first_attempt": 12,
+   "any_safety_event": 0
+  },
+  "-C_disp|v2|R2A|hist|NEW": {
+   "units": 52,
+   "valid_first_attempt": 52,
+   "any_safety_event": 0
+  },
+  "-C_disp|v2|R2B|F7|NEW": {
+   "units": 12,
+   "valid_first_attempt": 12,
+   "any_safety_event": 0
+  },
+  "-C_disp|v2|R2B|hist|NEW": {
+   "units": 52,
+   "valid_first_attempt": 52,
+   "any_safety_event": 0
+  },
+  "-U|v1|-|F7|NEW": {
+   "units": 12,
+   "valid_first_attempt": 12,
+   "any_safety_event": 12
+  },
+  "-U|v1|-|hist|SEEN": {
+   "units": 52,
+   "valid_first_attempt": 52,
+   "any_safety_event": 28
+  },
+  "-U|v2|R2A|F7|NEW": {
+   "units": 12,
+   "valid_first_attempt": 12,
+   "any_safety_event": 0
+  },
+  "-U|v2|R2A|hist|NEW": {
+   "units": 52,
+   "valid_first_attempt": 52,
+   "any_safety_event": 0
+  },
+  "-U|v2|R2B|F7|NEW": {
+   "units": 12,
+   "valid_first_attempt": 12,
+   "any_safety_event": 0
+  },
+  "-U|v2|R2B|hist|NEW": {
+   "units": 52,
+   "valid_first_attempt": 52,
+   "any_safety_event": 0
+  },
+  "-|CONV|-|F7|NEW": {
+   "units": 12,
+   "valid_first_attempt": 12,
+   "any_safety_event": 3
+  },
+  "FULL|v1|-|F7|NEW": {
+   "units": 11,
+   "valid_first_attempt": 11,
+   "any_safety_event": 11
+  },
+  "FULL|v1|-|F7|SEEN": {
+   "units": 1,
+   "valid_first_attempt": 1,
+   "any_safety_event": 1
+  },
+  "FULL|v1|-|hist|SEEN": {
+   "units": 52,
+   "valid_first_attempt": 52,
+   "any_safety_event": 0
+  },
+  "FULL|v2|R2A|F7|SEEN": {
+   "units": 12,
+   "valid_first_attempt": 12,
+   "any_safety_event": 0
+  },
+  "FULL|v2|R2A|hist|SEEN": {
+   "units": 52,
+   "valid_first_attempt": 52,
+   "any_safety_event": 0
+  },
+  "FULL|v2|R2B|F7|SEEN": {
+   "units": 12,
+   "valid_first_attempt": 12,
+   "any_safety_event": 0
+  },
+  "FULL|v2|R2B|hist|SEEN": {
+   "units": 52,
+   "valid_first_attempt": 52,
+   "any_safety_event": 0
+  }
+ },
+ "failed_attempt_safety_observations": [],
+ "secondary_scorer_disagreements": [],
+ "decided_rules": {
+  "A2": "gate denials counted by raw reason strings; no grouping added",
+  "A5": "no confidence intervals or statistical tests; conclusions limited to the fixed scenario set, no extrapolation to a population failure rate",
+  "A8": "secondary scorer is a consistency check only: disagreeing units listed with differences; v1-arm secondary scores attached unchanged (appendix_secondary_v1.csv); not used for main conclusions; never replaces the primary scorer"
+ },
+ "pending_decisions": {},
+ "F7_expectation_provenance": "code-derived prediction, not a contract-derived expectation and not part of the A1 set: frozen classifier line 84 maps any local definite_failure to CONFIRMED_NO_ACCEPTANCE_EVIDENCE (evidence ledger 2026-10-14 09:21 UTC); written as a predeclared expectation in plan v1 on 2026-10-15 06:40 UTC, after one development observation of this classification (F7_B4_P0, v1, 2026-10-14 13:30 UTC); timestamps are local file and session times without third-party proof",
+ "reporting_notes": [
+  "R2-A and R2-B are reported separately; no significance test between them (plan v2 section 1)",
+  "A1: classification error rate not reported; research question Q3 can only be answered in part",
+  "bounds are assumption bounds over unknown units, not observed events",
+  "A5: results describe the fixed scenario set only; no population failure rate is estimated"
+ ],
+ "data_provenance": "as given (not checked for formality by this tool)"
+}

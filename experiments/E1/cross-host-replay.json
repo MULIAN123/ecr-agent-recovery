@@ -1,0 +1,13 @@
+{
+  "check": "cross-host replay (secondary, not a formal cell)",
+  "guest_node": [
+    "v24.21.0"
+  ],
+  "host_node": [
+    "v24.18.0"
+  ],
+  "cells_compared": 376,
+  "identical": 376,
+  "mismatches": [],
+  "note": "Host Node differs from the pinned guest runtime; agreement supports deterministic classifier logic, not runtime identity."
+}

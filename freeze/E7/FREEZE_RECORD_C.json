@@ -1,0 +1,43 @@
+{
+ "status": "FROZEN (Addendum C) - no bl5 unit has run",
+ "utc": "2026-11-14T01:01:59.663743+00:00",
+ "approval": "user in chat 2026-11-13: package everything and run on the college server",
+ "addendum_C_sha256": "9f2d2d7ea8231730ad25665a0a8de4c67f09c3684b68754518b6c9480e660dae",
+ "candidate_bl5_manifest_sha256": "6bad7c849ec7ac582ead878249e101354f7ddc100f4db4dafe8307a3253fe352",
+ "candidate_bl5_tar_sha256": "a2f8d728e8a454b3ae9277a7ca6ace5626edbdb75ce6c9744d685fc36c9919ef",
+ "cells_bl3_sha256": "cc13210b598868145818fff743106f482ca463594a9543d1c3531fa514f9c66d",
+ "source_freeze_records": {
+  "bl3": "f8dc6eec1e5e0f95d1a03656987bc7e8c5fc73e0fafe084d74c120cd1ec85d16",
+  "bl4": "58dbcc32b2c171df089ad5572674ffbaf0bcd0eea8ca89f0eeaa88efc2cb6cc4"
+ },
+ "host_tools": {
+  "host_tools/aggregate_bl3_candidate.py": "313da714ebd23d1e205c4b3d04e6787f801794f5cdb87de9b4558ad0e24ec7ec",
+  "host_tools/audit_qualification_bl3_candidate.py": "470470173eb46a444e026ae0dba3066a1540573989e269f5fd5141d858de82fd",
+  "host_tools/candidate/private/cells_bl3.json": "cc13210b598868145818fff743106f482ca463594a9543d1c3531fa514f9c66d",
+  "host_tools/gate_gd_bl3_candidate.py": "77304f7b5140472a5c2c4219a00f3983351ccff101dd5da29a31cb813356a43d",
+  "host_tools/gate_gk_bl3_candidate.py": "b50d9aff6fc8bfd16e0ca6b7c00c2f1bdef317ad14f7e3fde9e83f599e5513f9",
+  "host_tools/test_aggregate_bl3.py": "9739a6748b73355fa7f619d4c6f72af24b2d7fa74eecf7e1aa16a49d93b4414a",
+  "host_tools/test_aggregate_full_synthetic.py": "2429a9888f53a322864ed72fbf234014e3d5beb8974c914a4c2050bcd72bd2a9",
+  "host_tools/test_gate_gd.py": "a115c2398d0833b7702ebd520a537bdbed74d173c008fa228188375805fe6a5d",
+  "host_tools/test_gate_gk.py": "96d8d8e16024eef698b02befc244febab97d8b1ae1086f21fe4d9f54f7569d0d",
+  "host_tools/test_qualification_audit.py": "51a6b93a50f9a1edc375249dadac8cb44b2e5dbcc1a1fb0c0d48f01209a40e40"
+ },
+ "guest_tools": {
+  "guest_tools/capture_kernel.sh": "e501ce7dc5b38cd928efd7da6055ed4b0f7164cad17d393145a0bf76033e742f",
+  "guest_tools/qualification-authorization.TEMPLATE.json": "16c91ed9164d80278e2a0c8a17c3d9fbe020a58df56e43eae40cb3b109ff325b"
+ },
+ "runbook_sha256": "d31f3841366d8d263545a554d09022d9575b716a66af1af9b6971ed78fc6a4d1",
+ "vm_checksums_sha256": "f21b12492390f64aa07cdfc946262efa438a619c09ce0ad78e37f5508950cf94",
+ "batch_ids": {
+  "qualification": "ecr-bl5q-srv-b1",
+  "run1": "ecr-bl5x-srv-b1",
+  "run2": "ecr-bl5x-srv-c1"
+ },
+ "void_batches": [
+  "ecr-blq-20261113-r1",
+  "ecr-blx-20261113-r1",
+  "bl3 (Codex) qualification and run 1",
+  "ecr-bl4q-codex-b1",
+  "ecr-bl4x-codex-b1"
+ ]
+}

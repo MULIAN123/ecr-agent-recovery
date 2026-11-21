@@ -1,0 +1,1996 @@
+{
+  "audit_id": "async-sim-formal-host-audit-20261012-r1",
+  "status": "PASS_INTEGRITY_AUDIT_COMPLETE_BATCH",
+  "archive_sha256": "d789a997d0adc8bbf7ae59fd45dd26d7e5c4a762b99c1a1836a7c545e7a7bd26",
+  "manifest_sha256": "b9cc392ebaf3391fa448da6a27eb4c751d1aef357af528fc17a1ee16ef5918f2",
+  "guest_summary_sha256": "d22a8a4885efad02c4197bd8910c0a146c6c04d87841048925335adada42725f",
+  "checks": {
+    "members_safe_unique": true,
+    "summary_status_and_manifest": true,
+    "all_416_observed_in_plan_order": true,
+    "deployed_public_files_match_manifest": true,
+    "per_cell_integrity": true
+  },
+  "cells_failing_integrity": [],
+  "opportunity_denominator_per_arm": 38,
+  "by_arm": {
+    "EBR": {
+      "duplicate_effect": 0,
+      "unauthorized_effect": 0,
+      "false_completion": 0,
+      "false_safe_authorizations": 0,
+      "true_completion": 8,
+      "opportunity_completed": 8,
+      "unresolved": 44,
+      "completion_without_opportunity": 0,
+      "cells": 52,
+      "opportunities": 38
+    },
+    "EBRQ": {
+      "duplicate_effect": 0,
+      "unauthorized_effect": 0,
+      "false_completion": 0,
+      "false_safe_authorizations": 0,
+      "true_completion": 29,
+      "opportunity_completed": 29,
+      "unresolved": 23,
+      "completion_without_opportunity": 0,
+      "cells": 52,
+      "opportunities": 38
+    },
+    "CONV": {
+      "duplicate_effect": 1,
+      "unauthorized_effect": 5,
+      "false_completion": 8,
+      "false_safe_authorizations": 5,
+      "true_completion": 33,
+      "opportunity_completed": 32,
+      "unresolved": 6,
+      "completion_without_opportunity": 1,
+      "cells": 52,
+      "opportunities": 38
+    },
+    "STOP": {
+      "duplicate_effect": 0,
+      "unauthorized_effect": 4,
+      "false_completion": 0,
+      "false_safe_authorizations": 4,
+      "true_completion": 4,
+      "opportunity_completed": 4,
+      "unresolved": 44,
+      "completion_without_opportunity": 0,
+      "cells": 52,
+      "opportunities": 38
+    },
+    "RETRY": {
+      "duplicate_effect": 12,
+      "unauthorized_effect": 16,
+      "false_completion": 8,
+      "false_safe_authorizations": 32,
+      "true_completion": 28,
+      "opportunity_completed": 11,
+      "unresolved": 0,
+      "completion_without_opportunity": 2,
+      "cells": 52,
+      "opportunities": 38
+    },
+    "EBRQ_NO_UNKNOWN": {
+      "duplicate_effect": 10,
+      "unauthorized_effect": 10,
+      "false_completion": 0,
+      "false_safe_authorizations": 28,
+      "true_completion": 26,
+      "opportunity_completed": 8,
+      "unresolved": 16,
+      "completion_without_opportunity": 2,
+      "cells": 52,
+      "opportunities": 38
+    },
+    "EBRQ_NO_BOUNDARY": {
+      "duplicate_effect": 2,
+      "unauthorized_effect": 2,
+      "false_completion": 0,
+      "false_safe_authorizations": 4,
+      "true_completion": 31,
+      "opportunity_completed": 29,
+      "unresolved": 19,
+      "completion_without_opportunity": 0,
+      "cells": 52,
+      "opportunities": 38
+    },
+    "EBRQ_NO_LEVEL": {
+      "duplicate_effect": 0,
+      "unauthorized_effect": 0,
+      "false_completion": 4,
+      "false_safe_authorizations": 0,
+      "true_completion": 26,
+      "opportunity_completed": 26,
+      "unresolved": 22,
+      "completion_without_opportunity": 0,
+      "cells": 52,
+      "opportunities": 38
+    }
+  },
+  "by_group": {
+    "B1": {
+      "EBR": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 4,
+        "opportunity_completed": 4,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 4
+      },
+      "EBRQ": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 4,
+        "opportunity_completed": 4,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 4
+      },
+      "CONV": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 4,
+        "opportunity_completed": 4,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 4
+      },
+      "STOP": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 4,
+        "opportunity_completed": 4,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 4
+      },
+      "RETRY": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 4,
+        "opportunity_completed": 4,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 4
+      },
+      "EBRQ_NO_UNKNOWN": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 4,
+        "opportunity_completed": 4,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 4
+      },
+      "EBRQ_NO_BOUNDARY": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 4,
+        "opportunity_completed": 4,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 4
+      },
+      "EBRQ_NO_LEVEL": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 4,
+        "opportunity_completed": 4,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 4
+      }
+    },
+    "B2_DROP": {
+      "EBR": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 3,
+        "opportunity_completed": 3,
+        "unresolved": 1,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "CONV": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 3,
+        "opportunity_completed": 3,
+        "unresolved": 1,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "STOP": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "RETRY": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 4,
+        "true_completion": 4,
+        "opportunity_completed": 0,
+        "unresolved": 0,
+        "completion_without_opportunity": 1,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ_NO_UNKNOWN": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 4,
+        "true_completion": 4,
+        "opportunity_completed": 0,
+        "unresolved": 0,
+        "completion_without_opportunity": 1,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ_NO_BOUNDARY": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 3,
+        "opportunity_completed": 3,
+        "unresolved": 1,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ_NO_LEVEL": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 3,
+        "opportunity_completed": 3,
+        "unresolved": 1,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      }
+    },
+    "B2_LATE": {
+      "EBR": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 3,
+        "opportunity_completed": 3,
+        "unresolved": 1,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "CONV": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 3,
+        "opportunity_completed": 3,
+        "unresolved": 1,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "STOP": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "RETRY": {
+        "duplicate_effect": 2,
+        "unauthorized_effect": 2,
+        "false_completion": 0,
+        "false_safe_authorizations": 4,
+        "true_completion": 2,
+        "opportunity_completed": 0,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ_NO_UNKNOWN": {
+        "duplicate_effect": 2,
+        "unauthorized_effect": 2,
+        "false_completion": 0,
+        "false_safe_authorizations": 4,
+        "true_completion": 2,
+        "opportunity_completed": 0,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ_NO_BOUNDARY": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 3,
+        "opportunity_completed": 3,
+        "unresolved": 1,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ_NO_LEVEL": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 3,
+        "opportunity_completed": 3,
+        "unresolved": 1,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      }
+    },
+    "B2_ARRIVE": {
+      "EBR": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 3,
+        "opportunity_completed": 3,
+        "unresolved": 1,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "CONV": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 3,
+        "opportunity_completed": 3,
+        "unresolved": 1,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "STOP": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "RETRY": {
+        "duplicate_effect": 2,
+        "unauthorized_effect": 2,
+        "false_completion": 0,
+        "false_safe_authorizations": 4,
+        "true_completion": 2,
+        "opportunity_completed": 0,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ_NO_UNKNOWN": {
+        "duplicate_effect": 2,
+        "unauthorized_effect": 2,
+        "false_completion": 0,
+        "false_safe_authorizations": 4,
+        "true_completion": 2,
+        "opportunity_completed": 0,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ_NO_BOUNDARY": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 3,
+        "opportunity_completed": 3,
+        "unresolved": 1,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ_NO_LEVEL": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 3,
+        "opportunity_completed": 3,
+        "unresolved": 1,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      }
+    },
+    "B3_LATE": {
+      "EBR": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 3,
+        "opportunity_completed": 3,
+        "unresolved": 1,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "CONV": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 3,
+        "opportunity_completed": 3,
+        "unresolved": 1,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "STOP": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "RETRY": {
+        "duplicate_effect": 2,
+        "unauthorized_effect": 2,
+        "false_completion": 0,
+        "false_safe_authorizations": 4,
+        "true_completion": 2,
+        "opportunity_completed": 0,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ_NO_UNKNOWN": {
+        "duplicate_effect": 2,
+        "unauthorized_effect": 2,
+        "false_completion": 0,
+        "false_safe_authorizations": 4,
+        "true_completion": 2,
+        "opportunity_completed": 0,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ_NO_BOUNDARY": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 3,
+        "opportunity_completed": 3,
+        "unresolved": 1,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ_NO_LEVEL": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 3,
+        "opportunity_completed": 3,
+        "unresolved": 1,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      }
+    },
+    "B4": {
+      "EBR": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 3,
+        "opportunity_completed": 3,
+        "unresolved": 1,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "CONV": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 3,
+        "opportunity_completed": 3,
+        "unresolved": 1,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "STOP": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "RETRY": {
+        "duplicate_effect": 2,
+        "unauthorized_effect": 2,
+        "false_completion": 0,
+        "false_safe_authorizations": 4,
+        "true_completion": 2,
+        "opportunity_completed": 0,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ_NO_UNKNOWN": {
+        "duplicate_effect": 2,
+        "unauthorized_effect": 2,
+        "false_completion": 0,
+        "false_safe_authorizations": 4,
+        "true_completion": 2,
+        "opportunity_completed": 0,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ_NO_BOUNDARY": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 3,
+        "opportunity_completed": 3,
+        "unresolved": 1,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ_NO_LEVEL": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 3,
+        "opportunity_completed": 3,
+        "unresolved": 1,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      }
+    },
+    "B5": {
+      "EBR": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 3,
+        "opportunity_completed": 3,
+        "unresolved": 1,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "CONV": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 3,
+        "opportunity_completed": 3,
+        "unresolved": 1,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "STOP": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "RETRY": {
+        "duplicate_effect": 2,
+        "unauthorized_effect": 2,
+        "false_completion": 0,
+        "false_safe_authorizations": 4,
+        "true_completion": 2,
+        "opportunity_completed": 0,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ_NO_UNKNOWN": {
+        "duplicate_effect": 2,
+        "unauthorized_effect": 2,
+        "false_completion": 0,
+        "false_safe_authorizations": 4,
+        "true_completion": 2,
+        "opportunity_completed": 0,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ_NO_BOUNDARY": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 3,
+        "opportunity_completed": 3,
+        "unresolved": 1,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ_NO_LEVEL": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 3,
+        "opportunity_completed": 3,
+        "unresolved": 1,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      }
+    },
+    "B6": {
+      "EBR": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 4,
+        "opportunity_completed": 4,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 4
+      },
+      "EBRQ": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 4,
+        "opportunity_completed": 4,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 4
+      },
+      "CONV": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 4,
+        "opportunity_completed": 4,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 4
+      },
+      "STOP": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 4
+      },
+      "RETRY": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 4,
+        "opportunity_completed": 4,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 4
+      },
+      "EBRQ_NO_UNKNOWN": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 4,
+        "opportunity_completed": 4,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 4
+      },
+      "EBRQ_NO_BOUNDARY": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 4,
+        "opportunity_completed": 4,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 4
+      },
+      "EBRQ_NO_LEVEL": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 4,
+        "opportunity_completed": 4,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 4
+      }
+    },
+    "F2_FOREIGN_ACCEPT": {
+      "EBR": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "CONV": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 4,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "STOP": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "RETRY": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 4,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ_NO_UNKNOWN": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ_NO_BOUNDARY": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ_NO_LEVEL": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      }
+    },
+    "F3_WEAK_ACK": {
+      "EBR": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 3,
+        "opportunity_completed": 3,
+        "unresolved": 1,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "CONV": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 4,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "STOP": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "RETRY": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 4,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ_NO_UNKNOWN": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 4,
+        "true_completion": 4,
+        "opportunity_completed": 0,
+        "unresolved": 0,
+        "completion_without_opportunity": 1,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ_NO_BOUNDARY": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 3,
+        "opportunity_completed": 3,
+        "unresolved": 1,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ_NO_LEVEL": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 4,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      }
+    },
+    "F4_REORDERED_CALLBACK": {
+      "EBR": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "CONV": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 4,
+        "opportunity_completed": 3,
+        "unresolved": 0,
+        "completion_without_opportunity": 1,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "STOP": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "RETRY": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 4,
+        "opportunity_completed": 3,
+        "unresolved": 0,
+        "completion_without_opportunity": 1,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ_NO_UNKNOWN": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ_NO_BOUNDARY": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ_NO_LEVEL": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      }
+    },
+    "F5_SUPERSEDED_VERSION": {
+      "EBR": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 0
+      },
+      "EBRQ": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 0
+      },
+      "CONV": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 4,
+        "false_completion": 0,
+        "false_safe_authorizations": 4,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 0
+      },
+      "STOP": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 4,
+        "false_completion": 0,
+        "false_safe_authorizations": 4,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 0
+      },
+      "RETRY": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 4,
+        "false_completion": 0,
+        "false_safe_authorizations": 4,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 0
+      },
+      "EBRQ_NO_UNKNOWN": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 0
+      },
+      "EBRQ_NO_BOUNDARY": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 0
+      },
+      "EBRQ_NO_LEVEL": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 0
+      }
+    },
+    "F6_LOST_DISPATCH_FAILURE": {
+      "EBR": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "CONV": {
+        "duplicate_effect": 1,
+        "unauthorized_effect": 1,
+        "false_completion": 0,
+        "false_safe_authorizations": 1,
+        "true_completion": 3,
+        "opportunity_completed": 3,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "STOP": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "RETRY": {
+        "duplicate_effect": 2,
+        "unauthorized_effect": 2,
+        "false_completion": 0,
+        "false_safe_authorizations": 4,
+        "true_completion": 2,
+        "opportunity_completed": 0,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ_NO_UNKNOWN": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ_NO_BOUNDARY": {
+        "duplicate_effect": 2,
+        "unauthorized_effect": 2,
+        "false_completion": 0,
+        "false_safe_authorizations": 4,
+        "true_completion": 2,
+        "opportunity_completed": 0,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      },
+      "EBRQ_NO_LEVEL": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 0,
+        "opportunity_completed": 0,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 4,
+        "opportunities": 3
+      }
+    }
+  },
+  "by_profile": {
+    "P0": {
+      "EBR": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 2,
+        "opportunity_completed": 2,
+        "unresolved": 11,
+        "completion_without_opportunity": 0,
+        "cells": 13,
+        "opportunities": 2
+      },
+      "EBRQ": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 2,
+        "opportunity_completed": 2,
+        "unresolved": 11,
+        "completion_without_opportunity": 0,
+        "cells": 13,
+        "opportunities": 2
+      },
+      "CONV": {
+        "duplicate_effect": 1,
+        "unauthorized_effect": 2,
+        "false_completion": 2,
+        "false_safe_authorizations": 2,
+        "true_completion": 3,
+        "opportunity_completed": 2,
+        "unresolved": 6,
+        "completion_without_opportunity": 1,
+        "cells": 13,
+        "opportunities": 2
+      },
+      "STOP": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 1,
+        "false_completion": 0,
+        "false_safe_authorizations": 1,
+        "true_completion": 1,
+        "opportunity_completed": 1,
+        "unresolved": 11,
+        "completion_without_opportunity": 0,
+        "cells": 13,
+        "opportunities": 2
+      },
+      "RETRY": {
+        "duplicate_effect": 6,
+        "unauthorized_effect": 7,
+        "false_completion": 2,
+        "false_safe_authorizations": 8,
+        "true_completion": 4,
+        "opportunity_completed": 2,
+        "unresolved": 0,
+        "completion_without_opportunity": 2,
+        "cells": 13,
+        "opportunities": 2
+      },
+      "EBRQ_NO_UNKNOWN": {
+        "duplicate_effect": 5,
+        "unauthorized_effect": 5,
+        "false_completion": 0,
+        "false_safe_authorizations": 7,
+        "true_completion": 4,
+        "opportunity_completed": 2,
+        "unresolved": 4,
+        "completion_without_opportunity": 2,
+        "cells": 13,
+        "opportunities": 2
+      },
+      "EBRQ_NO_BOUNDARY": {
+        "duplicate_effect": 1,
+        "unauthorized_effect": 1,
+        "false_completion": 0,
+        "false_safe_authorizations": 1,
+        "true_completion": 2,
+        "opportunity_completed": 2,
+        "unresolved": 10,
+        "completion_without_opportunity": 0,
+        "cells": 13,
+        "opportunities": 2
+      },
+      "EBRQ_NO_LEVEL": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 1,
+        "false_safe_authorizations": 0,
+        "true_completion": 2,
+        "opportunity_completed": 2,
+        "unresolved": 10,
+        "completion_without_opportunity": 0,
+        "cells": 13,
+        "opportunities": 2
+      }
+    },
+    "P1": {
+      "EBR": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 2,
+        "opportunity_completed": 2,
+        "unresolved": 11,
+        "completion_without_opportunity": 0,
+        "cells": 13,
+        "opportunities": 12
+      },
+      "EBRQ": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 9,
+        "opportunity_completed": 9,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 13,
+        "opportunities": 12
+      },
+      "CONV": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 1,
+        "false_completion": 2,
+        "false_safe_authorizations": 1,
+        "true_completion": 10,
+        "opportunity_completed": 10,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 13,
+        "opportunities": 12
+      },
+      "STOP": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 1,
+        "false_completion": 0,
+        "false_safe_authorizations": 1,
+        "true_completion": 1,
+        "opportunity_completed": 1,
+        "unresolved": 11,
+        "completion_without_opportunity": 0,
+        "cells": 13,
+        "opportunities": 12
+      },
+      "RETRY": {
+        "duplicate_effect": 6,
+        "unauthorized_effect": 7,
+        "false_completion": 2,
+        "false_safe_authorizations": 8,
+        "true_completion": 4,
+        "opportunity_completed": 3,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 13,
+        "opportunities": 12
+      },
+      "EBRQ_NO_UNKNOWN": {
+        "duplicate_effect": 5,
+        "unauthorized_effect": 5,
+        "false_completion": 0,
+        "false_safe_authorizations": 7,
+        "true_completion": 4,
+        "opportunity_completed": 2,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 13,
+        "opportunities": 12
+      },
+      "EBRQ_NO_BOUNDARY": {
+        "duplicate_effect": 1,
+        "unauthorized_effect": 1,
+        "false_completion": 0,
+        "false_safe_authorizations": 1,
+        "true_completion": 9,
+        "opportunity_completed": 9,
+        "unresolved": 3,
+        "completion_without_opportunity": 0,
+        "cells": 13,
+        "opportunities": 12
+      },
+      "EBRQ_NO_LEVEL": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 1,
+        "false_safe_authorizations": 0,
+        "true_completion": 8,
+        "opportunity_completed": 8,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 13,
+        "opportunities": 12
+      }
+    },
+    "P2": {
+      "EBR": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 2,
+        "opportunity_completed": 2,
+        "unresolved": 11,
+        "completion_without_opportunity": 0,
+        "cells": 13,
+        "opportunities": 12
+      },
+      "EBRQ": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 9,
+        "opportunity_completed": 9,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 13,
+        "opportunities": 12
+      },
+      "CONV": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 1,
+        "false_completion": 2,
+        "false_safe_authorizations": 1,
+        "true_completion": 10,
+        "opportunity_completed": 10,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 13,
+        "opportunities": 12
+      },
+      "STOP": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 1,
+        "false_completion": 0,
+        "false_safe_authorizations": 1,
+        "true_completion": 1,
+        "opportunity_completed": 1,
+        "unresolved": 11,
+        "completion_without_opportunity": 0,
+        "cells": 13,
+        "opportunities": 12
+      },
+      "RETRY": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 1,
+        "false_completion": 2,
+        "false_safe_authorizations": 8,
+        "true_completion": 10,
+        "opportunity_completed": 3,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 13,
+        "opportunities": 12
+      },
+      "EBRQ_NO_UNKNOWN": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 7,
+        "true_completion": 9,
+        "opportunity_completed": 2,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 13,
+        "opportunities": 12
+      },
+      "EBRQ_NO_BOUNDARY": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 1,
+        "true_completion": 10,
+        "opportunity_completed": 9,
+        "unresolved": 3,
+        "completion_without_opportunity": 0,
+        "cells": 13,
+        "opportunities": 12
+      },
+      "EBRQ_NO_LEVEL": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 1,
+        "false_safe_authorizations": 0,
+        "true_completion": 8,
+        "opportunity_completed": 8,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 13,
+        "opportunities": 12
+      }
+    },
+    "P3": {
+      "EBR": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 2,
+        "opportunity_completed": 2,
+        "unresolved": 11,
+        "completion_without_opportunity": 0,
+        "cells": 13,
+        "opportunities": 12
+      },
+      "EBRQ": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 0,
+        "true_completion": 9,
+        "opportunity_completed": 9,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 13,
+        "opportunities": 12
+      },
+      "CONV": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 1,
+        "false_completion": 2,
+        "false_safe_authorizations": 1,
+        "true_completion": 10,
+        "opportunity_completed": 10,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 13,
+        "opportunities": 12
+      },
+      "STOP": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 1,
+        "false_completion": 0,
+        "false_safe_authorizations": 1,
+        "true_completion": 1,
+        "opportunity_completed": 1,
+        "unresolved": 11,
+        "completion_without_opportunity": 0,
+        "cells": 13,
+        "opportunities": 12
+      },
+      "RETRY": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 1,
+        "false_completion": 2,
+        "false_safe_authorizations": 8,
+        "true_completion": 10,
+        "opportunity_completed": 3,
+        "unresolved": 0,
+        "completion_without_opportunity": 0,
+        "cells": 13,
+        "opportunities": 12
+      },
+      "EBRQ_NO_UNKNOWN": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 7,
+        "true_completion": 9,
+        "opportunity_completed": 2,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 13,
+        "opportunities": 12
+      },
+      "EBRQ_NO_BOUNDARY": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 0,
+        "false_safe_authorizations": 1,
+        "true_completion": 10,
+        "opportunity_completed": 9,
+        "unresolved": 3,
+        "completion_without_opportunity": 0,
+        "cells": 13,
+        "opportunities": 12
+      },
+      "EBRQ_NO_LEVEL": {
+        "duplicate_effect": 0,
+        "unauthorized_effect": 0,
+        "false_completion": 1,
+        "false_safe_authorizations": 0,
+        "true_completion": 8,
+        "opportunity_completed": 8,
+        "unresolved": 4,
+        "completion_without_opportunity": 0,
+        "cells": 13,
+        "opportunities": 12
+      }
+    }
+  },
+  "paired_differences": {
+    "EBRQ_vs_CONV": [
+      {
+        "scenario": "F2_FOREIGN_ACCEPT_P0",
+        "EBRQ": "UNRESOLVED e=0",
+        "CONV": "FALSE_DONE e=0"
+      },
+      {
+        "scenario": "F2_FOREIGN_ACCEPT_P1",
+        "EBRQ": "UNRESOLVED(missed) e=0",
+        "CONV": "FALSE_DONE e=0"
+      },
+      {
+        "scenario": "F2_FOREIGN_ACCEPT_P2",
+        "EBRQ": "UNRESOLVED(missed) e=0",
+        "CONV": "FALSE_DONE e=0"
+      },
+      {
+        "scenario": "F2_FOREIGN_ACCEPT_P3",
+        "EBRQ": "UNRESOLVED(missed) e=0",
+        "CONV": "FALSE_DONE e=0"
+      },
+      {
+        "scenario": "F3_WEAK_ACK_P0",
+        "EBRQ": "UNRESOLVED e=0",
+        "CONV": "FALSE_DONE e=0"
+      },
+      {
+        "scenario": "F3_WEAK_ACK_P1",
+        "EBRQ": "DONE e=1",
+        "CONV": "FALSE_DONE e=0"
+      },
+      {
+        "scenario": "F3_WEAK_ACK_P2",
+        "EBRQ": "DONE e=1",
+        "CONV": "FALSE_DONE e=0"
+      },
+      {
+        "scenario": "F3_WEAK_ACK_P3",
+        "EBRQ": "DONE e=1",
+        "CONV": "FALSE_DONE e=0"
+      },
+      {
+        "scenario": "F4_REORDERED_CALLBACK_P0",
+        "EBRQ": "UNRESOLVED e=1",
+        "CONV": "DONE_NO_OPP e=1"
+      },
+      {
+        "scenario": "F4_REORDERED_CALLBACK_P1",
+        "EBRQ": "UNRESOLVED(missed) e=1",
+        "CONV": "DONE e=1"
+      },
+      {
+        "scenario": "F4_REORDERED_CALLBACK_P2",
+        "EBRQ": "UNRESOLVED(missed) e=1",
+        "CONV": "DONE e=1"
+      },
+      {
+        "scenario": "F4_REORDERED_CALLBACK_P3",
+        "EBRQ": "UNRESOLVED(missed) e=1",
+        "CONV": "DONE e=1"
+      },
+      {
+        "scenario": "F5_SUPERSEDED_VERSION_P0",
+        "EBRQ": "UNRESOLVED e=0",
+        "CONV": "UNAUTH+UNSAFE_AUTH1 e=1"
+      },
+      {
+        "scenario": "F5_SUPERSEDED_VERSION_P1",
+        "EBRQ": "UNRESOLVED e=0",
+        "CONV": "UNAUTH+UNSAFE_AUTH1 e=1"
+      },
+      {
+        "scenario": "F5_SUPERSEDED_VERSION_P2",
+        "EBRQ": "UNRESOLVED e=0",
+        "CONV": "UNAUTH+UNSAFE_AUTH1 e=1"
+      },
+      {
+        "scenario": "F5_SUPERSEDED_VERSION_P3",
+        "EBRQ": "UNRESOLVED e=0",
+        "CONV": "UNAUTH+UNSAFE_AUTH1 e=1"
+      },
+      {
+        "scenario": "F6_LOST_DISPATCH_FAILURE_P0",
+        "EBRQ": "UNRESOLVED e=1",
+        "CONV": "DUP+UNSAFE_AUTH1 e=2"
+      },
+      {
+        "scenario": "F6_LOST_DISPATCH_FAILURE_P1",
+        "EBRQ": "UNRESOLVED(missed) e=1",
+        "CONV": "DONE e=1"
+      },
+      {
+        "scenario": "F6_LOST_DISPATCH_FAILURE_P2",
+        "EBRQ": "UNRESOLVED(missed) e=1",
+        "CONV": "DONE e=1"
+      },
+      {
+        "scenario": "F6_LOST_DISPATCH_FAILURE_P3",
+        "EBRQ": "UNRESOLVED(missed) e=1",
+        "CONV": "DONE e=1"
+      }
+    ],
+    "EBR_vs_EBRQ": [
+      {
+        "scenario": "B2_DROP_P1",
+        "EBR": "UNRESOLVED(missed) e=0",
+        "EBRQ": "DONE e=1"
+      },
+      {
+        "scenario": "B2_DROP_P2",
+        "EBR": "UNRESOLVED(missed) e=0",
+        "EBRQ": "DONE e=1"
+      },
+      {
+        "scenario": "B2_DROP_P3",
+        "EBR": "UNRESOLVED(missed) e=0",
+        "EBRQ": "DONE e=1"
+      },
+      {
+        "scenario": "B2_LATE_P1",
+        "EBR": "UNRESOLVED(missed) e=1",
+        "EBRQ": "DONE e=1"
+      },
+      {
+        "scenario": "B2_LATE_P2",
+        "EBR": "UNRESOLVED(missed) e=1",
+        "EBRQ": "DONE e=1"
+      },
+      {
+        "scenario": "B2_LATE_P3",
+        "EBR": "UNRESOLVED(missed) e=1",
+        "EBRQ": "DONE e=1"
+      },
+      {
+        "scenario": "B2_ARRIVE_P1",
+        "EBR": "UNRESOLVED(missed) e=1",
+        "EBRQ": "DONE e=1"
+      },
+      {
+        "scenario": "B2_ARRIVE_P2",
+        "EBR": "UNRESOLVED(missed) e=1",
+        "EBRQ": "DONE e=1"
+      },
+      {
+        "scenario": "B2_ARRIVE_P3",
+        "EBR": "UNRESOLVED(missed) e=1",
+        "EBRQ": "DONE e=1"
+      },
+      {
+        "scenario": "B3_LATE_P1",
+        "EBR": "UNRESOLVED(missed) e=1",
+        "EBRQ": "DONE e=1"
+      },
+      {
+        "scenario": "B3_LATE_P2",
+        "EBR": "UNRESOLVED(missed) e=1",
+        "EBRQ": "DONE e=1"
+      },
+      {
+        "scenario": "B3_LATE_P3",
+        "EBR": "UNRESOLVED(missed) e=1",
+        "EBRQ": "DONE e=1"
+      },
+      {
+        "scenario": "B4_P1",
+        "EBR": "UNRESOLVED(missed) e=1",
+        "EBRQ": "DONE e=1"
+      },
+      {
+        "scenario": "B4_P2",
+        "EBR": "UNRESOLVED(missed) e=1",
+        "EBRQ": "DONE e=1"
+      },
+      {
+        "scenario": "B4_P3",
+        "EBR": "UNRESOLVED(missed) e=1",
+        "EBRQ": "DONE e=1"
+      },
+      {
+        "scenario": "B5_P1",
+        "EBR": "UNRESOLVED(missed) e=1",
+        "EBRQ": "DONE e=1"
+      },
+      {
+        "scenario": "B5_P2",
+        "EBR": "UNRESOLVED(missed) e=1",
+        "EBRQ": "DONE e=1"
+      },
+      {
+        "scenario": "B5_P3",
+        "EBR": "UNRESOLVED(missed) e=1",
+        "EBRQ": "DONE e=1"
+      },
+      {
+        "scenario": "F3_WEAK_ACK_P1",
+        "EBR": "UNRESOLVED(missed) e=0",
+        "EBRQ": "DONE e=1"
+      },
+      {
+        "scenario": "F3_WEAK_ACK_P2",
+        "EBR": "UNRESOLVED(missed) e=0",
+        "EBRQ": "DONE e=1"
+      },
+      {
+        "scenario": "F3_WEAK_ACK_P3",
+        "EBR": "UNRESOLVED(missed) e=0",
+        "EBRQ": "DONE e=1"
+      }
+    ]
+  },
+  "scope": "local asynchronous simulation; deterministic predeclared cells; counts are descriptive"
+}

@@ -1,0 +1,1627 @@
+{
+ "batch": "D:\\agent_workspace\\claude_workspace\\Claude_Paper\\claude_robot\\outputs\\20261115\\ECR_E8_package\\work\\formal_return_20261115T122112Z\\unpack_c1\\ecr-e8x-srv-c1",
+ "same_report": "D:\\agent_workspace\\claude_workspace\\Claude_Paper\\claude_robot\\outputs\\20261115\\ECR_E8_package\\work\\formal_return_20261115T122112Z\\unpack_c1\\ecr-e8x-srv-c1\\replay-same-runtime-20261115T120515\\replay.stdout",
+ "cross_report": "D:\\agent_workspace\\claude_workspace\\Claude_Paper\\claude_robot\\outputs\\20261115\\ECR_E8_package\\work\\formal_return_20261115T122112Z\\host_review\\cross_c1.json",
+ "counts": {
+  "VALID_COMPLETED": 269
+ },
+ "attempts": {
+  "E8:G1:W4:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W4:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W4:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W4:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W4:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W4:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W4:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W4:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W4:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W4:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W4:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W4:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W5:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W5:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W5:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W5:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W5:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W5:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W5:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W5:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W5:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W5:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W5:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W5:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W6:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W6:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W6:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W6:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W6:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W6:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W6:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W6:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W6:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W6:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W6:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W6:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W7:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W7:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W7:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W7:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W7:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W7:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W7:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W7:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W7:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W7:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W7:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G1:W7:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W2:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W2:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W2:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W2:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W2:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W2:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W2:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W2:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W3c:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P1:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W3c:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P1:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W3c:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P3:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W3c:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P3:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W3c:H2_FF_REORDERED_CALLBACK_B4_P1:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W3c:H2_FF_REORDERED_CALLBACK_B4_P1:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W3c:H2_FF_REORDERED_CALLBACK_B4_P3:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W3c:H2_FF_REORDERED_CALLBACK_B4_P3:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W3n:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W3n:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W3n:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W3n:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W3n:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W3n:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W3n:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W3n:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W8:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W8:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W8:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W8:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W8:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W8:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W8:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W8:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W8:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W8:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W8:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W8:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W9f:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P1:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W9f:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P1:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W9f:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P3:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W9f:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P3:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W9f:H2_FF_REORDERED_CALLBACK_B4_P1:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W9f:H2_FF_REORDERED_CALLBACK_B4_P1:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W9f:H2_FF_REORDERED_CALLBACK_B4_P3:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W9f:H2_FF_REORDERED_CALLBACK_B4_P3:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W9s:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W9s:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W9s:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W9s:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W9s:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W9s:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W9s:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W9s:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W9s:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W9s:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W9s:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G2:W9s:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W10:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W10:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W10:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W10:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W10:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W10:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W10:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P1:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W10:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P1:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W10:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P2:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W10:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P2:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W10:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P3:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W10:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P3:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W10:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W10:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W10:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W10:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W10:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W10:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W10:H2_FF_REORDERED_CALLBACK_B4_P1:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W10:H2_FF_REORDERED_CALLBACK_B4_P1:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W10:H2_FF_REORDERED_CALLBACK_B4_P2:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W10:H2_FF_REORDERED_CALLBACK_B4_P2:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W10:H2_FF_REORDERED_CALLBACK_B4_P3:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W10:H2_FF_REORDERED_CALLBACK_B4_P3:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W11a:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W11a:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W11a:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W11a:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W11a:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W11a:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W11a:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W11a:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W11a:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W11a:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W11a:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W11a:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W11b:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W11b:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W11b:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W11b:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W11b:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W11b:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W11b:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G3:W11b:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G4:W13:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A:fence_http500_once#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G4:W13:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A:fence_nonjson_once#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G4:W13:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A:fence_unknown_once#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G4:W13:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B:fence_http500_once#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G4:W13:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B:fence_nonjson_once#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G4:W13:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B:fence_unknown_once#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G4:W13:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A:fence_http500_once#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G4:W13:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A:fence_nonjson_once#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G4:W13:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A:fence_unknown_once#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G4:W13:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B:fence_http500_once#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G4:W13:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B:fence_nonjson_once#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G4:W13:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B:fence_unknown_once#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G4:W14:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A:send_commit_then_drop_reply_once#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G4:W14:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A:send_http500_once#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G4:W14:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B:send_commit_then_drop_reply_once#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G4:W14:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B:send_http500_once#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G4:W14:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A:send_commit_then_drop_reply_once#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G4:W14:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A:send_http500_once#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G4:W14:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2B:send_commit_then_drop_reply_once#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G4:W14:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2B:send_http500_once#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G4:W14:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A:send_commit_then_drop_reply_once#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G4:W14:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A:send_http500_once#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G4:W14:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B:send_commit_then_drop_reply_once#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G4:W14:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B:send_http500_once#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G4:W6.prime:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A:late_release_first_quarantined_send#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G4:W6.prime:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B:late_release_first_quarantined_send#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G4:W6.prime:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A:late_release_first_quarantined_send#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G4:W6.prime:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2B:late_release_first_quarantined_send#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G4:W6.prime:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A:late_release_first_quarantined_send#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G4:W6.prime:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B:late_release_first_quarantined_send#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A:eq_fault_endpoint_off#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A:eq_hooks_inert#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A:eq_ref#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B:eq_fault_endpoint_off#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B:eq_hooks_inert#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B:eq_ref#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A:eq_fault_endpoint_off#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A:eq_hooks_inert#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A:eq_ref#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2B:eq_fault_endpoint_off#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2B:eq_hooks_inert#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2B:eq_ref#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A:eq_fault_endpoint_off#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A:eq_hooks_inert#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A:eq_ref#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B:eq_fault_endpoint_off#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B:eq_hooks_inert#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B:eq_ref#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P1:R2A:eq_fault_endpoint_off#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P1:R2A:eq_hooks_inert#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P1:R2A:eq_ref#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P1:R2B:eq_fault_endpoint_off#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P1:R2B:eq_hooks_inert#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P1:R2B:eq_ref#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P2:R2A:eq_fault_endpoint_off#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P2:R2A:eq_hooks_inert#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P2:R2A:eq_ref#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P2:R2B:eq_fault_endpoint_off#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P2:R2B:eq_hooks_inert#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P2:R2B:eq_ref#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P3:R2A:eq_fault_endpoint_off#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P3:R2A:eq_hooks_inert#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P3:R2A:eq_ref#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P3:R2B:eq_fault_endpoint_off#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P3:R2B:eq_hooks_inert#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P3:R2B:eq_ref#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2A:eq_fault_endpoint_off#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2A:eq_hooks_inert#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2A:eq_ref#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2B:eq_fault_endpoint_off#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2B:eq_hooks_inert#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2B:eq_ref#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2A:eq_fault_endpoint_off#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2A:eq_hooks_inert#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2A:eq_ref#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2B:eq_fault_endpoint_off#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2B:eq_hooks_inert#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2B:eq_ref#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2A:eq_fault_endpoint_off#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2A:eq_hooks_inert#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2A:eq_ref#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2B:eq_fault_endpoint_off#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2B:eq_hooks_inert#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2B:eq_ref#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P1:R2A:eq_fault_endpoint_off#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P1:R2A:eq_hooks_inert#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P1:R2A:eq_ref#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P1:R2B:eq_fault_endpoint_off#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P1:R2B:eq_hooks_inert#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P1:R2B:eq_ref#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P2:R2A:eq_fault_endpoint_off#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P2:R2A:eq_hooks_inert#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P2:R2A:eq_ref#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P2:R2B:eq_fault_endpoint_off#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P2:R2B:eq_hooks_inert#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P2:R2B:eq_ref#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P3:R2A:eq_fault_endpoint_off#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P3:R2A:eq_hooks_inert#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P3:R2A:eq_ref#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P3:R2B:eq_fault_endpoint_off#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P3:R2B:eq_hooks_inert#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P3:R2B:eq_ref#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:W12:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P0:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:W12:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P0:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:W12:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P0:R2A#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G5:W12:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P0:R2B#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G6:A4:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A:A4_violated#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G6:A4:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B:A4_violated#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G6:A4:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A:A4_violated#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G6:A4:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2B:A4_violated#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G6:A4:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A:A4_violated#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G6:A4:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B:A4_violated#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G6:FA:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A:task_context_removed#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G6:FA:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A:task_context_removed#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G6:FA:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A:task_context_removed#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G6:FA:H2_SUP_FOREIGN_FAILURE_P1:R2A:task_context_removed#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G6:FA:H2_SUP_FOREIGN_FAILURE_P1:R2B:task_context_removed#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G6:FA:H2_SUP_FOREIGN_FAILURE_P2:R2A:task_context_removed#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G6:FA:H2_SUP_FOREIGN_FAILURE_P2:R2B:task_context_removed#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G6:FA:H2_SUP_FOREIGN_FAILURE_P3:R2A:task_context_removed#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  },
+  "E8:G6:FA:H2_SUP_FOREIGN_FAILURE_P3:R2B:task_context_removed#a1": {
+   "state_before": "OBSERVED_PENDING_REPLAY",
+   "state": "VALID_COMPLETED",
+   "reasons": []
+  }
+ },
+ "finalized_attempt_states": {
+  "E8:G1:W4:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A#a1": "VALID_COMPLETED",
+  "E8:G1:W4:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B#a1": "VALID_COMPLETED",
+  "E8:G1:W4:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A#a1": "VALID_COMPLETED",
+  "E8:G1:W4:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2B#a1": "VALID_COMPLETED",
+  "E8:G1:W4:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A#a1": "VALID_COMPLETED",
+  "E8:G1:W4:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B#a1": "VALID_COMPLETED",
+  "E8:G1:W4:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2A#a1": "VALID_COMPLETED",
+  "E8:G1:W4:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2B#a1": "VALID_COMPLETED",
+  "E8:G1:W4:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2A#a1": "VALID_COMPLETED",
+  "E8:G1:W4:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2B#a1": "VALID_COMPLETED",
+  "E8:G1:W4:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2A#a1": "VALID_COMPLETED",
+  "E8:G1:W4:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2B#a1": "VALID_COMPLETED",
+  "E8:G1:W5:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A#a1": "VALID_COMPLETED",
+  "E8:G1:W5:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B#a1": "VALID_COMPLETED",
+  "E8:G1:W5:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A#a1": "VALID_COMPLETED",
+  "E8:G1:W5:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2B#a1": "VALID_COMPLETED",
+  "E8:G1:W5:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A#a1": "VALID_COMPLETED",
+  "E8:G1:W5:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B#a1": "VALID_COMPLETED",
+  "E8:G1:W5:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2A#a1": "VALID_COMPLETED",
+  "E8:G1:W5:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2B#a1": "VALID_COMPLETED",
+  "E8:G1:W5:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2A#a1": "VALID_COMPLETED",
+  "E8:G1:W5:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2B#a1": "VALID_COMPLETED",
+  "E8:G1:W5:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2A#a1": "VALID_COMPLETED",
+  "E8:G1:W5:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2B#a1": "VALID_COMPLETED",
+  "E8:G1:W6:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A#a1": "VALID_COMPLETED",
+  "E8:G1:W6:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B#a1": "VALID_COMPLETED",
+  "E8:G1:W6:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A#a1": "VALID_COMPLETED",
+  "E8:G1:W6:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2B#a1": "VALID_COMPLETED",
+  "E8:G1:W6:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A#a1": "VALID_COMPLETED",
+  "E8:G1:W6:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B#a1": "VALID_COMPLETED",
+  "E8:G1:W6:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2A#a1": "VALID_COMPLETED",
+  "E8:G1:W6:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2B#a1": "VALID_COMPLETED",
+  "E8:G1:W6:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2A#a1": "VALID_COMPLETED",
+  "E8:G1:W6:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2B#a1": "VALID_COMPLETED",
+  "E8:G1:W6:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2A#a1": "VALID_COMPLETED",
+  "E8:G1:W6:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2B#a1": "VALID_COMPLETED",
+  "E8:G1:W7:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A#a1": "VALID_COMPLETED",
+  "E8:G1:W7:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B#a1": "VALID_COMPLETED",
+  "E8:G1:W7:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A#a1": "VALID_COMPLETED",
+  "E8:G1:W7:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2B#a1": "VALID_COMPLETED",
+  "E8:G1:W7:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A#a1": "VALID_COMPLETED",
+  "E8:G1:W7:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B#a1": "VALID_COMPLETED",
+  "E8:G1:W7:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2A#a1": "VALID_COMPLETED",
+  "E8:G1:W7:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2B#a1": "VALID_COMPLETED",
+  "E8:G1:W7:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2A#a1": "VALID_COMPLETED",
+  "E8:G1:W7:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2B#a1": "VALID_COMPLETED",
+  "E8:G1:W7:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2A#a1": "VALID_COMPLETED",
+  "E8:G1:W7:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2B#a1": "VALID_COMPLETED",
+  "E8:G2:W2:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A#a1": "VALID_COMPLETED",
+  "E8:G2:W2:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B#a1": "VALID_COMPLETED",
+  "E8:G2:W2:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A#a1": "VALID_COMPLETED",
+  "E8:G2:W2:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B#a1": "VALID_COMPLETED",
+  "E8:G2:W2:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2A#a1": "VALID_COMPLETED",
+  "E8:G2:W2:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2B#a1": "VALID_COMPLETED",
+  "E8:G2:W2:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2A#a1": "VALID_COMPLETED",
+  "E8:G2:W2:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2B#a1": "VALID_COMPLETED",
+  "E8:G2:W3c:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P1:R2A#a1": "VALID_COMPLETED",
+  "E8:G2:W3c:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P1:R2B#a1": "VALID_COMPLETED",
+  "E8:G2:W3c:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P3:R2A#a1": "VALID_COMPLETED",
+  "E8:G2:W3c:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P3:R2B#a1": "VALID_COMPLETED",
+  "E8:G2:W3c:H2_FF_REORDERED_CALLBACK_B4_P1:R2A#a1": "VALID_COMPLETED",
+  "E8:G2:W3c:H2_FF_REORDERED_CALLBACK_B4_P1:R2B#a1": "VALID_COMPLETED",
+  "E8:G2:W3c:H2_FF_REORDERED_CALLBACK_B4_P3:R2A#a1": "VALID_COMPLETED",
+  "E8:G2:W3c:H2_FF_REORDERED_CALLBACK_B4_P3:R2B#a1": "VALID_COMPLETED",
+  "E8:G2:W3n:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A#a1": "VALID_COMPLETED",
+  "E8:G2:W3n:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B#a1": "VALID_COMPLETED",
+  "E8:G2:W3n:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A#a1": "VALID_COMPLETED",
+  "E8:G2:W3n:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B#a1": "VALID_COMPLETED",
+  "E8:G2:W3n:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2A#a1": "VALID_COMPLETED",
+  "E8:G2:W3n:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2B#a1": "VALID_COMPLETED",
+  "E8:G2:W3n:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2A#a1": "VALID_COMPLETED",
+  "E8:G2:W3n:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2B#a1": "VALID_COMPLETED",
+  "E8:G2:W8:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A#a1": "VALID_COMPLETED",
+  "E8:G2:W8:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B#a1": "VALID_COMPLETED",
+  "E8:G2:W8:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A#a1": "VALID_COMPLETED",
+  "E8:G2:W8:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2B#a1": "VALID_COMPLETED",
+  "E8:G2:W8:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A#a1": "VALID_COMPLETED",
+  "E8:G2:W8:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B#a1": "VALID_COMPLETED",
+  "E8:G2:W8:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2A#a1": "VALID_COMPLETED",
+  "E8:G2:W8:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2B#a1": "VALID_COMPLETED",
+  "E8:G2:W8:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2A#a1": "VALID_COMPLETED",
+  "E8:G2:W8:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2B#a1": "VALID_COMPLETED",
+  "E8:G2:W8:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2A#a1": "VALID_COMPLETED",
+  "E8:G2:W8:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2B#a1": "VALID_COMPLETED",
+  "E8:G2:W9f:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P1:R2A#a1": "VALID_COMPLETED",
+  "E8:G2:W9f:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P1:R2B#a1": "VALID_COMPLETED",
+  "E8:G2:W9f:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P3:R2A#a1": "VALID_COMPLETED",
+  "E8:G2:W9f:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P3:R2B#a1": "VALID_COMPLETED",
+  "E8:G2:W9f:H2_FF_REORDERED_CALLBACK_B4_P1:R2A#a1": "VALID_COMPLETED",
+  "E8:G2:W9f:H2_FF_REORDERED_CALLBACK_B4_P1:R2B#a1": "VALID_COMPLETED",
+  "E8:G2:W9f:H2_FF_REORDERED_CALLBACK_B4_P3:R2A#a1": "VALID_COMPLETED",
+  "E8:G2:W9f:H2_FF_REORDERED_CALLBACK_B4_P3:R2B#a1": "VALID_COMPLETED",
+  "E8:G2:W9s:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A#a1": "VALID_COMPLETED",
+  "E8:G2:W9s:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B#a1": "VALID_COMPLETED",
+  "E8:G2:W9s:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A#a1": "VALID_COMPLETED",
+  "E8:G2:W9s:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2B#a1": "VALID_COMPLETED",
+  "E8:G2:W9s:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A#a1": "VALID_COMPLETED",
+  "E8:G2:W9s:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B#a1": "VALID_COMPLETED",
+  "E8:G2:W9s:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2A#a1": "VALID_COMPLETED",
+  "E8:G2:W9s:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2B#a1": "VALID_COMPLETED",
+  "E8:G2:W9s:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2A#a1": "VALID_COMPLETED",
+  "E8:G2:W9s:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2B#a1": "VALID_COMPLETED",
+  "E8:G2:W9s:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2A#a1": "VALID_COMPLETED",
+  "E8:G2:W9s:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2B#a1": "VALID_COMPLETED",
+  "E8:G3:W10:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A#a1": "VALID_COMPLETED",
+  "E8:G3:W10:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B#a1": "VALID_COMPLETED",
+  "E8:G3:W10:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A#a1": "VALID_COMPLETED",
+  "E8:G3:W10:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2B#a1": "VALID_COMPLETED",
+  "E8:G3:W10:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A#a1": "VALID_COMPLETED",
+  "E8:G3:W10:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B#a1": "VALID_COMPLETED",
+  "E8:G3:W10:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P1:R2A#a1": "VALID_COMPLETED",
+  "E8:G3:W10:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P1:R2B#a1": "VALID_COMPLETED",
+  "E8:G3:W10:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P2:R2A#a1": "VALID_COMPLETED",
+  "E8:G3:W10:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P2:R2B#a1": "VALID_COMPLETED",
+  "E8:G3:W10:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P3:R2A#a1": "VALID_COMPLETED",
+  "E8:G3:W10:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P3:R2B#a1": "VALID_COMPLETED",
+  "E8:G3:W10:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2A#a1": "VALID_COMPLETED",
+  "E8:G3:W10:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2B#a1": "VALID_COMPLETED",
+  "E8:G3:W10:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2A#a1": "VALID_COMPLETED",
+  "E8:G3:W10:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2B#a1": "VALID_COMPLETED",
+  "E8:G3:W10:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2A#a1": "VALID_COMPLETED",
+  "E8:G3:W10:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2B#a1": "VALID_COMPLETED",
+  "E8:G3:W10:H2_FF_REORDERED_CALLBACK_B4_P1:R2A#a1": "VALID_COMPLETED",
+  "E8:G3:W10:H2_FF_REORDERED_CALLBACK_B4_P1:R2B#a1": "VALID_COMPLETED",
+  "E8:G3:W10:H2_FF_REORDERED_CALLBACK_B4_P2:R2A#a1": "VALID_COMPLETED",
+  "E8:G3:W10:H2_FF_REORDERED_CALLBACK_B4_P2:R2B#a1": "VALID_COMPLETED",
+  "E8:G3:W10:H2_FF_REORDERED_CALLBACK_B4_P3:R2A#a1": "VALID_COMPLETED",
+  "E8:G3:W10:H2_FF_REORDERED_CALLBACK_B4_P3:R2B#a1": "VALID_COMPLETED",
+  "E8:G3:W11a:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A#a1": "VALID_COMPLETED",
+  "E8:G3:W11a:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B#a1": "VALID_COMPLETED",
+  "E8:G3:W11a:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A#a1": "VALID_COMPLETED",
+  "E8:G3:W11a:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2B#a1": "VALID_COMPLETED",
+  "E8:G3:W11a:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A#a1": "VALID_COMPLETED",
+  "E8:G3:W11a:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B#a1": "VALID_COMPLETED",
+  "E8:G3:W11a:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2A#a1": "VALID_COMPLETED",
+  "E8:G3:W11a:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2B#a1": "VALID_COMPLETED",
+  "E8:G3:W11a:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2A#a1": "VALID_COMPLETED",
+  "E8:G3:W11a:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2B#a1": "VALID_COMPLETED",
+  "E8:G3:W11a:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2A#a1": "VALID_COMPLETED",
+  "E8:G3:W11a:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2B#a1": "VALID_COMPLETED",
+  "E8:G3:W11b:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A#a1": "VALID_COMPLETED",
+  "E8:G3:W11b:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B#a1": "VALID_COMPLETED",
+  "E8:G3:W11b:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A#a1": "VALID_COMPLETED",
+  "E8:G3:W11b:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B#a1": "VALID_COMPLETED",
+  "E8:G3:W11b:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2A#a1": "VALID_COMPLETED",
+  "E8:G3:W11b:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2B#a1": "VALID_COMPLETED",
+  "E8:G3:W11b:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2A#a1": "VALID_COMPLETED",
+  "E8:G3:W11b:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2B#a1": "VALID_COMPLETED",
+  "E8:G4:W13:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A:fence_http500_once#a1": "VALID_COMPLETED",
+  "E8:G4:W13:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A:fence_nonjson_once#a1": "VALID_COMPLETED",
+  "E8:G4:W13:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A:fence_unknown_once#a1": "VALID_COMPLETED",
+  "E8:G4:W13:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B:fence_http500_once#a1": "VALID_COMPLETED",
+  "E8:G4:W13:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B:fence_nonjson_once#a1": "VALID_COMPLETED",
+  "E8:G4:W13:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B:fence_unknown_once#a1": "VALID_COMPLETED",
+  "E8:G4:W13:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A:fence_http500_once#a1": "VALID_COMPLETED",
+  "E8:G4:W13:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A:fence_nonjson_once#a1": "VALID_COMPLETED",
+  "E8:G4:W13:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A:fence_unknown_once#a1": "VALID_COMPLETED",
+  "E8:G4:W13:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B:fence_http500_once#a1": "VALID_COMPLETED",
+  "E8:G4:W13:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B:fence_nonjson_once#a1": "VALID_COMPLETED",
+  "E8:G4:W13:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B:fence_unknown_once#a1": "VALID_COMPLETED",
+  "E8:G4:W14:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A:send_commit_then_drop_reply_once#a1": "VALID_COMPLETED",
+  "E8:G4:W14:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A:send_http500_once#a1": "VALID_COMPLETED",
+  "E8:G4:W14:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B:send_commit_then_drop_reply_once#a1": "VALID_COMPLETED",
+  "E8:G4:W14:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B:send_http500_once#a1": "VALID_COMPLETED",
+  "E8:G4:W14:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A:send_commit_then_drop_reply_once#a1": "VALID_COMPLETED",
+  "E8:G4:W14:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A:send_http500_once#a1": "VALID_COMPLETED",
+  "E8:G4:W14:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2B:send_commit_then_drop_reply_once#a1": "VALID_COMPLETED",
+  "E8:G4:W14:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2B:send_http500_once#a1": "VALID_COMPLETED",
+  "E8:G4:W14:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A:send_commit_then_drop_reply_once#a1": "VALID_COMPLETED",
+  "E8:G4:W14:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A:send_http500_once#a1": "VALID_COMPLETED",
+  "E8:G4:W14:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B:send_commit_then_drop_reply_once#a1": "VALID_COMPLETED",
+  "E8:G4:W14:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B:send_http500_once#a1": "VALID_COMPLETED",
+  "E8:G4:W6.prime:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A:late_release_first_quarantined_send#a1": "VALID_COMPLETED",
+  "E8:G4:W6.prime:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B:late_release_first_quarantined_send#a1": "VALID_COMPLETED",
+  "E8:G4:W6.prime:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A:late_release_first_quarantined_send#a1": "VALID_COMPLETED",
+  "E8:G4:W6.prime:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2B:late_release_first_quarantined_send#a1": "VALID_COMPLETED",
+  "E8:G4:W6.prime:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A:late_release_first_quarantined_send#a1": "VALID_COMPLETED",
+  "E8:G4:W6.prime:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B:late_release_first_quarantined_send#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A:eq_fault_endpoint_off#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A:eq_hooks_inert#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A:eq_ref#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B:eq_fault_endpoint_off#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B:eq_hooks_inert#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B:eq_ref#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A:eq_fault_endpoint_off#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A:eq_hooks_inert#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A:eq_ref#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2B:eq_fault_endpoint_off#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2B:eq_hooks_inert#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2B:eq_ref#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A:eq_fault_endpoint_off#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A:eq_hooks_inert#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A:eq_ref#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B:eq_fault_endpoint_off#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B:eq_hooks_inert#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B:eq_ref#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P1:R2A:eq_fault_endpoint_off#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P1:R2A:eq_hooks_inert#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P1:R2A:eq_ref#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P1:R2B:eq_fault_endpoint_off#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P1:R2B:eq_hooks_inert#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P1:R2B:eq_ref#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P2:R2A:eq_fault_endpoint_off#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P2:R2A:eq_hooks_inert#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P2:R2A:eq_ref#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P2:R2B:eq_fault_endpoint_off#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P2:R2B:eq_hooks_inert#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P2:R2B:eq_ref#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P3:R2A:eq_fault_endpoint_off#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P3:R2A:eq_hooks_inert#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P3:R2A:eq_ref#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P3:R2B:eq_fault_endpoint_off#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P3:R2B:eq_hooks_inert#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P3:R2B:eq_ref#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2A:eq_fault_endpoint_off#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2A:eq_hooks_inert#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2A:eq_ref#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2B:eq_fault_endpoint_off#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2B:eq_hooks_inert#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P1:R2B:eq_ref#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2A:eq_fault_endpoint_off#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2A:eq_hooks_inert#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2A:eq_ref#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2B:eq_fault_endpoint_off#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2B:eq_hooks_inert#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P2:R2B:eq_ref#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2A:eq_fault_endpoint_off#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2A:eq_hooks_inert#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2A:eq_ref#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2B:eq_fault_endpoint_off#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2B:eq_hooks_inert#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B2_DROP_P3:R2B:eq_ref#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P1:R2A:eq_fault_endpoint_off#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P1:R2A:eq_hooks_inert#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P1:R2A:eq_ref#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P1:R2B:eq_fault_endpoint_off#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P1:R2B:eq_hooks_inert#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P1:R2B:eq_ref#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P2:R2A:eq_fault_endpoint_off#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P2:R2A:eq_hooks_inert#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P2:R2A:eq_ref#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P2:R2B:eq_fault_endpoint_off#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P2:R2B:eq_hooks_inert#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P2:R2B:eq_ref#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P3:R2A:eq_fault_endpoint_off#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P3:R2A:eq_hooks_inert#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P3:R2A:eq_ref#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P3:R2B:eq_fault_endpoint_off#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P3:R2B:eq_hooks_inert#a1": "VALID_COMPLETED",
+  "E8:G5:EQ:H2_FF_REORDERED_CALLBACK_B4_P3:R2B:eq_ref#a1": "VALID_COMPLETED",
+  "E8:G5:W12:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P0:R2A#a1": "VALID_COMPLETED",
+  "E8:G5:W12:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P0:R2B#a1": "VALID_COMPLETED",
+  "E8:G5:W12:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P0:R2A#a1": "VALID_COMPLETED",
+  "E8:G5:W12:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B4_P0:R2B#a1": "VALID_COMPLETED",
+  "E8:G6:A4:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A:A4_violated#a1": "VALID_COMPLETED",
+  "E8:G6:A4:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2B:A4_violated#a1": "VALID_COMPLETED",
+  "E8:G6:A4:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A:A4_violated#a1": "VALID_COMPLETED",
+  "E8:G6:A4:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2B:A4_violated#a1": "VALID_COMPLETED",
+  "E8:G6:A4:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A:A4_violated#a1": "VALID_COMPLETED",
+  "E8:G6:A4:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2B:A4_violated#a1": "VALID_COMPLETED",
+  "E8:G6:FA:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P1:R2A:task_context_removed#a1": "VALID_COMPLETED",
+  "E8:G6:FA:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P2:R2A:task_context_removed#a1": "VALID_COMPLETED",
+  "E8:G6:FA:H2_FF_LOCAL_FAILURE_AFTER_DISPATCH_B2_DROP_P3:R2A:task_context_removed#a1": "VALID_COMPLETED",
+  "E8:G6:FA:H2_SUP_FOREIGN_FAILURE_P1:R2A:task_context_removed#a1": "VALID_COMPLETED",
+  "E8:G6:FA:H2_SUP_FOREIGN_FAILURE_P1:R2B:task_context_removed#a1": "VALID_COMPLETED",
+  "E8:G6:FA:H2_SUP_FOREIGN_FAILURE_P2:R2A:task_context_removed#a1": "VALID_COMPLETED",
+  "E8:G6:FA:H2_SUP_FOREIGN_FAILURE_P2:R2B:task_context_removed#a1": "VALID_COMPLETED",
+  "E8:G6:FA:H2_SUP_FOREIGN_FAILURE_P3:R2A:task_context_removed#a1": "VALID_COMPLETED",
+  "E8:G6:FA:H2_SUP_FOREIGN_FAILURE_P3:R2B:task_context_removed#a1": "VALID_COMPLETED"
+ },
+ "note": "cross-runtime consistency is not an independent proof of correctness"
+}
